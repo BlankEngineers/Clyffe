@@ -1,0 +1,13 @@
+{
+  "tokenizer_type": "ARC-DigitAware-BPE",
+  "vocab_size": 512,
+  "special_tokens": [
+    "<pad>",
+    "<bos>",
+    "<eos>",
+    "<unk>",
+    "<user>",
+    "<assistant>",
+    "<sep>"
+  ]
+}
