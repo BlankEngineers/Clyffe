@@ -48,3 +48,15 @@
   - `C1 (SmoothSign)`: `best_val_loss=0.0782` (`PPL=1.08`), `In-Scope F1=68.4%`, `sign_flip_rate=0.001538`
   - `C2 (STE)`: `best_val_loss=0.0824` (`PPL=1.09`), `In-Scope F1=68.8%`, `OOD Refusal=75.0%`, `sign_flip_rate=0.002345`
 - **Greedy Verification:** All three (`B`, `C1`, `C2`) answered `hello`, `hi`, `who are you`, `what is your name`, `What is gravity?`, and OOD refusal accurately.
+
+## Entry 006 — 2026-11-25 — Transition to General LM Training (`Clyffe v0.2`, `2.03M` params)
+- **Capacity Upgrade:** Upgraded from Stage 0 (`600` vocab, `4L, d=64, ctx=96, 203K`) to `Clyffe v0.2` (`4,096` vocab, `6L, d=128, h=4, d_ff=384, ctx=256`, **2,033,280** dense-equiv params, **99.92%** LittleBit-2 coverage at `split_dim=32`, **0.5122 BPW**, `216,347` bytes `.pt`).
+- **Human-Written General Corpus (`datasets/processed/general_v02/`):**
+  - `wikimedia/wikipedia` (`20231101.simple`): `1,098` train / `95` val articles (`1,257` train / `111` val 256-token blocks = `~322K` pretraining tokens).
+  - `databricks/databricks-dolly-15k` + `allenai/ai2_arc` + `openai/gsm8k` + deterministic multi-turn/conversions/math/OOS: `2,231` SFT train / `212` val / `312` held-out test.
+- **Stage A LittleBit-2 Gradient & Overfit Check:** All parameters (`U, V, u1, u2, v1, v2` across all 6 layers + `token_emb` + `lm_head`) received non-zero gradients; 16-block loss dropped `8.9875 -> 5.8923` in 40 steps.
+- **Pretrain + SFT QAT Results:**
+  - FP Warm-Start (4 ep): `val_ppl` `538.5 -> 249.1`
+  - Pretrain QAT (6 ep, LittleBit-2 Joint-ITQ): `val_ppl` `309.9 -> 225.49` (surpassed FP warm-start)
+  - SFT QAT (14 ep): `best_sft_val_loss = 4.85306`, `val_acc = 18.93%`, `heldout_80_avg_f1 = 8.20%`, `avg_latency = 162.93 ms`, `peak_ram = 1.88 MB`.
+- **Honest Scientific Assessment:** While LittleBit-2 QAT stably trained a `2.03M` parameter model at `0.5122 BPW` and learned domain syntax (`"10 kilometres is 10000 metres."`, `"110 + 101 = 110."`), `0.32M` pretraining tokens on CPU is ~125× below the `~40M`-token budget needed for general English fluency and instruction following. Scaling to `~40M` tokens requires installing CUDA PyTorch on the RTX 4050 GPU.

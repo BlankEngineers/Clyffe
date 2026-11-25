@@ -101,11 +101,13 @@ class ARCTokenizer:
                 vocab["▁" + sym] = len(vocab)
 
         merges: List[Tuple[str, str]] = []
-        splits = {word: list(word) for word in word_freqs}
+        # Keep top-3500 most frequent words for fast BPE merge discovery
+        top_words = dict(word_freqs.most_common(3500))
+        splits = {word: list(word) for word in top_words}
 
         while len(vocab) < vocab_size:
             pair_freqs: Counter = Counter()
-            for word, freq in word_freqs.items():
+            for word, freq in top_words.items():
                 syms = splits[word]
                 for i in range(len(syms) - 1):
                     pair = (syms[i], syms[i + 1])

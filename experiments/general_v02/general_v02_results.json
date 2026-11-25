@@ -1,0 +1,240 @@
+{
+  "release_id": "clyffe-v0.2-general-20261125",
+  "elapsed_sec": 636.83,
+  "tokenizer": {
+    "vocab_size": 4096,
+    "fertility": 1.695,
+    "roundtrip": {
+      "Explain gravity in simple English.": "Explain gravity in simple English.",
+      "What is the difference between RAM and ROM?": "What is the difference between RAM and ROM?",
+      "Convert 5 kilometres into metres.": "Convert 5 kilometres into metres.",
+      "Calculate 345 + 678.": "Calculate 345 + 678."
+    }
+  },
+  "stage_a_overfit": {
+    "grad_all_params_nonzero": true,
+    "trajectory": [
+      {
+        "step": 1,
+        "loss": 8.9875,
+        "acc": 0.0002
+      },
+      {
+        "step": 10,
+        "loss": 6.4023,
+        "acc": 0.0359
+      },
+      {
+        "step": 20,
+        "loss": 6.1972,
+        "acc": 0.0366
+      },
+      {
+        "step": 40,
+        "loss": 5.8923,
+        "acc": 0.0476
+      }
+    ]
+  },
+  "pretrain_history": [
+    {
+      "stage": "pretrain_qat",
+      "epoch": 1,
+      "train_loss": 5.8508,
+      "val_loss": 5.73613,
+      "val_ppl": 309.863,
+      "val_acc": 0.0962
+    },
+    {
+      "stage": "pretrain_qat",
+      "epoch": 2,
+      "train_loss": 5.5768,
+      "val_loss": 5.65446,
+      "val_ppl": 285.561,
+      "val_acc": 0.1071
+    },
+    {
+      "stage": "pretrain_qat",
+      "epoch": 3,
+      "train_loss": 5.4692,
+      "val_loss": 5.55969,
+      "val_ppl": 259.742,
+      "val_acc": 0.1125
+    },
+    {
+      "stage": "pretrain_qat",
+      "epoch": 4,
+      "train_loss": 5.3673,
+      "val_loss": 5.49353,
+      "val_ppl": 243.114,
+      "val_acc": 0.1136
+    },
+    {
+      "stage": "pretrain_qat",
+      "epoch": 5,
+      "train_loss": 5.2827,
+      "val_loss": 5.43227,
+      "val_ppl": 228.668,
+      "val_acc": 0.1202
+    },
+    {
+      "stage": "pretrain_qat",
+      "epoch": 6,
+      "train_loss": 5.2219,
+      "val_loss": 5.41825,
+      "val_ppl": 225.485,
+      "val_acc": 0.1206
+    }
+  ],
+  "sft_history": [
+    {
+      "stage": "sft_qat",
+      "epoch": 1,
+      "train_loss": 5.3726,
+      "val_loss": 5.22655,
+      "val_ppl": 186.15,
+      "val_acc": 0.1296
+    },
+    {
+      "stage": "sft_qat",
+      "epoch": 2,
+      "train_loss": 4.9704,
+      "val_loss": 5.12838,
+      "val_ppl": 168.744,
+      "val_acc": 0.1497
+    },
+    {
+      "stage": "sft_qat",
+      "epoch": 3,
+      "train_loss": 4.8452,
+      "val_loss": 5.0363,
+      "val_ppl": 153.899,
+      "val_acc": 0.1627
+    },
+    {
+      "stage": "sft_qat",
+      "epoch": 4,
+      "train_loss": 4.7519,
+      "val_loss": 5.01439,
+      "val_ppl": 150.564,
+      "val_acc": 0.1637
+    },
+    {
+      "stage": "sft_qat",
+      "epoch": 5,
+      "train_loss": 4.6861,
+      "val_loss": 4.97512,
+      "val_ppl": 144.766,
+      "val_acc": 0.1724
+    },
+    {
+      "stage": "sft_qat",
+      "epoch": 6,
+      "train_loss": 4.5942,
+      "val_loss": 4.93245,
+      "val_ppl": 138.719,
+      "val_acc": 0.1764
+    },
+    {
+      "stage": "sft_qat",
+      "epoch": 7,
+      "train_loss": 4.5543,
+      "val_loss": 4.91408,
+      "val_ppl": 136.194,
+      "val_acc": 0.1771
+    },
+    {
+      "stage": "sft_qat",
+      "epoch": 8,
+      "train_loss": 4.4968,
+      "val_loss": 4.86036,
+      "val_ppl": 129.071,
+      "val_acc": 0.1831
+    },
+    {
+      "stage": "sft_qat",
+      "epoch": 9,
+      "train_loss": 4.4514,
+      "val_loss": 4.87872,
+      "val_ppl": 131.462,
+      "val_acc": 0.1862
+    },
+    {
+      "stage": "sft_qat",
+      "epoch": 10,
+      "train_loss": 4.404,
+      "val_loss": 4.86623,
+      "val_ppl": 129.83,
+      "val_acc": 0.1859
+    },
+    {
+      "stage": "sft_qat",
+      "epoch": 11,
+      "train_loss": 4.3565,
+      "val_loss": 4.85306,
+      "val_ppl": 128.132,
+      "val_acc": 0.1893
+    },
+    {
+      "stage": "sft_qat",
+      "epoch": 12,
+      "train_loss": 4.3088,
+      "val_loss": 4.85472,
+      "val_ppl": 128.345,
+      "val_acc": 0.1915
+    },
+    {
+      "stage": "sft_qat",
+      "epoch": 13,
+      "train_loss": 4.2805,
+      "val_loss": 4.85417,
+      "val_ppl": 128.274,
+      "val_acc": 0.1902
+    },
+    {
+      "stage": "sft_qat",
+      "epoch": 14,
+      "train_loss": 4.281,
+      "val_loss": 4.85742,
+      "val_ppl": 128.691,
+      "val_acc": 0.1899
+    }
+  ],
+  "best_sft_val_loss": 4.85306,
+  "heldout_80_avg_f1": 0.082,
+  "avg_latency_ms": 162.93,
+  "peak_ram_mb": 1.88,
+  "metadata": {
+    "name": "Clyffe",
+    "experimental_id": "ARC-LB-01",
+    "organization": "ARC III",
+    "version": "0.1",
+    "architecture": "Decoder-only Transformer (6L, d=128, h=4, d_ff=384)",
+    "parameter_count_dense_equiv": 2033280,
+    "littlebit_covered_params": 2031616,
+    "floating_point_params": 1664,
+    "littlebit_coverage_pct": 99.92,
+    "overall_effective_bpw": 0.5122,
+    "theoretical_raw_bytes": 130176,
+    "actual_tensor_payload_bytes": 133652,
+    "actual_storage_bytes": 216347,
+    "vocab_size": 4096,
+    "context_length": 256,
+    "weight_representation": "LittleBit-2 (split_dim=32, use_itq=True, residual=False)",
+    "checkpoint_identifier": "clyffe-v0.2-general-20261125_best.pt",
+    "checkpoint_sha256": "bc71d94714004031050dad65b51b8bd3d3c2d33dbf01a14c238c413f27cafac1"
+  },
+  "sample_outputs": {
+    "Explain gravity in simple English.": "The",
+    "What is the difference between RAM and ROM?": "The first language",
+    "Why does ice melt?": "The first tubs is a lot of the",
+    "Convert 5 kilometres into metres.": "10 kilometres is 10000 metres.",
+    "Calculate 345 + 678.": "110 + 101 = 110.",
+    "What is the stock price of Apple today?": "The first common example of the first of the most as a way to be to the most."
+  },
+  "multi_turn": {
+    "t1": "The first",
+    "t2": "The first goal is the first largest state in the",
+    "t3": "The"
+  }
+}

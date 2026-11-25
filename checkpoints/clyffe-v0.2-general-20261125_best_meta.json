@@ -1,0 +1,32 @@
+{
+  "tag": "clyffe-v0.2-general-20261125_best",
+  "checkpoint_file": "checkpoints/clyffe-v0.2-general-20261125_best.pt",
+  "sha256": "bc71d94714004031050dad65b51b8bd3d3c2d33dbf01a14c238c413f27cafac1",
+  "size_bytes": 216347,
+  "packed_littlebit": true,
+  "config": {
+    "vocab_size": 4096,
+    "d_model": 128,
+    "n_layers": 6,
+    "n_heads": 4,
+    "d_ff": 384,
+    "max_seq_len": 256,
+    "use_littlebit": true,
+    "littlebit_embeddings": true,
+    "littlebit_lm_head": true,
+    "split_dim": 32,
+    "residual": false,
+    "use_itq": true,
+    "quant_func_name": "SmoothSign",
+    "smooth_alpha": 15.0,
+    "tie_weights": false
+  },
+  "metadata": {
+    "stage": "sft_qat",
+    "epoch": 11,
+    "train_loss": 4.3565,
+    "val_loss": 4.85306,
+    "val_ppl": 128.132,
+    "val_acc": 0.1893
+  }
+}
