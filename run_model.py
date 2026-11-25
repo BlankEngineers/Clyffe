@@ -28,7 +28,7 @@ def main():
         print(f"ARC-LB-01: {runtime.respond(args.prompt)}")
         return
 
-    print("Tesla 1.1 (Blank Engineers | ARC III Ecosystem) Offline Runtime (type 'exit' or 'quit' to stop)")
+    print("Tesla (Blank Engineers | ARC III Ecosystem) Offline Runtime (type 'exit' or 'quit' to stop)")
     print(f"Loaded: {runtime.metadata['checkpoint_identifier']} | {runtime.metadata['weight_representation']}")
     while True:
         try:

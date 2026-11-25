@@ -15,7 +15,7 @@ from src.training.checkpoint import compute_sha256
 def build_model_metadata(
     model: ARCLB01Model,
     checkpoint_path: str,
-    version: str = "0.2.0",
+    version: str = "0.3.0",
 ) -> Dict[str, Any]:
     audit = audit_model_representation(model)
     storage_bytes = os.path.getsize(checkpoint_path) if os.path.exists(checkpoint_path) else 0
@@ -25,7 +25,7 @@ def build_model_metadata(
     tensor_bytes = sum(p.numel() * p.element_size() for p in model.state_dict().values())
 
     return {
-        "name": "Tesla 1.1",
+        "name": "Tesla",
         "experimental_id": "ARC-LB-01",
         "organization": "Blank Engineers (ARC III Ecosystem)",
         "version": version,

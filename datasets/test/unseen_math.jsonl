@@ -2,13 +2,6 @@
 {"input": "91 - 36", "output": "55", "category": "mathematics"}
 {"input": "17 × 9", "output": "153", "category": "mathematics"}
 {"input": "225 ÷ 15", "output": "15", "category": "mathematics"}
-{"input": "28 ÷ 14", "output": "2", "category": "mathematics"}
-{"input": "97 + 89", "output": "186", "category": "mathematics"}
-{"input": "10 - 4", "output": "6", "category": "mathematics"}
-{"input": "57 - 57", "output": "0", "category": "mathematics"}
-{"input": "38 + 12", "output": "50", "category": "mathematics"}
-{"input": "14 × 8", "output": "112", "category": "mathematics"}
-{"input": "17 * 6", "output": "102", "category": "mathematics"}
 {"input": "16 + 86", "output": "102", "category": "mathematics"}
 {"input": "95 + 95", "output": "190", "category": "mathematics"}
 {"input": "5 * 7", "output": "35", "category": "mathematics"}
@@ -24,7 +17,6 @@
 {"input": "6 × 19", "output": "114", "category": "mathematics"}
 {"input": "64 - 22", "output": "42", "category": "mathematics"}
 {"input": "Average of 15, 25 and 11", "output": "17", "category": "mathematics"}
-{"input": "65 ÷ 5", "output": "13", "category": "mathematics"}
 {"input": "105 - 80", "output": "25", "category": "mathematics"}
 {"input": "9 * 18", "output": "162", "category": "mathematics"}
 {"input": "20 * 13", "output": "260", "category": "mathematics"}
@@ -498,3 +490,11 @@
 {"input": "86 + 38", "output": "124", "category": "mathematics"}
 {"input": "113 - 23", "output": "90", "category": "mathematics"}
 {"input": "59 - 21", "output": "38", "category": "mathematics"}
+{"input": "Average of 8, 18 and 4", "output": "10", "category": "mathematics"}
+{"input": "55 + 59", "output": "114", "category": "mathematics"}
+{"input": "42 - 30", "output": "12", "category": "mathematics"}
+{"input": "190 / 10", "output": "19", "category": "mathematics"}
+{"input": "266 ÷ 14", "output": "19", "category": "mathematics"}
+{"input": "5 × 14", "output": "70", "category": "mathematics"}
+{"input": "29 - 23", "output": "6", "category": "mathematics"}
+{"input": "9 × 9", "output": "81", "category": "mathematics"}

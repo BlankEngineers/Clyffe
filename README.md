@@ -1,7 +1,7 @@
-# Tesla 1.1 — Native LittleBit-2 Tiny Language Model
+# Tesla — Native LittleBit-2 Tiny Language Model
 
 **Organization:** Blank Engineers (ARC III Ecosystem)  
-**Model Name:** Tesla 1.1 (Experimental Identifier: `ARC-LB-01`)  
+**Model Name:** Tesla (Experimental Identifier: `ARC-LB-01`)  
 **Research Title:** Native LittleBit-Based Tiny Language Model  
 
 **Project Leads:**  
@@ -10,7 +10,7 @@ This project is done by **Vishnupriyan Sivanesan**, Head of Blank Engineers, and
 
 ---
 
-Tesla 1.1 is an independently initialized, independently trained tiny decoder-only language model (~246K dense-equivalent parameters) built from scratch using **LittleBit-2** binary latent factorization, Internal Latent Rotation, Joint Iterative Quantization (Joint-ITQ), Dual-SVID multi-scale compensation, and Quantization-Aware Training (QAT) — **without** pretrained LLM weights or knowledge distillation.
+Tesla is an independently initialized, independently trained tiny decoder-only language model (~246K dense-equivalent parameters) built from scratch using **LittleBit-2** binary latent factorization, Internal Latent Rotation, Joint Iterative Quantization (Joint-ITQ), Dual-SVID multi-scale compensation, and Quantization-Aware Training (QAT) — **without** pretrained LLM weights or knowledge distillation.
 
 ## Project Structure
 - `research/` — Research foundation, mathematical method, originality analysis, research log
