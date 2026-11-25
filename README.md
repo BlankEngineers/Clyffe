@@ -1,6 +1,6 @@
-# ARC-LB-01 — Native LittleBit-2 Tiny Language Model
+# Tesla 1.1 — World's First Native LittleBit-2 Tiny Language Model Using Real Data
 
-**Organization:** ARC III
+**Organization:** Blank Engineers
 **Research Title:** Native LittleBit-Based Tiny Language Model
 
 ARC-LB-01 is an independently initialized, independently trained tiny decoder-only language model (~240K dense-equivalent parameters) built from scratch using **LittleBit-2** binary latent factorization, Internal Latent Rotation, Joint Iterative Quantization (Joint-ITQ), Dual-SVID multi-scale compensation, and Quantization-Aware Training (QAT) — **without** pretrained LLM weights or knowledge distillation.
