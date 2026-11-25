@@ -1,7 +1,7 @@
-# Tesla — Native LittleBit-2 Tiny Language Model
+# Clyffe v0.1.1 (research code ARC-LB-01) — Native LittleBit-2 Tiny Language Model
 
 **Organization:** Blank Engineers (ARC III Ecosystem)  
-**Model Name:** Tesla (Experimental Identifier: `ARC-LB-01`)  
+**Model Name:** Clyffe `v0.1.1` (Research Code: `ARC-LB-01`)  
 **Research Title:** Native LittleBit-Based Tiny Language Model  
 
 **Project Leads:**  
@@ -10,38 +10,35 @@ This project is done by **Vishnupriyan Sivanesan**, Head of Blank Engineers, and
 
 ---
 
-Tesla is an independently initialized, independently trained tiny decoder-only language model (~246K dense-equivalent parameters) built from scratch using **LittleBit-2** binary latent factorization, Internal Latent Rotation, Joint Iterative Quantization (Joint-ITQ), Dual-SVID multi-scale compensation, and Quantization-Aware Training (QAT) — **without** pretrained LLM weights or knowledge distillation.
+**Clyffe** is an independently initialized, independently trained decoder-only language model built from random initialization using **LittleBit-2** binary latent factorization, Internal Latent Rotation, Joint Iterative Quantization (Joint-ITQ), Dual-SVID multi-scale compensation, and Quantization-Aware Training (QAT) — **without** pretrained LLM weights or knowledge distillation.
+
+- **Stage 0 (`Clyffe v0.1.1`):** 4L, `d_model=64`, `n_heads=4`, `d_ff=192`, `ctx=96`, `vocab=600` (~203K dense-equiv params). All learned matrices (including `token_emb` and `lm_head`) are represented in LittleBit-2 form at `1.1727` actual BPW (`94.8 KB` packed checkpoint vs `979.6 KB` dense, `val_loss=0.0782`, `PPL=1.08`).
 
 ## Project Structure
-- `research/` — Research foundation, mathematical method, originality analysis, research log
-- `src/littlebit/` — Independent LittleBit-2 computing engine (`factorization.py`, `latent_rotation.py`, `joint_itq.py`, `binary_factors.py`, `scaling.py`, `compensation.py`, `qat.py`, `native_operations.py`, `representation.py`, `reconstruction.py`)
+- `research/` — Research foundation, mathematical method, originality analysis, research log, and `debugging/` audit reports
+- `src/littlebit/` — Independent LittleBit-2 computing engine
 - `src/tokenizer/` — Original digit-aware BPE tokenizer
-- `src/architecture/` — Tiny decoder-only Transformer (`model.py`, `embeddings.py`, `attention.py`, `feedforward.py`, `initialization.py`)
-- `src/training/` — Reproducible training & QAT pipeline
+- `src/architecture/` — Decoder-only Transformer (`model.py`, `embeddings.py`, `attention.py`, `feedforward.py`, `initialization.py`)
+- `src/training/` — Staged training & QAT pipeline (`stage0_clyffe.py`, `trainer.py`, etc.)
 - `src/inference/` — Native offline packed inference runtime
 - `frontend/` — Offline local web interface (`index.html`, `server.py`)
-- `evaluation/` — Automated capability, boundary, compression, and latency evaluation
-- `scripts/` — Dataset builder and synthetic math validation
+- `evaluation/` — Automated capability, boundary, compression, and Stage 0 gate reports (`STAGE_0_REPORT.md`)
+- `scripts/` — Dataset builders (`build_stage0_clyffe_data.py`) and synthetic math validation
 
-## Reproducibility
+## Reproducibility (Stage 0 — Clyffe v0.1.1)
 ```bash
-# 1. Generate dataset (~5,500 examples + unseen math test split)
-.venv/bin/python scripts/build_dataset.py
+# 1. Build Stage 0 curated dataset (disjoint train/val/test + unseen math + unseen OOD)
+PYTHONPATH=. .venv/bin/python scripts/build_stage0_clyffe_data.py
 
-# 2. Run unit tests & synthetic LittleBit-2 math validation
+# 2. Run unit tests
 PYTHONPATH=. .venv/bin/pytest -v
-PYTHONPATH=. .venv/bin/python scripts/validate_littlebit_math.py
 
-# 3. Train experiments
-PYTHONPATH=. .venv/bin/python -m src.training.train --mode dense --release_tag ARC-LB-01-INITIAL
-PYTHONPATH=. .venv/bin/python -m src.training.train --mode littlebit_svd --release_tag ARC-LB-01-LITTLEBIT
-PYTHONPATH=. .venv/bin/python -m src.training.train --mode littlebit_joint_itq --release_tag ARC-LB-01-FINAL
-PYTHONPATH=. .venv/bin/python -m src.training.train --mode littlebit_direct --release_tag ARC-LB-01-DIRECT
+# 3. Train Clyffe v0.1.1 (Dense A, LittleBit B, LittleBit-2 C1/C2)
+PYTHONPATH=. .venv/bin/python -m src.training.stage0_clyffe --version-tag v0.1.1
 
-# 4. Run offline inference, frontend & full evaluation
-PYTHONPATH=. .venv/bin/python run_model.py
+# 4. Run Clyffe offline CLI or web frontend
+PYTHONPATH=. .venv/bin/python run_clyffe.py
 PYTHONPATH=. .venv/bin/python frontend/server.py
-PYTHONPATH=. .venv/bin/python -m evaluation.final_report checkpoints/ARC-LB-01-FINAL_best.pt
 ```
 
 ## Attribution & License
