@@ -195,7 +195,9 @@
         ["Vocab Size", md.vocab_size],
         ["Context Length", md.context_length],
         ["Checkpoint", md.checkpoint_identifier],
-        ["Storage", md.actual_storage_bytes + " bytes"],
+        ["Raw Bits Size", md.theoretical_raw_bytes + " bytes"],
+        ["Tensor Payload", md.actual_tensor_payload_bytes + " bytes"],
+        ["Disk .pt Size", md.actual_storage_bytes + " bytes"],
         ["SHA-256", (md.checkpoint_sha256 || "").slice(0, 16) + "..."]
       ];
       metaPanel.innerHTML = rows.map(([k, v]) =>

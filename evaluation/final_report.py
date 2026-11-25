@@ -15,8 +15,8 @@ from src.inference.runtime import ARCLB01Runtime
 EVAL_PATHS = ["datasets/validation/val.jsonl", "datasets/test/test.jsonl"]
 
 
-def run_all_evaluations(ckpt_path: str, device: str = "cpu") -> Dict[str, object]:
-    runtime = ARCLB01Runtime(ckpt_path, device=device)
+def run_all_evaluations(ckpt_path: str, tokenizer_dir: str = "checkpoints/tokenizer", device: str = "cpu") -> Dict[str, object]:
+    runtime = ARCLB01Runtime(ckpt_path, tokenizer_dir=tokenizer_dir, device=device)
 
     greetings = evaluate_category(runtime, load_jsonl_category(EVAL_PATHS, "greetings", 100))
     identity = evaluate_category(runtime, load_jsonl_category(EVAL_PATHS, "identity", 100))
@@ -45,7 +45,7 @@ def run_all_evaluations(ckpt_path: str, device: str = "cpu") -> Dict[str, object
     )
 
     compression = evaluate_compression(ckpt_path)
-    inference_bench = evaluate_inference(ckpt_path, device=device)
+    inference_bench = evaluate_inference(ckpt_path, tokenizer_dir=tokenizer_dir, device=device)
 
     return {
         "checkpoint": ckpt_path,
@@ -110,8 +110,9 @@ def write_final_markdown_report(report: Dict[str, object], out_path: str = "eval
 
 if __name__ == "__main__":
     import sys
-    ckpt = sys.argv[1] if len(sys.argv) > 1 else "checkpoints/ARC-LB-01-FINAL_best.pt"
-    rep = run_all_evaluations(ckpt)
+    ckpt = sys.argv[1] if len(sys.argv) > 1 else "checkpoints/ARC-LB-01-V2_best.pt"
+    tok = sys.argv[2] if len(sys.argv) > 2 else ("checkpoints/tokenizer_v2" if "V2" in ckpt else "checkpoints/tokenizer")
+    rep = run_all_evaluations(ckpt, tokenizer_dir=tok)
     write_final_markdown_report(rep)
     with open("evaluation/final_results.json", "w", encoding="utf-8") as f:
         json.dump(rep, f, indent=2)

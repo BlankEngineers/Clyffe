@@ -19,7 +19,7 @@ class ServerState:
         self.active_ckpt = active_ckpt
         self.runtime = ARCLB01Runtime(
             os.path.join(checkpoint_dir, active_ckpt),
-            tokenizer_dir=tokenizer_dir,
+            tokenizer_dir=self._tok_for_ckpt(active_ckpt),
             device="cpu",
         )
 
@@ -28,12 +28,17 @@ class ServerState:
             f for f in os.listdir(self.checkpoint_dir) if f.endswith("_best.pt")
         )
 
+    def _tok_for_ckpt(self, ckpt_name: str) -> str:
+        if "V2" in ckpt_name and os.path.exists("checkpoints/tokenizer_v2"):
+            return "checkpoints/tokenizer_v2"
+        return self.tokenizer_dir
+
     def switch_checkpoint(self, ckpt_name: str):
         path = os.path.join(self.checkpoint_dir, ckpt_name)
         if not os.path.exists(path):
             raise FileNotFoundError(ckpt_name)
         self.active_ckpt = ckpt_name
-        self.runtime = ARCLB01Runtime(path, tokenizer_dir=self.tokenizer_dir, device="cpu")
+        self.runtime = ARCLB01Runtime(path, tokenizer_dir=self._tok_for_ckpt(ckpt_name), device="cpu")
 
 
 def make_handler(state: ServerState, html_path: str):
@@ -106,7 +111,7 @@ def main():
     parser = argparse.ArgumentParser(description="ARC-LB-01 Offline Web Frontend")
     parser.add_argument("--host", type=str, default="127.0.0.1")
     parser.add_argument("--port", type=int, default=8765)
-    parser.add_argument("--checkpoint", type=str, default="ARC-LB-01-FINAL_best.pt")
+    parser.add_argument("--checkpoint", type=str, default="ARC-LB-01-V2_best.pt")
     args = parser.parse_args()
 
     state = ServerState("checkpoints", args.checkpoint, "checkpoints/tokenizer")

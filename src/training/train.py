@@ -43,11 +43,12 @@ def main():
     parser.add_argument("--residual", action="store_true")
     parser.add_argument("--smooth_alpha", type=float, default=20.0)
     parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--tokenizer_dir", type=str, default="checkpoints/tokenizer")
     args = parser.parse_args()
 
     set_seed(args.seed)
 
-    tok_dir = "checkpoints/tokenizer"
+    tok_dir = args.tokenizer_dir
     if not os.path.exists(os.path.join(tok_dir, "vocab.json")):
         texts = []
         for path in ("datasets/train/train.jsonl", "datasets/validation/val.jsonl"):

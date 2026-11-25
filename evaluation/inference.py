@@ -11,10 +11,10 @@ import torch
 from src.inference.runtime import ARCLB01Runtime
 
 
-def evaluate_inference(ckpt_path: str, device: str = "cpu") -> Dict[str, object]:
+def evaluate_inference(ckpt_path: str, tokenizer_dir: str = "checkpoints/tokenizer", device: str = "cpu") -> Dict[str, object]:
     tracemalloc.start()
     t_load0 = time.perf_counter()
-    runtime = ARCLB01Runtime(ckpt_path, device=device)
+    runtime = ARCLB01Runtime(ckpt_path, tokenizer_dir=tokenizer_dir, device=device)
     load_ms = (time.perf_counter() - t_load0) * 1000.0
 
     prompts = ["Hello", "Who are you?", "What is gravity?", "25 + 35", "What is the stock price of Apple today?"]

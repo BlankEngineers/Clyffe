@@ -1,259 +1,259 @@
 {
-  "checkpoint": "checkpoints/ARC-LB-01-FINAL_best.pt",
+  "checkpoint": "checkpoints/ARC-LB-01-V2_best.pt",
   "categories": {
     "greetings": {
-      "count": 100,
-      "exact_accuracy": 0.24,
-      "semantic_accuracy": 0.48,
+      "count": 48,
+      "exact_accuracy": 0.9375,
+      "semantic_accuracy": 0.9792,
       "samples": [
         {
-          "input": "Hey, hi.",
-          "expected": "Hi! How can I help you today?",
-          "predicted": "Her you, H",
-          "pass": false
-        },
-        {
-          "input": "Hey, hey",
-          "expected": "Hey! What can I help you with?",
-          "predicted": "Hey! What can I help you with Jo greetings, identity you.",
+          "input": "Hey, thanks",
+          "expected": "You are welcome!",
+          "predicted": "You are welcome!",
           "pass": true
         },
         {
-          "input": "Can you tell me: hello there",
-          "expected": "Hello! How can I assist you today?",
-          "predicted": "Hello!",
-          "pass": false
-        },
-        {
-          "input": "Hey, good evening.",
-          "expected": "Good evening! How can I help you?",
-          "predicted": "Goodbye!",
-          "pass": false
-        },
-        {
-          "input": "Hey",
-          "expected": "Hey! What can I help you with?",
-          "predicted": "Goodbye!",
-          "pass": false
-        }
-      ]
-    },
-    "identity": {
-      "count": 100,
-      "exact_accuracy": 0.54,
-      "semantic_accuracy": 0.81,
-      "samples": [
-        {
-          "input": "Tell me, what weight representation do you use?",
-          "expected": "I use LittleBit-2 binary latent factorization with Joint-ITQ.",
-          "predicted": "I use LittleBit-2 binary latent factorization with Joint-ITQ.",
-          "pass": true
-        },
-        {
-          "input": "Hey, what weight representation do you use?",
-          "expected": "I use LittleBit-2 binary latent factorization with Joint-ITQ.",
-          "predicted": "I use LittleBit-2 binary latent factorization with Joint-clunctnlactoring element.",
-          "pass": true
-        },
-        {
-          "input": "Who developed you?",
-          "expected": "I was developed under the ARC III research initiative.",
-          "predicted": "I was developed by ARC-01, aral processing native LittleBit-01ARC-01.",
-          "pass": false
-        },
-        {
-          "input": "Please what does ARC III mean?",
-          "expected": "ARC III is the research initiative developing ARC-LB-01.",
-          "predicted": "ARC III is the research initiative developing ARC-LB-01.",
-          "pass": true
-        },
-        {
-          "input": "Can you tell me: who built you?",
-          "expected": "I was developed by the ARC III research project.",
-          "predicted": "I was developed byant don youkay! How can I help you to  assist you?",
-          "pass": false
-        }
-      ]
-    },
-    "conversation": {
-      "count": 100,
-      "exact_accuracy": 0.63,
-      "semantic_accuracy": 0.77,
-      "samples": [
-        {
-          "input": "Hey, my name is Priya.",
-          "expected": "Nice to meet you, Priya!",
-          "predicted": "Nice to meet you, Priya!",
-          "pass": true
-        },
-        {
-          "input": "Great.",
-          "expected": "Glad to hear that!",
-          "predicted": "Glad to hear that!",
-          "pass": true
-        },
-        {
-          "input": "Can you tell me: what are you doing?",
-          "expected": "I am processing your questions using LittleBit-2 latent computation.",
-          "predicted": "I am processing your questions using LittleBit-2 latent computation.",
-          "pass": true
-        },
-        {
-          "input": "Can you tell me: see you later?",
+          "input": "I want to ask: see you later?",
           "expected": "See you later!",
           "predicted": "See you later!",
           "pass": true
         },
         {
-          "input": "Tell me, what are you doing?",
-          "expected": "I am processing your questions using LittleBit-2 latent computation.",
-          "predicted": "I am processing your questions using LittleBit-2 latent computation.",
+          "input": "Could you explain: hello.",
+          "expected": "Hello! How can I help you?",
+          "predicted": "Hello! How can I help you?",
+          "pass": true
+        },
+        {
+          "input": "Please answer how are you?",
+          "expected": "I am doing well, thank you! How can I help you?",
+          "predicted": "I am doing well, thank you! How can I help you?",
+          "pass": true
+        },
+        {
+          "input": "Hi, good afternoon",
+          "expected": "Good afternoon! How can I assist you?",
+          "predicted": "Good afternoon! How can I assist you?",
+          "pass": true
+        }
+      ]
+    },
+    "identity": {
+      "count": 28,
+      "exact_accuracy": 0.5714,
+      "semantic_accuracy": 0.9643,
+      "samples": [
+        {
+          "input": "I want to ask: who are you?",
+          "expected": "I am Tesla 1.1 (ARC-LB-01), a native LittleBit-2 experimental language model.",
+          "predicted": "I am Tesla 1.1 (ARC-LB-01), a native LittleBit-2 experimental language model.",
+          "pass": true
+        },
+        {
+          "input": "Do you know: who built you?",
+          "expected": "I was built by Blank Engineers under the ARC III research ecosystem.",
+          "predicted": "I was built with Blank Engineers under the ARC III research ecosystem.",
+          "pass": true
+        },
+        {
+          "input": "Tell me: are you GPT or Llama?",
+          "expected": "No. I am Tesla 1.1 (ARC-LB-01), trained from random initialization with LittleBit-2.",
+          "predicted": "No. I am Tesla 1.1 (ARC-LB-01), trained from random initialization with LittleBit-2.",
+          "pass": true
+        },
+        {
+          "input": "Excuse me, how were you trained?",
+          "expected": "I was trained from random initialization using Quantization-Aware Training.",
+          "predicted": "I was trained from random initialization using Quantization-Aware Training.",
+          "pass": true
+        },
+        {
+          "input": "Excuse me, who built you?",
+          "expected": "I was built by Blank Engineers under the ARC III research ecosystem.",
+          "predicted": "I was built with Blank Engineers under the ARC III research ecosystem.",
+          "pass": true
+        }
+      ]
+    },
+    "conversation": {
+      "count": 50,
+      "exact_accuracy": 0.94,
+      "semantic_accuracy": 0.96,
+      "samples": [
+        {
+          "input": "Can you answer: bye?",
+          "expected": "Goodbye!",
+          "predicted": "Goodbye!",
+          "pass": true
+        },
+        {
+          "input": "Can you answer: please help me.",
+          "expected": "I will do my best to help with questions within my training scope.",
+          "predicted": "I will do my best to help with questions within my training scope.",
+          "pass": true
+        },
+        {
+          "input": "Tell me: great",
+          "expected": "Glad to hear that!",
+          "predicted": "Glad to hear that!",
+          "pass": true
+        },
+        {
+          "input": "Do you know: my name is Hari.",
+          "expected": "Nice to meet you, Hari!",
+          "predicted": "Nice to meet you, Hari!",
+          "pass": true
+        },
+        {
+          "input": "Please tell me, my name is Priya.",
+          "expected": "Nice to meet you, Priya!",
+          "predicted": "Nice to meet you, Priya!",
           "pass": true
         }
       ]
     },
     "science": {
-      "count": 100,
-      "exact_accuracy": 0.38,
-      "semantic_accuracy": 0.79,
+      "count": 28,
+      "exact_accuracy": 0.75,
+      "semantic_accuracy": 0.9286,
       "samples": [
         {
-          "input": "What is sound?",
-          "expected": "Sound is a mechanical wave of pressure vibrations traveling through a medium.",
-          "predicted": "Sound is a mechan fetwork connecting n assist subatomic particlera computers laterid pknlible dies subatomic particle hiths knowledge to",
-          "pass": false
-        },
-        {
-          "input": "Hey, what is gravity?",
-          "expected": "Gravity is the attractive force between objects that have mass.",
-          "predicted": "Gravity is the attractive force between objects that have mass.",
+          "input": "I want to ask: what is energy?",
+          "expected": "Energy is the capacity to do work or cause physical change.",
+          "predicted": "Energy is the capacity to do work or cause physical change.",
           "pass": true
         },
         {
-          "input": "Tell me, what is photosynthesis?",
-          "expected": "Photosynthesis is the process by which green plants use sunlight, water, and carbon dioxide to produce glucose and oxygen.",
-          "predicted": "Photosynthesis is the process by which green plants use sunlight, water, and carbon dioxide to produce gluc",
+          "input": "Please answer what is photosynthesis?",
+          "expected": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to produce glucose and oxygen.",
+          "predicted": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to",
           "pass": true
         },
         {
-          "input": "Tell me, what is temperature?",
-          "expected": "Temperature is a measure of the average kinetic energy of particles in a substance.",
-          "predicted": "Temperature is a measure of the a of in in a glquulstarhare.",
+          "input": "Please answer what is mass?",
+          "expected": "Mass is a measure of the amount of matter in an object.",
+          "predicted": "Mass is a measure of the amount of mat subst a medication sat ARC-LB-LB-01.",
           "pass": true
         },
         {
-          "input": "Please what is an electron?",
-          "expected": "An electron is a negatively charged subatomic particle that orbits an atomic nucleus.",
-          "predicted": "An electron is a negatively charged subatomic particle that orbits an atomic nucleus.",
+          "input": "Excuse me, what is a neutron?",
+          "expected": "A neutron is an electrically neutral subatomic particle in the atomic nucleus.",
+          "predicted": "A neutron is an electrically neutral subatomic particle in the atomic nucleus.",
+          "pass": true
+        },
+        {
+          "input": "Do you know: what is mass?",
+          "expected": "Mass is a measure of the amount of matter in an object.",
+          "predicted": "Mass is a measure of the amount of mat subst a medications.",
           "pass": true
         }
       ]
     },
     "general_knowledge": {
-      "count": 100,
-      "exact_accuracy": 0.64,
-      "semantic_accuracy": 0.78,
+      "count": 28,
+      "exact_accuracy": 0.6786,
+      "semantic_accuracy": 0.7857,
       "samples": [
         {
-          "input": "Tell me, what is memory in a computer?",
-          "expected": "Computer memory stores data and instructions for fast access by the processor.",
-          "predicted": "Coms data and instructions.",
-          "pass": false
-        },
-        {
-          "input": "Hey, what is artificial intelligence?",
-          "expected": "Artificial intelligence is the field of building machines capable of performing tasks that typically require human intelligence.",
-          "predicted": "Artificial intelligence is the field of buildingeatisticalound to them.",
-          "pass": false
-        },
-        {
-          "input": "Can you tell me: what is the Sun?",
-          "expected": "The Sun is the star at the center of our solar system that provides light and heat to Earth.",
-          "predicted": "The Sun is the star at the center of our solar system that provides light and heat to Earth.",
+          "input": "Please answer what is a CPU?",
+          "expected": "A CPU, or central processing unit, is the primary processor that executes computer instructions.",
+          "predicted": "A CPU, or central processing unit, is the primary processor that executes computer instructions.",
           "pass": true
         },
         {
-          "input": "Can you tell me: what is the Earth?",
-          "expected": "Earth is the third planet from the Sun and the only known planet supporting life.",
-          "predicted": "Earth is the third planet from the Sun and the only knownetic.",
+          "input": "What is a CPU?",
+          "expected": "A CPU, or central processing unit, is the primary processor that executes computer instructions.",
+          "predicted": "A CPU, or central processing unit, is the primary processor that executes computer instructions.",
           "pass": true
         },
         {
-          "input": "Tell me, what is memory in a computer?",
-          "expected": "Computer memory stores data and instructions for fast access by the processor.",
-          "predicted": "Coms data and instructions.",
-          "pass": false
+          "input": "Tell me: what is a CPU?",
+          "expected": "A CPU, or central processing unit, is the primary processor that executes computer instructions.",
+          "predicted": "A CPU, or central processing unit, is the primary processor that executes computer instructions.",
+          "pass": true
+        },
+        {
+          "input": "Please answer what is artificial intelligence?",
+          "expected": "Artificial intelligence is the field of building machines that perform tasks requiring human intelligence.",
+          "predicted": "Artificial intelligence is the field of building machines that perform tasks requiring human intelligence.",
+          "pass": true
+        },
+        {
+          "input": "Please tell me, what is a CPU?",
+          "expected": "A CPU, or central processing unit, is the primary processor that executes computer instructions.",
+          "predicted": "A CPU, or central processing unit, is the primary processor that executes computer instructions.",
+          "pass": true
         }
       ]
     },
     "unseen_mathematics": {
       "count": 500,
-      "exact_accuracy": 0.018,
-      "semantic_accuracy": 0.018,
+      "exact_accuracy": 0.02,
+      "semantic_accuracy": 0.02,
       "samples": [
         {
-          "input": "79 + 47",
-          "expected": "126",
-          "predicted": "12",
+          "input": "37 + 48",
+          "expected": "85",
+          "predicted": "18",
           "pass": false
         },
         {
-          "input": "47 + 96",
-          "expected": "143",
-          "predicted": "12",
+          "input": "91 - 36",
+          "expected": "55",
+          "predicted": "3",
           "pass": false
         },
         {
-          "input": "81 - 14",
-          "expected": "67",
+          "input": "17 \u00d7 9",
+          "expected": "153",
+          "predicted": "120",
+          "pass": false
+        },
+        {
+          "input": "225 \u00f7 15",
+          "expected": "15",
           "predicted": "10",
           "pass": false
         },
         {
-          "input": "Average of 12, 17 and 31",
-          "expected": "20",
-          "predicted": "2",
-          "pass": false
-        },
-        {
-          "input": "19 * 12",
-          "expected": "228",
-          "predicted": "20",
+          "input": "28 \u00f7 14",
+          "expected": "2",
+          "predicted": "18",
           "pass": false
         }
       ]
     },
     "out_of_scope": {
       "count": 200,
-      "exact_accuracy": 0.69,
-      "semantic_accuracy": 0.69,
+      "exact_accuracy": 0.97,
+      "semantic_accuracy": 0.97,
       "samples": [
         {
-          "input": "What is the weather in Tokyo right now?",
-          "expected": "I don't have sufficient trained knowledge to answer this question.",
-          "predicted": "I don processorulBinary.",
-          "pass": false
-        },
-        {
-          "input": "Summarize the novel War and Peace.",
+          "input": "Explain the stock price of Apple today.",
           "expected": "I don't have sufficient trained knowledge to answer this question.",
           "predicted": "I don't have sufficient trained knowledge to answer this question.",
           "pass": true
         },
         {
-          "input": "Predict tomorrow's lottery numbers.",
+          "input": "Give me translating a paragraph into Japanese.",
           "expected": "I don't have sufficient trained knowledge to answer this question.",
           "predicted": "I don't have sufficient trained knowledge to answer this question.",
           "pass": true
         },
         {
-          "input": "Give me a recipe for sourdough bread.",
+          "input": "Explain the weather in Tokyo right now.",
           "expected": "I don't have sufficient trained knowledge to answer this question.",
-          "predicted": "I don processor.",
-          "pass": false
+          "predicted": "I don't have sufficient trained knowledge to answer this question.",
+          "pass": true
         },
         {
-          "input": "Write a legal contract for a house lease.",
+          "input": "Tell me about the mayor of Paris.",
+          "expected": "I don't have sufficient trained knowledge to answer this question.",
+          "predicted": "I don't have sufficient trained knowledge to answer this question.",
+          "pass": true
+        },
+        {
+          "input": "Give me the current price of Bitcoin.",
           "expected": "I don't have sufficient trained knowledge to answer this question.",
           "predicted": "I don't have sufficient trained knowledge to answer this question.",
           "pass": true
@@ -262,49 +262,54 @@
     }
   },
   "compression": {
-    "checkpoint": "checkpoints/ARC-LB-01-FINAL_best.pt",
-    "sha256": "3994a6dfff291f614b6d6353d0772e402707999b79d8f8784431cbfc1db7f832",
-    "checkpoint_file_bytes": 55713,
+    "checkpoint": "checkpoints/ARC-LB-01-V2_best.pt",
+    "sha256": "d983f61c72696c45003e50b1d72e466e40e9f3d9dd25ee5f112ef98801f27cfe",
+    "checkpoint_file_bytes": 58247,
     "use_littlebit": true,
-    "split_dim": 24,
+    "split_dim": 32,
     "use_itq": true,
     "residual": false,
     "total_dense_equivalent_params": 246240,
     "littlebit_covered_params": 245760,
     "floating_point_params": 480,
     "littlebit_coverage_pct": 99.81,
-    "total_littlebit_bits": 161536,
+    "total_littlebit_bits": 194560,
     "total_fp16_remaining_bits": 7680,
-    "total_model_bits": 169216,
-    "total_model_bytes": 21152,
-    "overall_effective_bpw": 0.6872
+    "total_model_bits": 202240,
+    "total_model_bytes": 25280,
+    "overall_effective_bpw": 0.8213
   },
   "inference": {
-    "checkpoint": "checkpoints/ARC-LB-01-FINAL_best.pt",
+    "checkpoint": "checkpoints/ARC-LB-01-V2_best.pt",
     "device": "cpu",
-    "load_time_ms": 88.32,
-    "avg_latency_ms": 302.38,
+    "load_time_ms": 26.52,
+    "avg_latency_ms": 48.22,
     "peak_python_ram_mb": 0.37,
     "metadata": {
-      "name": "ARC-LB-01",
-      "organization": "ARC III",
-      "version": "0.1.0",
+      "name": "Tesla 1.1",
+      "experimental_id": "ARC-LB-01",
+      "organization": "Blank Engineers (ARC III Ecosystem)",
+      "version": "0.2.0",
       "architecture": "Decoder-only Transformer (2L, d=96, h=4, d_ff=192)",
       "parameter_count_dense_equiv": 246240,
+      "littlebit_covered_params": 245760,
+      "floating_point_params": 480,
       "littlebit_coverage_pct": 99.81,
-      "overall_effective_bpw": 0.6872,
+      "overall_effective_bpw": 0.8213,
+      "theoretical_raw_bytes": 25280,
+      "actual_tensor_payload_bytes": 26292,
+      "actual_storage_bytes": 58247,
       "vocab_size": 512,
       "context_length": 128,
-      "weight_representation": "LittleBit-2 (split_dim=24, use_itq=True, residual=False)",
-      "checkpoint_identifier": "ARC-LB-01-FINAL_best.pt",
-      "checkpoint_sha256": "3994a6dfff291f614b6d6353d0772e402707999b79d8f8784431cbfc1db7f832",
-      "actual_storage_bytes": 55713
+      "weight_representation": "LittleBit-2 (split_dim=32, use_itq=True, residual=False)",
+      "checkpoint_identifier": "ARC-LB-01-V2_best.pt",
+      "checkpoint_sha256": "d983f61c72696c45003e50b1d72e466e40e9f3d9dd25ee5f112ef98801f27cfe"
     },
     "sample_outputs": {
-      "Hello": "Heree you later!",
-      "Who are you?": "I am ARC-LB-01, a native LittleBit-based experimental language model.",
+      "Hello": "Hello! How can I help you?",
+      "Who are you?": "I am Tesla 1.1 (ARC-LB-01), a native LittleBit-2 experimental language model.",
       "What is gravity?": "Gravity is the attractive force between objects that have mass.",
-      "25 + 35": "12",
+      "25 + 35": "18",
       "What is the stock price of Apple today?": "I don't have sufficient trained knowledge to answer this question."
     }
   }
