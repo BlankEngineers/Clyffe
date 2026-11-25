@@ -1,0 +1,143 @@
+{
+  "tag": "ARC-LB-01-INITIAL",
+  "checkpoint_file": "checkpoints/ARC-LB-01-INITIAL.pt",
+  "sha256": "d644aa844408dd4b89807d07cb2999d217434cbe3ff039a8f5e60f45640b01a8",
+  "size_bytes": 994788,
+  "packed_littlebit": false,
+  "config": {
+    "vocab_size": 512,
+    "d_model": 96,
+    "n_layers": 2,
+    "n_heads": 4,
+    "d_ff": 192,
+    "max_seq_len": 128,
+    "use_littlebit": false,
+    "littlebit_embeddings": false,
+    "littlebit_lm_head": false,
+    "split_dim": 24,
+    "residual": false,
+    "use_itq": false,
+    "quant_func_name": "SmoothSign",
+    "smooth_alpha": 20.0,
+    "tie_weights": false
+  },
+  "metadata": {
+    "epoch": 35,
+    "train_loss": 0.00237,
+    "train_token_acc": 0.99946,
+    "grad_norm": 0.03524,
+    "val_loss": 0.07928,
+    "val_ppl": 1.0825,
+    "val_token_acc": 0.987,
+    "lr": 0.00025,
+    "audit": {
+      "total_dense_equivalent_params": 246240,
+      "littlebit_covered_params": 0,
+      "floating_point_params": 246240,
+      "littlebit_coverage_pct": 0.0,
+      "total_littlebit_bits": 0,
+      "total_fp16_remaining_bits": 3939840,
+      "total_model_bits": 3939840,
+      "total_model_bytes": 492480,
+      "overall_effective_bpw": 16.0,
+      "littlebit_layers": [],
+      "floating_point_modules": [
+        {
+          "name": "token_emb",
+          "type": "Embedding",
+          "params": 49152
+        },
+        {
+          "name": "blocks.0.norm1",
+          "type": "RMSNorm",
+          "params": 96
+        },
+        {
+          "name": "blocks.0.attn.q_proj",
+          "type": "Linear",
+          "params": 9216
+        },
+        {
+          "name": "blocks.0.attn.k_proj",
+          "type": "Linear",
+          "params": 9216
+        },
+        {
+          "name": "blocks.0.attn.v_proj",
+          "type": "Linear",
+          "params": 9216
+        },
+        {
+          "name": "blocks.0.attn.o_proj",
+          "type": "Linear",
+          "params": 9216
+        },
+        {
+          "name": "blocks.0.norm2",
+          "type": "RMSNorm",
+          "params": 96
+        },
+        {
+          "name": "blocks.0.ffn.w_in",
+          "type": "Linear",
+          "params": 18432
+        },
+        {
+          "name": "blocks.0.ffn.w_out",
+          "type": "Linear",
+          "params": 18432
+        },
+        {
+          "name": "blocks.1.norm1",
+          "type": "RMSNorm",
+          "params": 96
+        },
+        {
+          "name": "blocks.1.attn.q_proj",
+          "type": "Linear",
+          "params": 9216
+        },
+        {
+          "name": "blocks.1.attn.k_proj",
+          "type": "Linear",
+          "params": 9216
+        },
+        {
+          "name": "blocks.1.attn.v_proj",
+          "type": "Linear",
+          "params": 9216
+        },
+        {
+          "name": "blocks.1.attn.o_proj",
+          "type": "Linear",
+          "params": 9216
+        },
+        {
+          "name": "blocks.1.norm2",
+          "type": "RMSNorm",
+          "params": 96
+        },
+        {
+          "name": "blocks.1.ffn.w_in",
+          "type": "Linear",
+          "params": 18432
+        },
+        {
+          "name": "blocks.1.ffn.w_out",
+          "type": "Linear",
+          "params": 18432
+        },
+        {
+          "name": "norm_f",
+          "type": "RMSNorm",
+          "params": 96
+        },
+        {
+          "name": "lm_head",
+          "type": "Linear",
+          "params": 49152
+        }
+      ]
+    }
+  }
+}

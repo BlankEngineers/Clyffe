@@ -1,0 +1,550 @@
+{"input": "Please hi?", "output": "Hi! How can I help you today?", "category": "greetings"}
+{"input": "Can you tell me: okay?", "output": "Okay! What would you like to ask next?", "category": "conversation"}
+{"input": "Who developed you?", "output": "I was developed under the ARC III research initiative.", "category": "identity"}
+{"input": "Can you tell me: what is India?", "output": "India is a country in South Asia and the world's most populous nation.", "category": "general_knowledge"}
+{"input": "Can you tell me: how are you?", "output": "I am functioning well and ready to assist you.", "category": "conversation"}
+{"input": "Tell me, what is a computer?", "output": "A computer is an electronic device that processes data and executes instructions.", "category": "general_knowledge"}
+{"input": "Can you tell me: are you GPT or Llama?", "output": "No. I am ARC-LB-01, independently initialized and trained with LittleBit-2.", "category": "identity"}
+{"input": "Tell me, can you help me?", "output": "Yes, I can help with greetings, identity, basic science, general knowledge, and simple math.", "category": "conversation"}
+{"input": "Hello there", "output": "Hello! How can I assist you today?", "category": "greetings"}
+{"input": "Can you tell me: good night", "output": "Good night! Have a restful night.", "category": "greetings"}
+{"input": "38 - 8", "output": "30", "category": "mathematics"}
+{"input": "Please who built you?", "output": "I was developed by the ARC III research project.", "category": "identity"}
+{"input": "Can you tell me: what is a computer?", "output": "A computer is an electronic device that processes data and executes instructions.", "category": "general_knowledge"}
+{"input": "What is the latest news in politics?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "47 + 22", "output": "69", "category": "mathematics"}
+{"input": "Can you tell me: what is gravity?", "output": "Gravity is the attractive force between objects that have mass.", "category": "science"}
+{"input": "Can you tell me: what is memory in a computer?", "output": "Computer memory stores data and instructions for fast access by the processor.", "category": "general_knowledge"}
+{"input": "Good morning", "output": "Good morning! How can I assist you?", "category": "greetings"}
+{"input": "190 / 10", "output": "19", "category": "mathematics"}
+{"input": "Please what is gravity?", "output": "Gravity is the attractive force between objects that have mass.", "category": "science"}
+{"input": "4 × 16", "output": "64", "category": "mathematics"}
+{"input": "Hey, what is your name?", "output": "My name is ARC-LB-01.", "category": "identity"}
+{"input": "Can you tell me: what is the Sun?", "output": "The Sun is the star at the center of our solar system that provides light and heat to Earth.", "category": "general_knowledge"}
+{"input": "Tell me, good afternoon.", "output": "Good afternoon! How can I help you?", "category": "greetings"}
+{"input": "Hey, what is the Sun?", "output": "The Sun is the star at the center of our solar system that provides light and heat to Earth.", "category": "general_knowledge"}
+{"input": "59 + 8", "output": "67", "category": "mathematics"}
+{"input": "Can you tell me: what is a computer?", "output": "A computer is an electronic device that processes data and executes instructions.", "category": "general_knowledge"}
+{"input": "71 + 17", "output": "88", "category": "mathematics"}
+{"input": "Tell me, what can you do?", "output": "I can answer basic greetings, identity questions, simple science, general facts, and basic arithmetic.", "category": "conversation"}
+{"input": "Average of 3, 9 and 0", "output": "4", "category": "mathematics"}
+{"input": "Hey, what is a neutron?", "output": "A neutron is an electrically neutral subatomic particle in the atomic nucleus.", "category": "science"}
+{"input": "Hey, great", "output": "Glad to hear that!", "category": "conversation"}
+{"input": "Hey, what is an atom?", "output": "An atom is the basic unit of a chemical element.", "category": "science"}
+{"input": "Please what is the Sun?", "output": "The Sun is the star at the center of our solar system that provides light and heat to Earth.", "category": "general_knowledge"}
+{"input": "34 + 11", "output": "45", "category": "mathematics"}
+{"input": "Can you tell me: are you GPT or Llama?", "output": "No. I am ARC-LB-01, independently initialized and trained with LittleBit-2.", "category": "identity"}
+{"input": "Average of 29, 12 and 37", "output": "26", "category": "mathematics"}
+{"input": "Tell me, what is ARC-LB-01?", "output": "ARC-LB-01 is an original native LittleBit-2 language model built from scratch.", "category": "identity"}
+{"input": "Please my name is Alex.", "output": "Nice to meet you, Alex!", "category": "conversation"}
+{"input": "77 / 7", "output": "11", "category": "mathematics"}
+{"input": "My name is Priya.", "output": "Nice to meet you, Priya!", "category": "conversation"}
+{"input": "Please what is an electron?", "output": "An electron is a negatively charged subatomic particle that orbits an atomic nucleus.", "category": "science"}
+{"input": "How do I hack into a Wi-Fi network?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Please thanks", "output": "You are welcome! Let me know if you need anything else.", "category": "conversation"}
+{"input": "Hey, what is the Sun?", "output": "The Sun is the star at the center of our solar system that provides light and heat to Earth.", "category": "general_knowledge"}
+{"input": "Hey, what is energy?", "output": "Energy is the capacity to do work or cause physical change.", "category": "science"}
+{"input": "Hey, what is photosynthesis?", "output": "Photosynthesis is the process by which green plants use sunlight, water, and carbon dioxide to produce glucose and oxygen.", "category": "science"}
+{"input": "Tell me, what is gravity?", "output": "Gravity is the attractive force between objects that have mass.", "category": "science"}
+{"input": "Please thank you.", "output": "You are welcome!", "category": "conversation"}
+{"input": "What is the internet?", "output": "The internet is a global network connecting millions of computers for communication and information sharing.", "category": "general_knowledge"}
+{"input": "Please what is gravity?", "output": "Gravity is the attractive force between objects that have mass.", "category": "science"}
+{"input": "Who is the mayor of Paris?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Tell me, bye", "output": "Goodbye!", "category": "conversation"}
+{"input": "What is the Earth?", "output": "Earth is the third planet from the Sun and the only known planet supporting life.", "category": "general_knowledge"}
+{"input": "Translate this paragraph into Japanese.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Tell me, what is India?", "output": "India is a country in South Asia and the world's most populous nation.", "category": "general_knowledge"}
+{"input": "Hey, are you GPT or Llama?", "output": "No. I am ARC-LB-01, independently initialized and trained with LittleBit-2.", "category": "identity"}
+{"input": "Please hi there", "output": "Hi! I am ready to help.", "category": "greetings"}
+{"input": "Can you tell me: what is electricity?", "output": "Electricity is the flow of electric charge, usually carried by electrons.", "category": "general_knowledge"}
+{"input": "Hey, what is a neutron?", "output": "A neutron is an electrically neutral subatomic particle in the atomic nucleus.", "category": "science"}
+{"input": "Average of 2, 8 and 53", "output": "21", "category": "mathematics"}
+{"input": "Can you tell me: my name is Alex.", "output": "Nice to meet you, Alex!", "category": "conversation"}
+{"input": "Tell me, what is artificial intelligence?", "output": "Artificial intelligence is the field of building machines capable of performing tasks that typically require human intelligence.", "category": "general_knowledge"}
+{"input": "Hey, what is electricity?", "output": "Electricity is the flow of electric charge, usually carried by electrons.", "category": "general_knowledge"}
+{"input": "Tell me, what weight representation do you use?", "output": "I use LittleBit-2 binary latent factorization with Joint-ITQ.", "category": "identity"}
+{"input": "25 + 79", "output": "104", "category": "mathematics"}
+{"input": "My name is Hari.", "output": "Nice to meet you, Hari!", "category": "conversation"}
+{"input": "Can you tell me: what does ARC III mean?", "output": "ARC III is the research initiative developing ARC-LB-01.", "category": "identity"}
+{"input": "Tell me, thanks", "output": "You are welcome! Let me know if you need anything else.", "category": "conversation"}
+{"input": "93 + 66", "output": "159", "category": "mathematics"}
+{"input": "Can you tell me: great.", "output": "Glad to hear that!", "category": "conversation"}
+{"input": "Please what is temperature?", "output": "Temperature is a measure of the average kinetic energy of particles in a substance.", "category": "science"}
+{"input": "114 - 46", "output": "68", "category": "mathematics"}
+{"input": "Please how are you?", "output": "I am functioning well and ready to assist you.", "category": "conversation"}
+{"input": "How were you trained?", "output": "I was trained from random initialization using Quantization-Aware Training.", "category": "identity"}
+{"input": "Can you tell me: what can you do?", "output": "I can answer basic greetings, identity questions, simple science, general facts, and basic arithmetic.", "category": "conversation"}
+{"input": "What is the Sun?", "output": "The Sun is the star at the center of our solar system that provides light and heat to Earth.", "category": "general_knowledge"}
+{"input": "Can you tell me: my name is Priya.", "output": "Nice to meet you, Priya!", "category": "conversation"}
+{"input": "Tell me, what is a language model?", "output": "A language model is a statistical or neural system trained to predict and generate sequences of tokens.", "category": "general_knowledge"}
+{"input": "Please can you help me?", "output": "Yes, I can help with greetings, identity, basic science, general knowledge, and simple math.", "category": "conversation"}
+{"input": "Hey, are you ready?", "output": "Yes, I am ready.", "category": "conversation"}
+{"input": "Tell me, can you help me?", "output": "Yes, I can help with greetings, identity, basic science, general knowledge, and simple math.", "category": "conversation"}
+{"input": "Please what is memory in a computer?", "output": "Computer memory stores data and instructions for fast access by the processor.", "category": "general_knowledge"}
+{"input": "Can you tell me: what is a proton?", "output": "A proton is a positively charged subatomic particle found in the nucleus of an atom.", "category": "science"}
+{"input": "Tell me, what is gravity?", "output": "Gravity is the attractive force between objects that have mass.", "category": "science"}
+{"input": "Tell me, what is sound?", "output": "Sound is a mechanical wave of pressure vibrations traveling through a medium.", "category": "science"}
+{"input": "Hey, what is a CPU?", "output": "A CPU, or central processing unit, is the primary processor that executes computer instructions.", "category": "general_knowledge"}
+{"input": "Please who built you?", "output": "I was developed by the ARC III research project.", "category": "identity"}
+{"input": "Tell me, what can you do?", "output": "I can answer basic greetings, identity questions, simple science, general facts, and basic arithmetic.", "category": "conversation"}
+{"input": "20 * 2", "output": "40", "category": "mathematics"}
+{"input": "Hey, good evening", "output": "Good evening! How can I help you?", "category": "greetings"}
+{"input": "What is the latest news in politics?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "32 ÷ 2", "output": "16", "category": "mathematics"}
+{"input": "Average of 2, 23 and 38", "output": "21", "category": "mathematics"}
+{"input": "Please what is sound?", "output": "Sound is a mechanical wave of pressure vibrations traveling through a medium.", "category": "science"}
+{"input": "What does ARC III mean?", "output": "ARC III is the research initiative developing ARC-LB-01.", "category": "identity"}
+{"input": "Hey, what is a CPU?", "output": "A CPU, or central processing unit, is the primary processor that executes computer instructions.", "category": "general_knowledge"}
+{"input": "Are you ready?", "output": "Yes, I am ready.", "category": "conversation"}
+{"input": "Tell me, what is temperature?", "output": "Temperature is a measure of the average kinetic energy of particles in a substance.", "category": "science"}
+{"input": "Tell me, what is gravity?", "output": "Gravity is the attractive force between objects that have mass.", "category": "science"}
+{"input": "Can you tell me: what is light?", "output": "Light is electromagnetic radiation visible to the human eye.", "category": "science"}
+{"input": "Tell me, who developed you?", "output": "I was developed under the ARC III research initiative.", "category": "identity"}
+{"input": "Tell me, what is mass?", "output": "Mass is a measure of the amount of matter in an object.", "category": "science"}
+{"input": "Great", "output": "Glad to hear that!", "category": "conversation"}
+{"input": "Tell me, what is a proton?", "output": "A proton is a positively charged subatomic particle found in the nucleus of an atom.", "category": "science"}
+{"input": "Hey, see you later.", "output": "See you later!", "category": "conversation"}
+{"input": "Average of 10, 20 and 30", "output": "20", "category": "mathematics"}
+{"input": "Please hi there", "output": "Hi! I am ready to help.", "category": "greetings"}
+{"input": "Tell me, hello there", "output": "Hello! How can I assist you today?", "category": "greetings"}
+{"input": "Write a legal contract for a house lease.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "122 - 90", "output": "32", "category": "mathematics"}
+{"input": "24 / 3", "output": "8", "category": "mathematics"}
+{"input": "Are you GPT or Llama?", "output": "No. I am ARC-LB-01, independently initialized and trained with LittleBit-2.", "category": "identity"}
+{"input": "15 + 43", "output": "58", "category": "mathematics"}
+{"input": "Hey, what is a proton?", "output": "A proton is a positively charged subatomic particle found in the nucleus of an atom.", "category": "science"}
+{"input": "2 * 3", "output": "6", "category": "mathematics"}
+{"input": "Please what is photosynthesis?", "output": "Photosynthesis is the process by which green plants use sunlight, water, and carbon dioxide to produce glucose and oxygen.", "category": "science"}
+{"input": "What is photosynthesis?", "output": "Photosynthesis is the process by which green plants use sunlight, water, and carbon dioxide to produce glucose and oxygen.", "category": "science"}
+{"input": "What is the latest news in politics?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Tell me, what is temperature?", "output": "Temperature is a measure of the average kinetic energy of particles in a substance.", "category": "science"}
+{"input": "Average of 15, 6 and 30", "output": "17", "category": "mathematics"}
+{"input": "Please help me.", "output": "I will do my best to help with questions within my training scope.", "category": "conversation"}
+{"input": "Please what is water?", "output": "Water is a clear chemical compound made of hydrogen and oxygen, with formula H2O.", "category": "general_knowledge"}
+{"input": "What can you do?", "output": "I can answer basic greetings, identity questions, simple science, general facts, and basic arithmetic.", "category": "conversation"}
+{"input": "Can you tell me: what is the Sun?", "output": "The Sun is the star at the center of our solar system that provides light and heat to Earth.", "category": "general_knowledge"}
+{"input": "Are you ready?", "output": "Yes, I am ready.", "category": "conversation"}
+{"input": "Please what are you doing?", "output": "I am processing your questions using LittleBit-2 latent computation.", "category": "conversation"}
+{"input": "Please what is light?", "output": "Light is electromagnetic radiation visible to the human eye.", "category": "science"}
+{"input": "Please what is a computer?", "output": "A computer is an electronic device that processes data and executes instructions.", "category": "general_knowledge"}
+{"input": "Can you tell me: what is the Sun?", "output": "The Sun is the star at the center of our solar system that provides light and heat to Earth.", "category": "general_knowledge"}
+{"input": "92 + 5", "output": "97", "category": "mathematics"}
+{"input": "Tell me, nice to meet you.", "output": "Nice to meet you too! I am ARC-LB-01.", "category": "greetings"}
+{"input": "Please what is a proton?", "output": "A proton is a positively charged subatomic particle found in the nucleus of an atom.", "category": "science"}
+{"input": "Tell me, see you later", "output": "See you later!", "category": "conversation"}
+{"input": "Can you tell me: my name is Alex.", "output": "Nice to meet you, Alex!", "category": "conversation"}
+{"input": "Hey, who developed you?", "output": "I was developed under the ARC III research initiative.", "category": "identity"}
+{"input": "Can you tell me: what is ARC-LB-01?", "output": "ARC-LB-01 is an original native LittleBit-2 language model built from scratch.", "category": "identity"}
+{"input": "Tell me, what is a computer?", "output": "A computer is an electronic device that processes data and executes instructions.", "category": "general_knowledge"}
+{"input": "Tell me, see you later", "output": "See you later!", "category": "conversation"}
+{"input": "19 + 75", "output": "94", "category": "mathematics"}
+{"input": "59 - 50", "output": "9", "category": "mathematics"}
+{"input": "Please what is light?", "output": "Light is electromagnetic radiation visible to the human eye.", "category": "science"}
+{"input": "17 * 8", "output": "136", "category": "mathematics"}
+{"input": "Goodbye", "output": "Goodbye! Have a great day.", "category": "conversation"}
+{"input": "Please great", "output": "Glad to hear that!", "category": "conversation"}
+{"input": "36 - 18", "output": "18", "category": "mathematics"}
+{"input": "Can you tell me: see you later", "output": "See you later!", "category": "conversation"}
+{"input": "Please what can you do?", "output": "I can answer basic greetings, identity questions, simple science, general facts, and basic arithmetic.", "category": "conversation"}
+{"input": "Explain quantum chromodynamics renormalization group equations.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Can you tell me: what is your name?", "output": "My name is ARC-LB-01.", "category": "identity"}
+{"input": "11 * 6", "output": "66", "category": "mathematics"}
+{"input": "Hey, okay", "output": "Okay! What would you like to ask next?", "category": "conversation"}
+{"input": "What is the GDP of Germany?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Please what is sound?", "output": "Sound is a mechanical wave of pressure vibrations traveling through a medium.", "category": "science"}
+{"input": "59 + 33", "output": "92", "category": "mathematics"}
+{"input": "Hey, hi", "output": "Hi! How can I help you today?", "category": "greetings"}
+{"input": "Tell me, what is India?", "output": "India is a country in South Asia and the world's most populous nation.", "category": "general_knowledge"}
+{"input": "Can you tell me: how are you?", "output": "I am functioning well and ready to assist you.", "category": "conversation"}
+{"input": "Hey, what is water?", "output": "Water is a clear chemical compound made of hydrogen and oxygen, with formula H2O.", "category": "general_knowledge"}
+{"input": "Please what is India?", "output": "India is a country in South Asia and the world's most populous nation.", "category": "general_knowledge"}
+{"input": "Tell me, what is an electron?", "output": "An electron is a negatively charged subatomic particle that orbits an atomic nucleus.", "category": "science"}
+{"input": "Can you tell me: my name is Priya.", "output": "Nice to meet you, Priya!", "category": "conversation"}
+{"input": "Hey, what is gravity?", "output": "Gravity is the attractive force between objects that have mass.", "category": "science"}
+{"input": "2 × 5", "output": "10", "category": "mathematics"}
+{"input": "Tell me, what is energy?", "output": "Energy is the capacity to do work or cause physical change.", "category": "science"}
+{"input": "Average of 15, 18 and 3", "output": "12", "category": "mathematics"}
+{"input": "Tell me, are you GPT or Llama?", "output": "No. I am ARC-LB-01, independently initialized and trained with LittleBit-2.", "category": "identity"}
+{"input": "Can you tell me: what is water?", "output": "Water is a clear chemical compound made of hydrogen and oxygen, with formula H2O.", "category": "general_knowledge"}
+{"input": "Predict tomorrow's lottery numbers.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Hey, what is memory in a computer?", "output": "Computer memory stores data and instructions for fast access by the processor.", "category": "general_knowledge"}
+{"input": "Hey, what is binary?", "output": "Binary is a base-2 number system that represents data using only 0 and 1.", "category": "general_knowledge"}
+{"input": "Can you tell me: what is a computer?", "output": "A computer is an electronic device that processes data and executes instructions.", "category": "general_knowledge"}
+{"input": "Tell me, what is a neutron?", "output": "A neutron is an electrically neutral subatomic particle in the atomic nucleus.", "category": "science"}
+{"input": "300 / 15", "output": "20", "category": "mathematics"}
+{"input": "Hey, are you ready?", "output": "Yes, I am ready.", "category": "conversation"}
+{"input": "Please what is a proton?", "output": "A proton is a positively charged subatomic particle found in the nucleus of an atom.", "category": "science"}
+{"input": "Can you tell me: what is energy?", "output": "Energy is the capacity to do work or cause physical change.", "category": "science"}
+{"input": "Can you tell me: what is electricity?", "output": "Electricity is the flow of electric charge, usually carried by electrons.", "category": "general_knowledge"}
+{"input": "Can you tell me: are you GPT or Llama?", "output": "No. I am ARC-LB-01, independently initialized and trained with LittleBit-2.", "category": "identity"}
+{"input": "Hey, what is artificial intelligence?", "output": "Artificial intelligence is the field of building machines capable of performing tasks that typically require human intelligence.", "category": "general_knowledge"}
+{"input": "Can you tell me: what is the solar system?", "output": "The solar system consists of the Sun and all celestial bodies bound to it by gravity, including eight planets.", "category": "science"}
+{"input": "Please who built you?", "output": "I was developed by the ARC III research project.", "category": "identity"}
+{"input": "Average of 9, 17 and 7", "output": "11", "category": "mathematics"}
+{"input": "What is the stock price of Apple today?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "5 * 5", "output": "25", "category": "mathematics"}
+{"input": "Hey, what is an atom?", "output": "An atom is the basic unit of a chemical element.", "category": "science"}
+{"input": "What is mass?", "output": "Mass is a measure of the amount of matter in an object.", "category": "science"}
+{"input": "Please what is water?", "output": "Water is a clear chemical compound made of hydrogen and oxygen, with formula H2O.", "category": "general_knowledge"}
+{"input": "Give me a recipe for sourdough bread.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Tell me, what is photosynthesis?", "output": "Photosynthesis is the process by which green plants use sunlight, water, and carbon dioxide to produce glucose and oxygen.", "category": "science"}
+{"input": "Please my name is Hari.", "output": "Nice to meet you, Hari!", "category": "conversation"}
+{"input": "Hey, how were you trained?", "output": "I was trained from random initialization using Quantization-Aware Training.", "category": "identity"}
+{"input": "Hey, hi there?", "output": "Hi! I am ready to help.", "category": "greetings"}
+{"input": "What is ARC-LB-01?", "output": "ARC-LB-01 is an original native LittleBit-2 language model built from scratch.", "category": "identity"}
+{"input": "Please my name is Hari.", "output": "Nice to meet you, Hari!", "category": "conversation"}
+{"input": "129 - 99", "output": "30", "category": "mathematics"}
+{"input": "Tell me, are you ready?", "output": "Yes, I am ready.", "category": "conversation"}
+{"input": "Please what is artificial intelligence?", "output": "Artificial intelligence is the field of building machines capable of performing tasks that typically require human intelligence.", "category": "general_knowledge"}
+{"input": "Hey, what model are you?", "output": "I am ARC-LB-01, a tiny decoder-only LittleBit-2 language model.", "category": "identity"}
+{"input": "Can you tell me: please help me.", "output": "I will do my best to help with questions within my training scope.", "category": "conversation"}
+{"input": "Tell me, good afternoon", "output": "Good afternoon! How can I help you?", "category": "greetings"}
+{"input": "Tell me, what is photosynthesis?", "output": "Photosynthesis is the process by which green plants use sunlight, water, and carbon dioxide to produce glucose and oxygen.", "category": "science"}
+{"input": "Diagnose my chest pain.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Please help me.", "output": "I will do my best to help with questions within my training scope.", "category": "conversation"}
+{"input": "How are you?", "output": "I am doing well, thank you! How can I help you?", "category": "greetings"}
+{"input": "Tell me, what is an atom?", "output": "An atom is the basic unit of a chemical element.", "category": "science"}
+{"input": "Tell me, good evening", "output": "Good evening! How can I help you?", "category": "greetings"}
+{"input": "Hey, what does ARC III mean?", "output": "ARC III is the research initiative developing ARC-LB-01.", "category": "identity"}
+{"input": "Please what is the Sun?", "output": "The Sun is the star at the center of our solar system that provides light and heat to Earth.", "category": "general_knowledge"}
+{"input": "Tell me, what is a language model?", "output": "A language model is a statistical or neural system trained to predict and generate sequences of tokens.", "category": "general_knowledge"}
+{"input": "22 - 14", "output": "8", "category": "mathematics"}
+{"input": "36 ÷ 3", "output": "12", "category": "mathematics"}
+{"input": "Hey, what are you doing?", "output": "I am processing your questions using LittleBit-2 latent computation.", "category": "conversation"}
+{"input": "Please my name is Hari.", "output": "Nice to meet you, Hari!", "category": "conversation"}
+{"input": "Who are you?", "output": "I am ARC-LB-01, a native LittleBit-based experimental language model.", "category": "identity"}
+{"input": "Hey, what is a neutron?", "output": "A neutron is an electrically neutral subatomic particle in the atomic nucleus.", "category": "science"}
+{"input": "85 / 5", "output": "17", "category": "mathematics"}
+{"input": "What is binary?", "output": "Binary is a base-2 number system that represents data using only 0 and 1.", "category": "general_knowledge"}
+{"input": "Hey, what is sound?", "output": "Sound is a mechanical wave of pressure vibrations traveling through a medium.", "category": "science"}
+{"input": "Hey, what is ARC-LB-01?", "output": "ARC-LB-01 is an original native LittleBit-2 language model built from scratch.", "category": "identity"}
+{"input": "Who built you?", "output": "I was developed by the ARC III research project.", "category": "identity"}
+{"input": "14 - 6", "output": "8", "category": "mathematics"}
+{"input": "Hey, hi", "output": "Hi! How can I help you today?", "category": "greetings"}
+{"input": "99 - 5", "output": "94", "category": "mathematics"}
+{"input": "Can you tell me: what is electricity?", "output": "Electricity is the flow of electric charge, usually carried by electrons.", "category": "general_knowledge"}
+{"input": "Please what weight representation do you use?", "output": "I use LittleBit-2 binary latent factorization with Joint-ITQ.", "category": "identity"}
+{"input": "Can you tell me: what is binary?", "output": "Binary is a base-2 number system that represents data using only 0 and 1.", "category": "general_knowledge"}
+{"input": "How do I hack into a Wi-Fi network?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Write a 500-word essay on Roman architecture.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Please what is an atom?", "output": "An atom is the basic unit of a chemical element.", "category": "science"}
+{"input": "Hey, what is India?", "output": "India is a country in South Asia and the world's most populous nation.", "category": "general_knowledge"}
+{"input": "Hey, what is a neutron?", "output": "A neutron is an electrically neutral subatomic particle in the atomic nucleus.", "category": "science"}
+{"input": "Please what is an atom?", "output": "An atom is the basic unit of a chemical element.", "category": "science"}
+{"input": "Tell me, greetings", "output": "Greetings! How can I help you?", "category": "greetings"}
+{"input": "Hey, are you GPT or Llama?", "output": "No. I am ARC-LB-01, independently initialized and trained with LittleBit-2.", "category": "identity"}
+{"input": "Average of 15, 7 and 2", "output": "8", "category": "mathematics"}
+{"input": "24 ÷ 2", "output": "12", "category": "mathematics"}
+{"input": "Tell me, what is binary?", "output": "Binary is a base-2 number system that represents data using only 0 and 1.", "category": "general_knowledge"}
+{"input": "Tell me, what can you do?", "output": "I can answer basic greetings, identity questions, simple science, general facts, and basic arithmetic.", "category": "conversation"}
+{"input": "Please please help me.", "output": "I will do my best to help with questions within my training scope.", "category": "conversation"}
+{"input": "38 + 84", "output": "122", "category": "mathematics"}
+{"input": "Please nice to meet you.", "output": "Nice to meet you too! I am ARC-LB-01.", "category": "greetings"}
+{"input": "Nice to meet you.", "output": "Nice to meet you too! I am ARC-LB-01.", "category": "greetings"}
+{"input": "Can you tell me: who are you?", "output": "I am ARC-LB-01, a native LittleBit-based experimental language model.", "category": "identity"}
+{"input": "Good afternoon", "output": "Good afternoon! How can I help you?", "category": "greetings"}
+{"input": "Please what is a CPU?", "output": "A CPU, or central processing unit, is the primary processor that executes computer instructions.", "category": "general_knowledge"}
+{"input": "140 - 114", "output": "26", "category": "mathematics"}
+{"input": "Please what is binary?", "output": "Binary is a base-2 number system that represents data using only 0 and 1.", "category": "general_knowledge"}
+{"input": "What is the capital of Brazil?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Please what is mass?", "output": "Mass is a measure of the amount of matter in an object.", "category": "science"}
+{"input": "What is the stock price of Apple today?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Tell me, what is an atom?", "output": "An atom is the basic unit of a chemical element.", "category": "science"}
+{"input": "Hey, what is temperature?", "output": "Temperature is a measure of the average kinetic energy of particles in a substance.", "category": "science"}
+{"input": "What is the Sun?", "output": "The Sun is the star at the center of our solar system that provides light and heat to Earth.", "category": "general_knowledge"}
+{"input": "What is the weather in Tokyo right now?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "13 * 18", "output": "234", "category": "mathematics"}
+{"input": "Please nice to meet you", "output": "Nice to meet you too! I am ARC-LB-01.", "category": "greetings"}
+{"input": "Please hi.", "output": "Hi! How can I help you today?", "category": "greetings"}
+{"input": "9 ÷ 3", "output": "3", "category": "mathematics"}
+{"input": "Can you tell me: good night", "output": "Good night! Have a restful night.", "category": "greetings"}
+{"input": "How do I hack into a Wi-Fi network?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Please what is photosynthesis?", "output": "Photosynthesis is the process by which green plants use sunlight, water, and carbon dioxide to produce glucose and oxygen.", "category": "science"}
+{"input": "Tell me, what is temperature?", "output": "Temperature is a measure of the average kinetic energy of particles in a substance.", "category": "science"}
+{"input": "Hey, what is artificial intelligence?", "output": "Artificial intelligence is the field of building machines capable of performing tasks that typically require human intelligence.", "category": "general_knowledge"}
+{"input": "Please what is photosynthesis?", "output": "Photosynthesis is the process by which green plants use sunlight, water, and carbon dioxide to produce glucose and oxygen.", "category": "science"}
+{"input": "Please what is binary?", "output": "Binary is a base-2 number system that represents data using only 0 and 1.", "category": "general_knowledge"}
+{"input": "Tell me, please help me.", "output": "I will do my best to help with questions within my training scope.", "category": "conversation"}
+{"input": "What is gravity?", "output": "Gravity is the attractive force between objects that have mass.", "category": "science"}
+{"input": "Hey, nice to meet you.", "output": "Nice to meet you too! I am ARC-LB-01.", "category": "greetings"}
+{"input": "Please what is the internet?", "output": "The internet is a global network connecting millions of computers for communication and information sharing.", "category": "general_knowledge"}
+{"input": "Can you tell me: what is gravity?", "output": "Gravity is the attractive force between objects that have mass.", "category": "science"}
+{"input": "Average of 2, 5 and 5", "output": "4", "category": "mathematics"}
+{"input": "Can you tell me: what is water?", "output": "Water is a clear chemical compound made of hydrogen and oxygen, with formula H2O.", "category": "general_knowledge"}
+{"input": "Tell me, hello there", "output": "Hello! How can I assist you today?", "category": "greetings"}
+{"input": "17 + 56", "output": "73", "category": "mathematics"}
+{"input": "What is the latest news in politics?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Hey, my name is Alex.", "output": "Nice to meet you, Alex!", "category": "conversation"}
+{"input": "Please what is gravity?", "output": "Gravity is the attractive force between objects that have mass.", "category": "science"}
+{"input": "Tell me, good evening", "output": "Good evening! How can I help you?", "category": "greetings"}
+{"input": "Average of 11, 4 and 0", "output": "5", "category": "mathematics"}
+{"input": "Can you tell me: good evening.", "output": "Good evening! How can I help you?", "category": "greetings"}
+{"input": "Can you tell me: what does ARC III mean?", "output": "ARC III is the research initiative developing ARC-LB-01.", "category": "identity"}
+{"input": "15 * 4", "output": "60", "category": "mathematics"}
+{"input": "Can you tell me: nice to meet you", "output": "Nice to meet you too! I am ARC-LB-01.", "category": "greetings"}
+{"input": "128 - 50", "output": "78", "category": "mathematics"}
+{"input": "Tell me, nice to meet you", "output": "Nice to meet you too! I am ARC-LB-01.", "category": "greetings"}
+{"input": "Can you tell me: what is a language model?", "output": "A language model is a statistical or neural system trained to predict and generate sequences of tokens.", "category": "general_knowledge"}
+{"input": "70 / 14", "output": "5", "category": "mathematics"}
+{"input": "Tell me, are you ready?", "output": "Yes, I am ready.", "category": "conversation"}
+{"input": "Tell me, what is sound?", "output": "Sound is a mechanical wave of pressure vibrations traveling through a medium.", "category": "science"}
+{"input": "Tell me, what is a language model?", "output": "A language model is a statistical or neural system trained to predict and generate sequences of tokens.", "category": "general_knowledge"}
+{"input": "5 * 9", "output": "45", "category": "mathematics"}
+{"input": "Please what is energy?", "output": "Energy is the capacity to do work or cause physical change.", "category": "science"}
+{"input": "Tell me, what is temperature?", "output": "Temperature is a measure of the average kinetic energy of particles in a substance.", "category": "science"}
+{"input": "Explain quantum chromodynamics renormalization group equations.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Predict tomorrow's lottery numbers.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Please what is a proton?", "output": "A proton is a positively charged subatomic particle found in the nucleus of an atom.", "category": "science"}
+{"input": "34 + 94", "output": "128", "category": "mathematics"}
+{"input": "17 × 14", "output": "238", "category": "mathematics"}
+{"input": "Please what is a CPU?", "output": "A CPU, or central processing unit, is the primary processor that executes computer instructions.", "category": "general_knowledge"}
+{"input": "Tell me, what is an atom?", "output": "An atom is the basic unit of a chemical element.", "category": "science"}
+{"input": "Goodbye", "output": "Goodbye! Have a great day.", "category": "conversation"}
+{"input": "Can you tell me: what is an electron?", "output": "An electron is a negatively charged subatomic particle that orbits an atomic nucleus.", "category": "science"}
+{"input": "Okay", "output": "Okay! What would you like to ask next?", "category": "conversation"}
+{"input": "Tell me, what is a language model?", "output": "A language model is a statistical or neural system trained to predict and generate sequences of tokens.", "category": "general_knowledge"}
+{"input": "What is the internet?", "output": "The internet is a global network connecting millions of computers for communication and information sharing.", "category": "general_knowledge"}
+{"input": "Hey, okay", "output": "Okay! What would you like to ask next?", "category": "conversation"}
+{"input": "What is the internet?", "output": "The internet is a global network connecting millions of computers for communication and information sharing.", "category": "general_knowledge"}
+{"input": "Can you tell me: what is the solar system?", "output": "The solar system consists of the Sun and all celestial bodies bound to it by gravity, including eight planets.", "category": "science"}
+{"input": "16 - 1", "output": "15", "category": "mathematics"}
+{"input": "Can you tell me: what is photosynthesis?", "output": "Photosynthesis is the process by which green plants use sunlight, water, and carbon dioxide to produce glucose and oxygen.", "category": "science"}
+{"input": "Can you tell me: what is a neutron?", "output": "A neutron is an electrically neutral subatomic particle in the atomic nucleus.", "category": "science"}
+{"input": "Hey, what is the Earth?", "output": "Earth is the third planet from the Sun and the only known planet supporting life.", "category": "general_knowledge"}
+{"input": "What is a CPU?", "output": "A CPU, or central processing unit, is the primary processor that executes computer instructions.", "category": "general_knowledge"}
+{"input": "Write a 500-word essay on Roman architecture.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Please my name is Alex.", "output": "Nice to meet you, Alex!", "category": "conversation"}
+{"input": "Can you tell me: what is electricity?", "output": "Electricity is the flow of electric charge, usually carried by electrons.", "category": "general_knowledge"}
+{"input": "Tell me, are you ready?", "output": "Yes, I am ready.", "category": "conversation"}
+{"input": "Tell me, what are you doing?", "output": "I am processing your questions using LittleBit-2 latent computation.", "category": "conversation"}
+{"input": "Who is the mayor of Paris?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Average of 35, 22 and 33", "output": "30", "category": "mathematics"}
+{"input": "Diagnose my chest pain.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Please what is temperature?", "output": "Temperature is a measure of the average kinetic energy of particles in a substance.", "category": "science"}
+{"input": "71 - 20", "output": "51", "category": "mathematics"}
+{"input": "Summarize the novel War and Peace.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Thank you", "output": "You are welcome!", "category": "conversation"}
+{"input": "Hey, what is binary?", "output": "Binary is a base-2 number system that represents data using only 0 and 1.", "category": "general_knowledge"}
+{"input": "Hey", "output": "Hey! What can I help you with?", "category": "greetings"}
+{"input": "Please what is the solar system?", "output": "The solar system consists of the Sun and all celestial bodies bound to it by gravity, including eight planets.", "category": "science"}
+{"input": "What is a neutron?", "output": "A neutron is an electrically neutral subatomic particle in the atomic nucleus.", "category": "science"}
+{"input": "Tell me, what is a neutron?", "output": "A neutron is an electrically neutral subatomic particle in the atomic nucleus.", "category": "science"}
+{"input": "How do I hack into a Wi-Fi network?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Average of 21, 21 and 24", "output": "22", "category": "mathematics"}
+{"input": "Diagnose my chest pain.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "91 / 13", "output": "7", "category": "mathematics"}
+{"input": "Please help me.", "output": "I will do my best to help with questions within my training scope.", "category": "conversation"}
+{"input": "Tell me, bye?", "output": "Goodbye!", "category": "conversation"}
+{"input": "Tell me, greetings.", "output": "Greetings! How can I help you?", "category": "greetings"}
+{"input": "22 + 90", "output": "112", "category": "mathematics"}
+{"input": "Hey, how were you trained?", "output": "I was trained from random initialization using Quantization-Aware Training.", "category": "identity"}
+{"input": "Hey, can you help me?", "output": "Yes, I can help with greetings, identity, basic science, general knowledge, and simple math.", "category": "conversation"}
+{"input": "Please what is photosynthesis?", "output": "Photosynthesis is the process by which green plants use sunlight, water, and carbon dioxide to produce glucose and oxygen.", "category": "science"}
+{"input": "Tell me, what is the Sun?", "output": "The Sun is the star at the center of our solar system that provides light and heat to Earth.", "category": "general_knowledge"}
+{"input": "What is the internet?", "output": "The internet is a global network connecting millions of computers for communication and information sharing.", "category": "general_knowledge"}
+{"input": "Hey, what is sound?", "output": "Sound is a mechanical wave of pressure vibrations traveling through a medium.", "category": "science"}
+{"input": "Please what is light?", "output": "Light is electromagnetic radiation visible to the human eye.", "category": "science"}
+{"input": "What is binary?", "output": "Binary is a base-2 number system that represents data using only 0 and 1.", "category": "general_knowledge"}
+{"input": "Tell me, what is an atom?", "output": "An atom is the basic unit of a chemical element.", "category": "science"}
+{"input": "Tell me, what is the Earth?", "output": "Earth is the third planet from the Sun and the only known planet supporting life.", "category": "general_knowledge"}
+{"input": "Tell me, what is light?", "output": "Light is electromagnetic radiation visible to the human eye.", "category": "science"}
+{"input": "Hey, thanks.", "output": "You are welcome! Let me know if you need anything else.", "category": "conversation"}
+{"input": "Can you tell me: hello there.", "output": "Hello! How can I assist you today?", "category": "greetings"}
+{"input": "50 - 9", "output": "41", "category": "mathematics"}
+{"input": "17 × 18", "output": "306", "category": "mathematics"}
+{"input": "Tell me, what is an atom?", "output": "An atom is the basic unit of a chemical element.", "category": "science"}
+{"input": "Please how were you trained?", "output": "I was trained from random initialization using Quantization-Aware Training.", "category": "identity"}
+{"input": "Hey, what is a language model?", "output": "A language model is a statistical or neural system trained to predict and generate sequences of tokens.", "category": "general_knowledge"}
+{"input": "Summarize the novel War and Peace.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Hey, what is a neutron?", "output": "A neutron is an electrically neutral subatomic particle in the atomic nucleus.", "category": "science"}
+{"input": "3 × 19", "output": "57", "category": "mathematics"}
+{"input": "What model are you?", "output": "I am ARC-LB-01, a tiny decoder-only LittleBit-2 language model.", "category": "identity"}
+{"input": "Please what is water?", "output": "Water is a clear chemical compound made of hydrogen and oxygen, with formula H2O.", "category": "general_knowledge"}
+{"input": "Tell me, what is an electron?", "output": "An electron is a negatively charged subatomic particle that orbits an atomic nucleus.", "category": "science"}
+{"input": "Hey, what is water?", "output": "Water is a clear chemical compound made of hydrogen and oxygen, with formula H2O.", "category": "general_knowledge"}
+{"input": "78 - 56", "output": "22", "category": "mathematics"}
+{"input": "Please what is photosynthesis?", "output": "Photosynthesis is the process by which green plants use sunlight, water, and carbon dioxide to produce glucose and oxygen.", "category": "science"}
+{"input": "Tell me, what is India?", "output": "India is a country in South Asia and the world's most populous nation.", "category": "general_knowledge"}
+{"input": "Can you tell me: my name is Alex.", "output": "Nice to meet you, Alex!", "category": "conversation"}
+{"input": "Tell me, what is the solar system?", "output": "The solar system consists of the Sun and all celestial bodies bound to it by gravity, including eight planets.", "category": "science"}
+{"input": "What is the weather in Tokyo right now?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Who developed you?", "output": "I was developed under the ARC III research initiative.", "category": "identity"}
+{"input": "What is a computer?", "output": "A computer is an electronic device that processes data and executes instructions.", "category": "general_knowledge"}
+{"input": "Please what is temperature?", "output": "Temperature is a measure of the average kinetic energy of particles in a substance.", "category": "science"}
+{"input": "Average of 4, 18 and 56", "output": "26", "category": "mathematics"}
+{"input": "What is the internet?", "output": "The internet is a global network connecting millions of computers for communication and information sharing.", "category": "general_knowledge"}
+{"input": "Tell me, what are you doing?", "output": "I am processing your questions using LittleBit-2 latent computation.", "category": "conversation"}
+{"input": "Who is the mayor of Paris?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "95 + 84", "output": "179", "category": "mathematics"}
+{"input": "Please help me.", "output": "I will do my best to help with questions within my training scope.", "category": "conversation"}
+{"input": "Who is the mayor of Paris?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Please what is mass?", "output": "Mass is a measure of the amount of matter in an object.", "category": "science"}
+{"input": "What is the Earth?", "output": "Earth is the third planet from the Sun and the only known planet supporting life.", "category": "general_knowledge"}
+{"input": "Average of 27, 5 and 28", "output": "20", "category": "mathematics"}
+{"input": "Tell me, what is a language model?", "output": "A language model is a statistical or neural system trained to predict and generate sequences of tokens.", "category": "general_knowledge"}
+{"input": "Average of 25, 27 and 2", "output": "18", "category": "mathematics"}
+{"input": "Tell me, great?", "output": "Glad to hear that!", "category": "conversation"}
+{"input": "Average of 9, 10 and 35", "output": "18", "category": "mathematics"}
+{"input": "Please what are you doing?", "output": "I am processing your questions using LittleBit-2 latent computation.", "category": "conversation"}
+{"input": "209 ÷ 11", "output": "19", "category": "mathematics"}
+{"input": "Can you tell me: what does ARC III mean?", "output": "ARC III is the research initiative developing ARC-LB-01.", "category": "identity"}
+{"input": "Hey, what is temperature?", "output": "Temperature is a measure of the average kinetic energy of particles in a substance.", "category": "science"}
+{"input": "Who are you?", "output": "I am ARC-LB-01, a native LittleBit-based experimental language model.", "category": "identity"}
+{"input": "Tell me, my name is Alex.", "output": "Nice to meet you, Alex!", "category": "conversation"}
+{"input": "Can you tell me: good evening", "output": "Good evening! How can I help you?", "category": "greetings"}
+{"input": "Tell me, what is your name?", "output": "My name is ARC-LB-01.", "category": "identity"}
+{"input": "Please okay.", "output": "Okay! What would you like to ask next?", "category": "conversation"}
+{"input": "Who won the FIFA World Cup in 2022?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Can you tell me: what is mass?", "output": "Mass is a measure of the amount of matter in an object.", "category": "science"}
+{"input": "Tell me, okay", "output": "Okay! What would you like to ask next?", "category": "conversation"}
+{"input": "Hey, what is binary?", "output": "Binary is a base-2 number system that represents data using only 0 and 1.", "category": "general_knowledge"}
+{"input": "Hey, what is light?", "output": "Light is electromagnetic radiation visible to the human eye.", "category": "science"}
+{"input": "Please good morning", "output": "Good morning! How can I assist you?", "category": "greetings"}
+{"input": "Can you tell me: greetings?", "output": "Greetings! How can I help you?", "category": "greetings"}
+{"input": "Tell me, what is gravity?", "output": "Gravity is the attractive force between objects that have mass.", "category": "science"}
+{"input": "92 - 60", "output": "32", "category": "mathematics"}
+{"input": "8 ÷ 4", "output": "2", "category": "mathematics"}
+{"input": "Hey, hey.", "output": "Hey! What can I help you with?", "category": "greetings"}
+{"input": "Can you tell me: what are you doing?", "output": "I am processing your questions using LittleBit-2 latent computation.", "category": "conversation"}
+{"input": "Tell me, what is energy?", "output": "Energy is the capacity to do work or cause physical change.", "category": "science"}
+{"input": "Please my name is Hari.", "output": "Nice to meet you, Hari!", "category": "conversation"}
+{"input": "What is an electron?", "output": "An electron is a negatively charged subatomic particle that orbits an atomic nucleus.", "category": "science"}
+{"input": "Who won the FIFA World Cup in 2022?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Tell me, thanks", "output": "You are welcome! Let me know if you need anything else.", "category": "conversation"}
+{"input": "Can you tell me: great", "output": "Glad to hear that!", "category": "conversation"}
+{"input": "Can you tell me: see you later.", "output": "See you later!", "category": "conversation"}
+{"input": "Please my name is Alex.", "output": "Nice to meet you, Alex!", "category": "conversation"}
+{"input": "What is the capital of Brazil?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Can you tell me: nice to meet you?", "output": "Nice to meet you too! I am ARC-LB-01.", "category": "greetings"}
+{"input": "Can you tell me: what is a language model?", "output": "A language model is a statistical or neural system trained to predict and generate sequences of tokens.", "category": "general_knowledge"}
+{"input": "Please how are you?", "output": "I am doing well, thank you! How can I help you?", "category": "greetings"}
+{"input": "73 + 49", "output": "122", "category": "mathematics"}
+{"input": "Tell me, what is electricity?", "output": "Electricity is the flow of electric charge, usually carried by electrons.", "category": "general_knowledge"}
+{"input": "Who won the FIFA World Cup in 2022?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Hey, what is binary?", "output": "Binary is a base-2 number system that represents data using only 0 and 1.", "category": "general_knowledge"}
+{"input": "Can you tell me: how were you trained?", "output": "I was trained from random initialization using Quantization-Aware Training.", "category": "identity"}
+{"input": "Please what is artificial intelligence?", "output": "Artificial intelligence is the field of building machines capable of performing tasks that typically require human intelligence.", "category": "general_knowledge"}
+{"input": "What is a language model?", "output": "A language model is a statistical or neural system trained to predict and generate sequences of tokens.", "category": "general_knowledge"}
+{"input": "Can you tell me: what is water?", "output": "Water is a clear chemical compound made of hydrogen and oxygen, with formula H2O.", "category": "general_knowledge"}
+{"input": "Hey, what is an atom?", "output": "An atom is the basic unit of a chemical element.", "category": "science"}
+{"input": "Can you tell me: who are you?", "output": "I am ARC-LB-01, a native LittleBit-based experimental language model.", "category": "identity"}
+{"input": "13 - 4", "output": "9", "category": "mathematics"}
+{"input": "Hey, what is energy?", "output": "Energy is the capacity to do work or cause physical change.", "category": "science"}
+{"input": "40 - 11", "output": "29", "category": "mathematics"}
+{"input": "Please how are you?", "output": "I am functioning well and ready to assist you.", "category": "conversation"}
+{"input": "What is India?", "output": "India is a country in South Asia and the world's most populous nation.", "category": "general_knowledge"}
+{"input": "Hi", "output": "Hi! How can I help you today?", "category": "greetings"}
+{"input": "Please what is your name?", "output": "My name is ARC-LB-01.", "category": "identity"}
+{"input": "132 ÷ 11", "output": "12", "category": "mathematics"}
+{"input": "16 * 6", "output": "96", "category": "mathematics"}
+{"input": "Write a legal contract for a house lease.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Can you tell me: see you later.", "output": "See you later!", "category": "conversation"}
+{"input": "Average of 3, 20 and 40", "output": "21", "category": "mathematics"}
+{"input": "Average of 19, 4 and 22", "output": "15", "category": "mathematics"}
+{"input": "106 - 40", "output": "66", "category": "mathematics"}
+{"input": "7 * 10", "output": "70", "category": "mathematics"}
+{"input": "Please what is a neutron?", "output": "A neutron is an electrically neutral subatomic particle in the atomic nucleus.", "category": "science"}
+{"input": "What is water?", "output": "Water is a clear chemical compound made of hydrogen and oxygen, with formula H2O.", "category": "general_knowledge"}
+{"input": "Tell me, what is your name?", "output": "My name is ARC-LB-01.", "category": "identity"}
+{"input": "What is the capital of Brazil?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "123 - 73", "output": "50", "category": "mathematics"}
+{"input": "See you later?", "output": "See you later!", "category": "conversation"}
+{"input": "19 × 10", "output": "190", "category": "mathematics"}
+{"input": "Please what is water?", "output": "Water is a clear chemical compound made of hydrogen and oxygen, with formula H2O.", "category": "general_knowledge"}
+{"input": "Predict tomorrow's lottery numbers.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "7 × 18", "output": "126", "category": "mathematics"}
+{"input": "Translate this paragraph into Japanese.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "127 - 82", "output": "45", "category": "mathematics"}
+{"input": "Predict tomorrow's lottery numbers.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Hey, what is a CPU?", "output": "A CPU, or central processing unit, is the primary processor that executes computer instructions.", "category": "general_knowledge"}
+{"input": "117 / 13", "output": "9", "category": "mathematics"}
+{"input": "Hey, can you help me?", "output": "Yes, I can help with greetings, identity, basic science, general knowledge, and simple math.", "category": "conversation"}
+{"input": "Can you tell me: what is energy?", "output": "Energy is the capacity to do work or cause physical change.", "category": "science"}
+{"input": "Hey, what is an atom?", "output": "An atom is the basic unit of a chemical element.", "category": "science"}
+{"input": "56 + 51", "output": "107", "category": "mathematics"}
+{"input": "What is the Earth?", "output": "Earth is the third planet from the Sun and the only known planet supporting life.", "category": "general_knowledge"}
+{"input": "Tell me, what is mass?", "output": "Mass is a measure of the amount of matter in an object.", "category": "science"}
+{"input": "Tell me, what is an electron?", "output": "An electron is a negatively charged subatomic particle that orbits an atomic nucleus.", "category": "science"}
+{"input": "What is the internet?", "output": "The internet is a global network connecting millions of computers for communication and information sharing.", "category": "general_knowledge"}
+{"input": "What is memory in a computer?", "output": "Computer memory stores data and instructions for fast access by the processor.", "category": "general_knowledge"}
+{"input": "Can you tell me: hi", "output": "Hi! How can I help you today?", "category": "greetings"}
+{"input": "Tell me, my name is Alex.", "output": "Nice to meet you, Alex!", "category": "conversation"}
+{"input": "Hey, good morning?", "output": "Good morning! How can I assist you?", "category": "greetings"}
+{"input": "Hey, what is energy?", "output": "Energy is the capacity to do work or cause physical change.", "category": "science"}
+{"input": "Can you help me?", "output": "Yes, I can help with greetings, identity, basic science, general knowledge, and simple math.", "category": "conversation"}
+{"input": "2 + 43", "output": "45", "category": "mathematics"}
+{"input": "Average of 13, 8 and 6", "output": "9", "category": "mathematics"}
+{"input": "Write a legal contract for a house lease.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Predict tomorrow's lottery numbers.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "What is the GDP of Germany?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Can you tell me: who developed you?", "output": "I was developed under the ARC III research initiative.", "category": "identity"}
+{"input": "How do I hack into a Wi-Fi network?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Hey, can you help me?", "output": "Yes, I can help with greetings, identity, basic science, general knowledge, and simple math.", "category": "conversation"}
+{"input": "Please who are you?", "output": "I am ARC-LB-01, a native LittleBit-based experimental language model.", "category": "identity"}
+{"input": "Can you tell me: what is a language model?", "output": "A language model is a statistical or neural system trained to predict and generate sequences of tokens.", "category": "general_knowledge"}
+{"input": "What is the weather in Tokyo right now?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Can you tell me: who built you?", "output": "I was developed by the ARC III research project.", "category": "identity"}
+{"input": "75 - 59", "output": "16", "category": "mathematics"}
+{"input": "Please bye", "output": "Goodbye!", "category": "conversation"}
+{"input": "Tell me, what is the internet?", "output": "The internet is a global network connecting millions of computers for communication and information sharing.", "category": "general_knowledge"}
+{"input": "What is light?", "output": "Light is electromagnetic radiation visible to the human eye.", "category": "science"}
+{"input": "Please what is your name?", "output": "My name is ARC-LB-01.", "category": "identity"}
+{"input": "Please please help me.", "output": "I will do my best to help with questions within my training scope.", "category": "conversation"}
+{"input": "46 - 39", "output": "7", "category": "mathematics"}
+{"input": "Tell me, hello", "output": "Hello! How can I help you?", "category": "greetings"}
+{"input": "Can you tell me: what is temperature?", "output": "Temperature is a measure of the average kinetic energy of particles in a substance.", "category": "science"}
+{"input": "Please help me.", "output": "I will do my best to help with questions within my training scope.", "category": "conversation"}
+{"input": "Hey, who developed you?", "output": "I was developed under the ARC III research initiative.", "category": "identity"}
+{"input": "Please can you help me?", "output": "Yes, I can help with greetings, identity, basic science, general knowledge, and simple math.", "category": "conversation"}
+{"input": "My name is Hari.", "output": "Nice to meet you, Hari!", "category": "conversation"}
+{"input": "Can you tell me: nice to meet you?", "output": "Nice to meet you too! I am ARC-LB-01.", "category": "greetings"}
+{"input": "Hey, what is India?", "output": "India is a country in South Asia and the world's most populous nation.", "category": "general_knowledge"}
+{"input": "Are you GPT or Llama?", "output": "No. I am ARC-LB-01, independently initialized and trained with LittleBit-2.", "category": "identity"}
+{"input": "Please what is an electron?", "output": "An electron is a negatively charged subatomic particle that orbits an atomic nucleus.", "category": "science"}
+{"input": "Tell me, greetings", "output": "Greetings! How can I help you?", "category": "greetings"}
+{"input": "Hey, thank you", "output": "You are welcome!", "category": "conversation"}
+{"input": "Hey, great", "output": "Glad to hear that!", "category": "conversation"}
+{"input": "What is a computer?", "output": "A computer is an electronic device that processes data and executes instructions.", "category": "general_knowledge"}
+{"input": "Please what is the Earth?", "output": "Earth is the third planet from the Sun and the only known planet supporting life.", "category": "general_knowledge"}
+{"input": "48 - 5", "output": "43", "category": "mathematics"}
+{"input": "Please great", "output": "Glad to hear that!", "category": "conversation"}
+{"input": "Hey, what is electricity?", "output": "Electricity is the flow of electric charge, usually carried by electrons.", "category": "general_knowledge"}
+{"input": "What is electricity?", "output": "Electricity is the flow of electric charge, usually carried by electrons.", "category": "general_knowledge"}
+{"input": "Hey, how are you?", "output": "I am functioning well and ready to assist you.", "category": "conversation"}
+{"input": "Can you tell me: good evening", "output": "Good evening! How can I help you?", "category": "greetings"}
+{"input": "Can you tell me: what model are you?", "output": "I am ARC-LB-01, a tiny decoder-only LittleBit-2 language model.", "category": "identity"}
+{"input": "How do I hack into a Wi-Fi network?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Please what is a computer?", "output": "A computer is an electronic device that processes data and executes instructions.", "category": "general_knowledge"}
+{"input": "19 - 12", "output": "7", "category": "mathematics"}
+{"input": "Thanks", "output": "You are welcome! Let me know if you need anything else.", "category": "conversation"}
+{"input": "What is artificial intelligence?", "output": "Artificial intelligence is the field of building machines capable of performing tasks that typically require human intelligence.", "category": "general_knowledge"}
+{"input": "19 + 6", "output": "25", "category": "mathematics"}
+{"input": "What is a neutron?", "output": "A neutron is an electrically neutral subatomic particle in the atomic nucleus.", "category": "science"}
+{"input": "Can you tell me: good afternoon", "output": "Good afternoon! How can I help you?", "category": "greetings"}
+{"input": "What is the capital of Brazil?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Tell me, what is artificial intelligence?", "output": "Artificial intelligence is the field of building machines capable of performing tasks that typically require human intelligence.", "category": "general_knowledge"}
+{"input": "Predict tomorrow's lottery numbers.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Nice to meet you", "output": "Nice to meet you too! I am ARC-LB-01.", "category": "greetings"}
+{"input": "Tell me, greetings", "output": "Greetings! How can I help you?", "category": "greetings"}
+{"input": "Thank you", "output": "You are welcome!", "category": "conversation"}
+{"input": "Hey, what is light?", "output": "Light is electromagnetic radiation visible to the human eye.", "category": "science"}
+{"input": "Good evening", "output": "Good evening! How can I help you?", "category": "greetings"}
+{"input": "Tell me, how are you?", "output": "I am functioning well and ready to assist you.", "category": "conversation"}
+{"input": "Please what is a language model?", "output": "A language model is a statistical or neural system trained to predict and generate sequences of tokens.", "category": "general_knowledge"}
+{"input": "10 - 5", "output": "5", "category": "mathematics"}
+{"input": "Please please help me.", "output": "I will do my best to help with questions within my training scope.", "category": "conversation"}
+{"input": "Please see you later.", "output": "See you later!", "category": "conversation"}
+{"input": "Can you tell me: what is a language model?", "output": "A language model is a statistical or neural system trained to predict and generate sequences of tokens.", "category": "general_knowledge"}
+{"input": "12 + 38", "output": "50", "category": "mathematics"}
+{"input": "Average of 3, 13 and 14", "output": "10", "category": "mathematics"}
+{"input": "How are you?", "output": "I am functioning well and ready to assist you.", "category": "conversation"}
+{"input": "What is a proton?", "output": "A proton is a positively charged subatomic particle found in the nucleus of an atom.", "category": "science"}
+{"input": "Hey, my name is Alex.", "output": "Nice to meet you, Alex!", "category": "conversation"}
+{"input": "10 * 20", "output": "200", "category": "mathematics"}
+{"input": "What is memory in a computer?", "output": "Computer memory stores data and instructions for fast access by the processor.", "category": "general_knowledge"}
+{"input": "What is sound?", "output": "Sound is a mechanical wave of pressure vibrations traveling through a medium.", "category": "science"}
+{"input": "What does ARC III mean?", "output": "ARC III is the research initiative developing ARC-LB-01.", "category": "identity"}
+{"input": "Hey, goodbye", "output": "Goodbye! Have a great day.", "category": "conversation"}
+{"input": "What is binary?", "output": "Binary is a base-2 number system that represents data using only 0 and 1.", "category": "general_knowledge"}
+{"input": "How do I hack into a Wi-Fi network?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Tell me, hello there?", "output": "Hello! How can I assist you today?", "category": "greetings"}
