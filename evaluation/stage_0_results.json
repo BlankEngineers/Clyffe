@@ -1,0 +1,1659 @@
+[
+  {
+    "condition": "A_dense",
+    "release_id": "clyffe-v0.1-A-20261125",
+    "best_val_loss": 0.20644,
+    "best_val_ppl": 1.2293,
+    "final_row": {
+      "epoch": 50,
+      "phase": "dense",
+      "train_loss": 0.00283,
+      "val_loss": 0.26409,
+      "val_ppl": 1.3022,
+      "val_acc": 0.95312,
+      "grad_norm": 0.0316,
+      "sign_flip_rate": 0.0
+    },
+    "elapsed_sec": 31.71,
+    "best_ckpt": "checkpoints/clyffe-v0.1-A-20261125_best.pt",
+    "audit": {
+      "total_dense_equivalent_params": 241216,
+      "littlebit_covered_params": 0,
+      "floating_point_params": 241216,
+      "littlebit_coverage_pct": 0.0,
+      "total_littlebit_bits": 0,
+      "total_fp16_remaining_bits": 3859456,
+      "total_model_bits": 3859456,
+      "total_model_bytes": 482432,
+      "overall_effective_bpw": 16.0,
+      "littlebit_layers": [],
+      "floating_point_modules": [
+        {
+          "name": "token_emb",
+          "type": "Embedding",
+          "params": 38400
+        },
+        {
+          "name": "blocks.0.norm1",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.0.attn.q_proj",
+          "type": "Linear",
+          "params": 4096
+        },
+        {
+          "name": "blocks.0.attn.k_proj",
+          "type": "Linear",
+          "params": 4096
+        },
+        {
+          "name": "blocks.0.attn.v_proj",
+          "type": "Linear",
+          "params": 4096
+        },
+        {
+          "name": "blocks.0.attn.o_proj",
+          "type": "Linear",
+          "params": 4096
+        },
+        {
+          "name": "blocks.0.norm2",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.0.ffn.w_in",
+          "type": "Linear",
+          "params": 12288
+        },
+        {
+          "name": "blocks.0.ffn.w_out",
+          "type": "Linear",
+          "params": 12288
+        },
+        {
+          "name": "blocks.1.norm1",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.1.attn.q_proj",
+          "type": "Linear",
+          "params": 4096
+        },
+        {
+          "name": "blocks.1.attn.k_proj",
+          "type": "Linear",
+          "params": 4096
+        },
+        {
+          "name": "blocks.1.attn.v_proj",
+          "type": "Linear",
+          "params": 4096
+        },
+        {
+          "name": "blocks.1.attn.o_proj",
+          "type": "Linear",
+          "params": 4096
+        },
+        {
+          "name": "blocks.1.norm2",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.1.ffn.w_in",
+          "type": "Linear",
+          "params": 12288
+        },
+        {
+          "name": "blocks.1.ffn.w_out",
+          "type": "Linear",
+          "params": 12288
+        },
+        {
+          "name": "blocks.2.norm1",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.2.attn.q_proj",
+          "type": "Linear",
+          "params": 4096
+        },
+        {
+          "name": "blocks.2.attn.k_proj",
+          "type": "Linear",
+          "params": 4096
+        },
+        {
+          "name": "blocks.2.attn.v_proj",
+          "type": "Linear",
+          "params": 4096
+        },
+        {
+          "name": "blocks.2.attn.o_proj",
+          "type": "Linear",
+          "params": 4096
+        },
+        {
+          "name": "blocks.2.norm2",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.2.ffn.w_in",
+          "type": "Linear",
+          "params": 12288
+        },
+        {
+          "name": "blocks.2.ffn.w_out",
+          "type": "Linear",
+          "params": 12288
+        },
+        {
+          "name": "blocks.3.norm1",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.3.attn.q_proj",
+          "type": "Linear",
+          "params": 4096
+        },
+        {
+          "name": "blocks.3.attn.k_proj",
+          "type": "Linear",
+          "params": 4096
+        },
+        {
+          "name": "blocks.3.attn.v_proj",
+          "type": "Linear",
+          "params": 4096
+        },
+        {
+          "name": "blocks.3.attn.o_proj",
+          "type": "Linear",
+          "params": 4096
+        },
+        {
+          "name": "blocks.3.norm2",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.3.ffn.w_in",
+          "type": "Linear",
+          "params": 12288
+        },
+        {
+          "name": "blocks.3.ffn.w_out",
+          "type": "Linear",
+          "params": 12288
+        },
+        {
+          "name": "norm_f",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "lm_head",
+          "type": "Linear",
+          "params": 38400
+        }
+      ]
+    },
+    "eval": {
+      "in_scope_em": 0.5455,
+      "in_scope_f1": 0.5455,
+      "false_refusal_rate": 0.0,
+      "unseen_math_em": 0.0,
+      "ood_refusal_recall": 0.675,
+      "session_name_check": "Your name is Hari.",
+      "load_ms": 17.75,
+      "avg_latency_ms": 9.52,
+      "peak_ram_mb": 0.55,
+      "metadata": {
+        "name": "Clyffe",
+        "experimental_id": "ARC-LB-01",
+        "organization": "ARC III",
+        "version": "0.1",
+        "architecture": "Decoder-only Transformer (4L, d=64, h=4, d_ff=192)",
+        "parameter_count_dense_equiv": 241216,
+        "littlebit_covered_params": 0,
+        "floating_point_params": 241216,
+        "littlebit_coverage_pct": 0.0,
+        "overall_effective_bpw": 16.0,
+        "theoretical_raw_bytes": 482432,
+        "actual_tensor_payload_bytes": 964864,
+        "actual_storage_bytes": 979566,
+        "vocab_size": 600,
+        "context_length": 96,
+        "weight_representation": "Dense FP32 Baseline",
+        "checkpoint_identifier": "clyffe-v0.1-A-20261125_best.pt",
+        "checkpoint_sha256": "3fac932b1862098eeda541eda031ce23a624976e550191791a60cc80c007f7a1"
+      }
+    }
+  },
+  {
+    "condition": "B_littlebit_svd",
+    "release_id": "clyffe-v0.1-B-20261125",
+    "best_val_loss": 0.2244,
+    "best_val_ppl": 1.2516,
+    "final_row": {
+      "epoch": 50,
+      "phase": "littlebit_qat",
+      "train_loss": 0.18566,
+      "val_loss": 0.22544,
+      "val_ppl": 1.2529,
+      "val_acc": 0.91841,
+      "grad_norm": 1.4453,
+      "sign_flip_rate": 0.00227
+    },
+    "elapsed_sec": 54.35,
+    "best_ckpt": "checkpoints/clyffe-v0.1-B-20261125_best.pt",
+    "audit": {
+      "total_dense_equivalent_params": 241216,
+      "littlebit_covered_params": 240640,
+      "floating_point_params": 576,
+      "littlebit_coverage_pct": 99.76,
+      "total_littlebit_bits": 273664,
+      "total_fp16_remaining_bits": 9216,
+      "total_model_bits": 282880,
+      "total_model_bytes": 35360,
+      "overall_effective_bpw": 1.1727,
+      "littlebit_layers": [
+        {
+          "name": "token_emb",
+          "type": "LittleBitEmbedding",
+          "shape": [
+            600,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 38400,
+          "actual_bpw": 0.8433,
+          "total_bits": 32384
+        },
+        {
+          "name": "blocks.0.attn.q_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.0.attn.k_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.0.attn.v_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.0.attn.o_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.0.ffn.w_in",
+          "type": "LittleBitLinear",
+          "shape": [
+            192,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 12288,
+          "actual_bpw": 1.0417,
+          "total_bits": 12800
+        },
+        {
+          "name": "blocks.0.ffn.w_out",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            192
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 12288,
+          "actual_bpw": 1.0417,
+          "total_bits": 12800
+        },
+        {
+          "name": "blocks.1.attn.q_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.1.attn.k_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.1.attn.v_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.1.attn.o_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.1.ffn.w_in",
+          "type": "LittleBitLinear",
+          "shape": [
+            192,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 12288,
+          "actual_bpw": 1.0417,
+          "total_bits": 12800
+        },
+        {
+          "name": "blocks.1.ffn.w_out",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            192
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 12288,
+          "actual_bpw": 1.0417,
+          "total_bits": 12800
+        },
+        {
+          "name": "blocks.2.attn.q_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.2.attn.k_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.2.attn.v_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.2.attn.o_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.2.ffn.w_in",
+          "type": "LittleBitLinear",
+          "shape": [
+            192,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 12288,
+          "actual_bpw": 1.0417,
+          "total_bits": 12800
+        },
+        {
+          "name": "blocks.2.ffn.w_out",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            192
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 12288,
+          "actual_bpw": 1.0417,
+          "total_bits": 12800
+        },
+        {
+          "name": "blocks.3.attn.q_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.3.attn.k_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.3.attn.v_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.3.attn.o_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.3.ffn.w_in",
+          "type": "LittleBitLinear",
+          "shape": [
+            192,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 12288,
+          "actual_bpw": 1.0417,
+          "total_bits": 12800
+        },
+        {
+          "name": "blocks.3.ffn.w_out",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            192
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 12288,
+          "actual_bpw": 1.0417,
+          "total_bits": 12800
+        },
+        {
+          "name": "lm_head",
+          "type": "LittleBitLinear",
+          "shape": [
+            600,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 38400,
+          "actual_bpw": 0.8433,
+          "total_bits": 32384
+        }
+      ],
+      "floating_point_modules": [
+        {
+          "name": "blocks.0.norm1",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.0.norm2",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.1.norm1",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.1.norm2",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.2.norm1",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.2.norm2",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.3.norm1",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.3.norm2",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "norm_f",
+          "type": "RMSNorm",
+          "params": 64
+        }
+      ]
+    },
+    "eval": {
+      "in_scope_em": 0.4697,
+      "in_scope_f1": 0.4762,
+      "false_refusal_rate": 0.0,
+      "unseen_math_em": 0.03,
+      "ood_refusal_recall": 0.475,
+      "session_name_check": "Your name is Hari.",
+      "load_ms": 37.97,
+      "avg_latency_ms": 43.42,
+      "peak_ram_mb": 0.5,
+      "metadata": {
+        "name": "Clyffe",
+        "experimental_id": "ARC-LB-01",
+        "organization": "ARC III",
+        "version": "0.1",
+        "architecture": "Decoder-only Transformer (4L, d=64, h=4, d_ff=192)",
+        "parameter_count_dense_equiv": 241216,
+        "littlebit_covered_params": 240640,
+        "floating_point_params": 576,
+        "littlebit_coverage_pct": 99.76,
+        "overall_effective_bpw": 1.1727,
+        "theoretical_raw_bytes": 35360,
+        "actual_tensor_payload_bytes": 36612,
+        "actual_storage_bytes": 92479,
+        "vocab_size": 600,
+        "context_length": 96,
+        "weight_representation": "LittleBit-2 (split_dim=32, use_itq=False, residual=False)",
+        "checkpoint_identifier": "clyffe-v0.1-B-20261125_best.pt",
+        "checkpoint_sha256": "27cdc313b698cf3f75a865bc63d5b74bc1e5d6efdd14b4546404f594f5e24630"
+      }
+    }
+  },
+  {
+    "condition": "C1_littlebit2_smoothsign",
+    "release_id": "clyffe-v0.1-C-smoothsign-20261125",
+    "best_val_loss": 0.23193,
+    "best_val_ppl": 1.261,
+    "final_row": {
+      "epoch": 50,
+      "phase": "littlebit_qat",
+      "train_loss": 0.17993,
+      "val_loss": 0.24033,
+      "val_ppl": 1.2717,
+      "val_acc": 0.9124,
+      "grad_norm": 1.571,
+      "sign_flip_rate": 0.002103
+    },
+    "elapsed_sec": 52.95,
+    "best_ckpt": "checkpoints/clyffe-v0.1-C-smoothsign-20261125_best.pt",
+    "audit": {
+      "total_dense_equivalent_params": 241216,
+      "littlebit_covered_params": 240640,
+      "floating_point_params": 576,
+      "littlebit_coverage_pct": 99.76,
+      "total_littlebit_bits": 273664,
+      "total_fp16_remaining_bits": 9216,
+      "total_model_bits": 282880,
+      "total_model_bytes": 35360,
+      "overall_effective_bpw": 1.1727,
+      "littlebit_layers": [
+        {
+          "name": "token_emb",
+          "type": "LittleBitEmbedding",
+          "shape": [
+            600,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 38400,
+          "actual_bpw": 0.8433,
+          "total_bits": 32384
+        },
+        {
+          "name": "blocks.0.attn.q_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.0.attn.k_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.0.attn.v_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.0.attn.o_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.0.ffn.w_in",
+          "type": "LittleBitLinear",
+          "shape": [
+            192,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 12288,
+          "actual_bpw": 1.0417,
+          "total_bits": 12800
+        },
+        {
+          "name": "blocks.0.ffn.w_out",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            192
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 12288,
+          "actual_bpw": 1.0417,
+          "total_bits": 12800
+        },
+        {
+          "name": "blocks.1.attn.q_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.1.attn.k_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.1.attn.v_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.1.attn.o_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.1.ffn.w_in",
+          "type": "LittleBitLinear",
+          "shape": [
+            192,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 12288,
+          "actual_bpw": 1.0417,
+          "total_bits": 12800
+        },
+        {
+          "name": "blocks.1.ffn.w_out",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            192
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 12288,
+          "actual_bpw": 1.0417,
+          "total_bits": 12800
+        },
+        {
+          "name": "blocks.2.attn.q_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.2.attn.k_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.2.attn.v_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.2.attn.o_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.2.ffn.w_in",
+          "type": "LittleBitLinear",
+          "shape": [
+            192,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 12288,
+          "actual_bpw": 1.0417,
+          "total_bits": 12800
+        },
+        {
+          "name": "blocks.2.ffn.w_out",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            192
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 12288,
+          "actual_bpw": 1.0417,
+          "total_bits": 12800
+        },
+        {
+          "name": "blocks.3.attn.q_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.3.attn.k_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.3.attn.v_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.3.attn.o_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.3.ffn.w_in",
+          "type": "LittleBitLinear",
+          "shape": [
+            192,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 12288,
+          "actual_bpw": 1.0417,
+          "total_bits": 12800
+        },
+        {
+          "name": "blocks.3.ffn.w_out",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            192
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 12288,
+          "actual_bpw": 1.0417,
+          "total_bits": 12800
+        },
+        {
+          "name": "lm_head",
+          "type": "LittleBitLinear",
+          "shape": [
+            600,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 38400,
+          "actual_bpw": 0.8433,
+          "total_bits": 32384
+        }
+      ],
+      "floating_point_modules": [
+        {
+          "name": "blocks.0.norm1",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.0.norm2",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.1.norm1",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.1.norm2",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.2.norm1",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.2.norm2",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.3.norm1",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.3.norm2",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "norm_f",
+          "type": "RMSNorm",
+          "params": 64
+        }
+      ]
+    },
+    "eval": {
+      "in_scope_em": 0.5,
+      "in_scope_f1": 0.5,
+      "false_refusal_rate": 0.0,
+      "unseen_math_em": 0.01,
+      "ood_refusal_recall": 0.95,
+      "session_name_check": "Your name is Hari.",
+      "load_ms": 37.87,
+      "avg_latency_ms": 42.07,
+      "peak_ram_mb": 0.49,
+      "metadata": {
+        "name": "Clyffe",
+        "experimental_id": "ARC-LB-01",
+        "organization": "ARC III",
+        "version": "0.1",
+        "architecture": "Decoder-only Transformer (4L, d=64, h=4, d_ff=192)",
+        "parameter_count_dense_equiv": 241216,
+        "littlebit_covered_params": 240640,
+        "floating_point_params": 576,
+        "littlebit_coverage_pct": 99.76,
+        "overall_effective_bpw": 1.1727,
+        "theoretical_raw_bytes": 35360,
+        "actual_tensor_payload_bytes": 36612,
+        "actual_storage_bytes": 94413,
+        "vocab_size": 600,
+        "context_length": 96,
+        "weight_representation": "LittleBit-2 (split_dim=32, use_itq=True, residual=False)",
+        "checkpoint_identifier": "clyffe-v0.1-C-smoothsign-20261125_best.pt",
+        "checkpoint_sha256": "db5f181d5362be9017f579c29f2efc03242c83adeb6667bb1179462e794127fd"
+      }
+    }
+  },
+  {
+    "condition": "C2_littlebit2_ste",
+    "release_id": "clyffe-v0.1-C-ste-20261125",
+    "best_val_loss": 0.23611,
+    "best_val_ppl": 1.2663,
+    "final_row": {
+      "epoch": 50,
+      "phase": "littlebit_qat",
+      "train_loss": 0.19633,
+      "val_loss": 0.23677,
+      "val_ppl": 1.2671,
+      "val_acc": 0.91445,
+      "grad_norm": 1.4696,
+      "sign_flip_rate": 0.002927
+    },
+    "elapsed_sec": 52.93,
+    "best_ckpt": "checkpoints/clyffe-v0.1-C-ste-20261125_best.pt",
+    "audit": {
+      "total_dense_equivalent_params": 241216,
+      "littlebit_covered_params": 240640,
+      "floating_point_params": 576,
+      "littlebit_coverage_pct": 99.76,
+      "total_littlebit_bits": 273664,
+      "total_fp16_remaining_bits": 9216,
+      "total_model_bits": 282880,
+      "total_model_bytes": 35360,
+      "overall_effective_bpw": 1.1727,
+      "littlebit_layers": [
+        {
+          "name": "token_emb",
+          "type": "LittleBitEmbedding",
+          "shape": [
+            600,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 38400,
+          "actual_bpw": 0.8433,
+          "total_bits": 32384
+        },
+        {
+          "name": "blocks.0.attn.q_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.0.attn.k_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.0.attn.v_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.0.attn.o_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.0.ffn.w_in",
+          "type": "LittleBitLinear",
+          "shape": [
+            192,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 12288,
+          "actual_bpw": 1.0417,
+          "total_bits": 12800
+        },
+        {
+          "name": "blocks.0.ffn.w_out",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            192
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 12288,
+          "actual_bpw": 1.0417,
+          "total_bits": 12800
+        },
+        {
+          "name": "blocks.1.attn.q_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.1.attn.k_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.1.attn.v_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.1.attn.o_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.1.ffn.w_in",
+          "type": "LittleBitLinear",
+          "shape": [
+            192,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 12288,
+          "actual_bpw": 1.0417,
+          "total_bits": 12800
+        },
+        {
+          "name": "blocks.1.ffn.w_out",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            192
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 12288,
+          "actual_bpw": 1.0417,
+          "total_bits": 12800
+        },
+        {
+          "name": "blocks.2.attn.q_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.2.attn.k_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.2.attn.v_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.2.attn.o_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.2.ffn.w_in",
+          "type": "LittleBitLinear",
+          "shape": [
+            192,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 12288,
+          "actual_bpw": 1.0417,
+          "total_bits": 12800
+        },
+        {
+          "name": "blocks.2.ffn.w_out",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            192
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 12288,
+          "actual_bpw": 1.0417,
+          "total_bits": 12800
+        },
+        {
+          "name": "blocks.3.attn.q_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.3.attn.k_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.3.attn.v_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.3.attn.o_proj",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 4096,
+          "actual_bpw": 1.625,
+          "total_bits": 6656
+        },
+        {
+          "name": "blocks.3.ffn.w_in",
+          "type": "LittleBitLinear",
+          "shape": [
+            192,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 12288,
+          "actual_bpw": 1.0417,
+          "total_bits": 12800
+        },
+        {
+          "name": "blocks.3.ffn.w_out",
+          "type": "LittleBitLinear",
+          "shape": [
+            64,
+            192
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 12288,
+          "actual_bpw": 1.0417,
+          "total_bits": 12800
+        },
+        {
+          "name": "lm_head",
+          "type": "LittleBitLinear",
+          "shape": [
+            600,
+            64
+          ],
+          "split_dim": 32,
+          "residual": false,
+          "packed": false,
+          "dense_equiv_params": 38400,
+          "actual_bpw": 0.8433,
+          "total_bits": 32384
+        }
+      ],
+      "floating_point_modules": [
+        {
+          "name": "blocks.0.norm1",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.0.norm2",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.1.norm1",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.1.norm2",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.2.norm1",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.2.norm2",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.3.norm1",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "blocks.3.norm2",
+          "type": "RMSNorm",
+          "params": 64
+        },
+        {
+          "name": "norm_f",
+          "type": "RMSNorm",
+          "params": 64
+        }
+      ]
+    },
+    "eval": {
+      "in_scope_em": 0.4924,
+      "in_scope_f1": 0.4924,
+      "false_refusal_rate": 0.0,
+      "unseen_math_em": 0.01,
+      "ood_refusal_recall": 0.775,
+      "session_name_check": "Your name is Hari.",
+      "load_ms": 37.35,
+      "avg_latency_ms": 41.75,
+      "peak_ram_mb": 0.48,
+      "metadata": {
+        "name": "Clyffe",
+        "experimental_id": "ARC-LB-01",
+        "organization": "ARC III",
+        "version": "0.1",
+        "architecture": "Decoder-only Transformer (4L, d=64, h=4, d_ff=192)",
+        "parameter_count_dense_equiv": 241216,
+        "littlebit_covered_params": 240640,
+        "floating_point_params": 576,
+        "littlebit_coverage_pct": 99.76,
+        "overall_effective_bpw": 1.1727,
+        "theoretical_raw_bytes": 35360,
+        "actual_tensor_payload_bytes": 36612,
+        "actual_storage_bytes": 93159,
+        "vocab_size": 600,
+        "context_length": 96,
+        "weight_representation": "LittleBit-2 (split_dim=32, use_itq=True, residual=False)",
+        "checkpoint_identifier": "clyffe-v0.1-C-ste-20261125_best.pt",
+        "checkpoint_sha256": "0ca2c224cf8bcc55f801a05334a3b3f294701836beba21074bd746c37ef08c57"
+      }
+    }
+  }
+]

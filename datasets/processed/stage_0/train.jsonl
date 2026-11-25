@@ -1,0 +1,1114 @@
+{"input": "Do you know: what is artificial intelligence?", "output": "Artificial intelligence is the field of building machines that perform tasks requiring human intelligence.", "category": "general_knowledge"}
+{"input": "Hi, good night.", "output": "Good night! Have a restful night.", "category": "greetings"}
+{"input": "11 + 22", "output": "33", "category": "mathematics"}
+{"input": "25 - 11", "output": "14", "category": "mathematics"}
+{"input": "Hey, good afternoon", "output": "Good afternoon! How can I assist you?", "category": "greetings"}
+{"input": "Quick question: are you ready?", "output": "Yes, I am ready.", "category": "conversation"}
+{"input": "Quick question: what is electricity?", "output": "Electricity is the flow of electric charge, usually carried by electrons.", "category": "general_knowledge"}
+{"input": "49 - 16", "output": "33", "category": "mathematics"}
+{"input": "Quick question: what is artificial intelligence?", "output": "Artificial intelligence is the field of building machines that perform tasks requiring human intelligence.", "category": "general_knowledge"}
+{"input": "Please tell me, what is light?", "output": "Light is electromagnetic radiation visible to the human eye.", "category": "science"}
+{"input": "Could you answer: who built you?", "output": "I was built by ARC III from random initialization using LittleBit-2.", "category": "identity"}
+{"input": "Quick question: what is the internet?", "output": "The internet is a global network connecting computers for communication and information sharing.", "category": "general_knowledge"}
+{"input": "What can you do?", "output": "I can answer greetings, identity questions, basic science, general facts, and simple arithmetic.", "category": "conversation"}
+{"input": "41 - 20", "output": "21", "category": "mathematics"}
+{"input": "43 - 41", "output": "2", "category": "mathematics"}
+{"input": "3 + 27", "output": "30", "category": "mathematics"}
+{"input": "16 - 8", "output": "8", "category": "mathematics"}
+{"input": "2 + 5", "output": "7", "category": "mathematics"}
+{"input": "Please answer: what is photosynthesis?", "output": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to produce glucose and oxygen.", "category": "science"}
+{"input": "Excuse me, hey?", "output": "Hey! How can I assist you?", "category": "greetings"}
+{"input": "What is electricity?", "output": "Electricity is the flow of electric charge, usually carried by electrons.", "category": "general_knowledge"}
+{"input": "Tell me: what is an atom?", "output": "An atom is the basic unit of a chemical element.", "category": "science"}
+{"input": "Please answer: good evening?", "output": "Good evening! How can I help you?", "category": "greetings"}
+{"input": "23 + 22", "output": "45", "category": "mathematics"}
+{"input": "Can you tell me: what is an electron?", "output": "An electron is a negatively charged subatomic particle that orbits an atomic nucleus.", "category": "science"}
+{"input": "Do you know: who built you?", "output": "I was built by ARC III from random initialization using LittleBit-2.", "category": "identity"}
+{"input": "Please answer: what is India?", "output": "India is a country in South Asia and the world's most populous nation.", "category": "general_knowledge"}
+{"input": "39 - 7", "output": "32", "category": "mathematics"}
+{"input": "Please answer: what is energy?", "output": "Energy is the capacity to do work or cause physical change.", "category": "science"}
+{"input": "Can you tell me: what is photosynthesis?", "output": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to produce glucose and oxygen.", "category": "science"}
+{"input": "27 + 28", "output": "55", "category": "mathematics"}
+{"input": "11 + 44", "output": "55", "category": "mathematics"}
+{"input": "47 + 39", "output": "86", "category": "mathematics"}
+{"input": "Tell me: what is gravity?", "output": "Gravity is the attractive force between objects that have mass.", "category": "science"}
+{"input": "35 + 35", "output": "70", "category": "mathematics"}
+{"input": "What is a computer?", "output": "A computer is an electronic device that processes data and executes instructions.", "category": "general_knowledge"}
+{"input": "48 - 35", "output": "13", "category": "mathematics"}
+{"input": "8 + 1", "output": "9", "category": "mathematics"}
+{"input": "17 + 22", "output": "39", "category": "mathematics"}
+{"input": "Do you know: hi?", "output": "Hi! How can I help you today?", "category": "greetings"}
+{"input": "22 + 12", "output": "34", "category": "mathematics"}
+{"input": "46 - 20", "output": "26", "category": "mathematics"}
+{"input": "Please tell me, hello", "output": "Hello! How can I help you?", "category": "greetings"}
+{"input": "Could you answer: what is a computer?", "output": "A computer is an electronic device that processes data and executes instructions.", "category": "general_knowledge"}
+{"input": "What is an electron?", "output": "An electron is a negatively charged subatomic particle that orbits an atomic nucleus.", "category": "science"}
+{"input": "Hi, good evening.", "output": "Good evening! How can I help you?", "category": "greetings"}
+{"input": "42 - 4", "output": "38", "category": "mathematics"}
+{"input": "34 - 24", "output": "10", "category": "mathematics"}
+{"input": "Please tell me, what model are you?", "output": "I am Clyffe v0.1 (research code ARC-LB-01), a LittleBit-2 decoder-only model.", "category": "identity"}
+{"input": "17 + 1", "output": "18", "category": "mathematics"}
+{"input": "Hi, good night", "output": "Good night! Have a restful night.", "category": "greetings"}
+{"input": "42 + 10", "output": "52", "category": "mathematics"}
+{"input": "32 + 25", "output": "57", "category": "mathematics"}
+{"input": "47 + 38", "output": "85", "category": "mathematics"}
+{"input": "Do you know: good night?", "output": "Good night! Have a restful night.", "category": "greetings"}
+{"input": "15 - 15", "output": "0", "category": "mathematics"}
+{"input": "32 - 27", "output": "5", "category": "mathematics"}
+{"input": "45 - 7", "output": "38", "category": "mathematics"}
+{"input": "16 - 14", "output": "2", "category": "mathematics"}
+{"input": "44 - 41", "output": "3", "category": "mathematics"}
+{"input": "Excuse me, what weight representation do you use?", "output": "I use LittleBit-2 binary latent factorization with Joint-ITQ.", "category": "identity"}
+{"input": "Do you know: who are u?", "output": "I am Clyffe, an experimental LittleBit-2 language model created by ARC III.", "category": "identity"}
+{"input": "15 + 44", "output": "59", "category": "mathematics"}
+{"input": "Tell me: thank you", "output": "You are welcome!", "category": "greetings"}
+{"input": "27 - 26", "output": "1", "category": "mathematics"}
+{"input": "12 - 6", "output": "6", "category": "mathematics"}
+{"input": "Please answer: thank you", "output": "You are welcome!", "category": "greetings"}
+{"input": "42 - 28", "output": "14", "category": "mathematics"}
+{"input": "23 + 46", "output": "69", "category": "mathematics"}
+{"input": "Please tell me, good evening?", "output": "Good evening! How can I help you?", "category": "greetings"}
+{"input": "Tell me about how to diagnose chest pain.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "38 + 42", "output": "80", "category": "mathematics"}
+{"input": "16 - 9", "output": "7", "category": "mathematics"}
+{"input": "Could you answer: hello.", "output": "Hello! How can I help you?", "category": "greetings"}
+{"input": "20 - 10", "output": "10", "category": "mathematics"}
+{"input": "7 + 36", "output": "43", "category": "mathematics"}
+{"input": "Do you know: what is the Earth?", "output": "Earth is the third planet from the Sun and supports life.", "category": "general_knowledge"}
+{"input": "42 - 1", "output": "41", "category": "mathematics"}
+{"input": "21 - 15", "output": "6", "category": "mathematics"}
+{"input": "Hi, can you help me?", "output": "Yes, I can help with greetings, identity, basic science, general knowledge, and simple math.", "category": "conversation"}
+{"input": "Excuse me, what are you doing?", "output": "I am processing your questions using LittleBit-2 latent computation.", "category": "conversation"}
+{"input": "27 + 21", "output": "48", "category": "mathematics"}
+{"input": "19 + 13", "output": "32", "category": "mathematics"}
+{"input": "Can you explain how to diagnose chest pain?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Hi, what is an electron?", "output": "An electron is a negatively charged subatomic particle that orbits an atomic nucleus.", "category": "science"}
+{"input": "29 + 5", "output": "34", "category": "mathematics"}
+{"input": "43 - 10", "output": "33", "category": "mathematics"}
+{"input": "Please answer: what is an electron?", "output": "An electron is a negatively charged subatomic particle that orbits an atomic nucleus.", "category": "science"}
+{"input": "38 - 16", "output": "22", "category": "mathematics"}
+{"input": "40 + 44", "output": "84", "category": "mathematics"}
+{"input": "1 + 21", "output": "22", "category": "mathematics"}
+{"input": "Can you tell me: my name is Priya.", "output": "Nice to meet you, Priya!", "category": "conversation"}
+{"input": "Please tell me, goodbye?", "output": "Goodbye! Have a great day.", "category": "greetings"}
+{"input": "22 + 37", "output": "59", "category": "mathematics"}
+{"input": "12 + 46", "output": "58", "category": "mathematics"}
+{"input": "Can you tell me: hi", "output": "Hi! How can I help you today?", "category": "greetings"}
+{"input": "Thank you", "output": "You are welcome!", "category": "greetings"}
+{"input": "Hi, thank you", "output": "You are welcome!", "category": "greetings"}
+{"input": "Tell me: how were you trained?", "output": "I was trained from random initialization using Quantization-Aware Training.", "category": "identity"}
+{"input": "Can you explain who won the FIFA World Cup in 2022?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "16 - 13", "output": "3", "category": "mathematics"}
+{"input": "2 + 21", "output": "23", "category": "mathematics"}
+{"input": "50 + 14", "output": "64", "category": "mathematics"}
+{"input": "31 + 14", "output": "45", "category": "mathematics"}
+{"input": "20 + 35", "output": "55", "category": "mathematics"}
+{"input": "24 + 40", "output": "64", "category": "mathematics"}
+{"input": "Excuse me, thank you", "output": "You are welcome!", "category": "greetings"}
+{"input": "47 - 41", "output": "6", "category": "mathematics"}
+{"input": "8 - 5", "output": "3", "category": "mathematics"}
+{"input": "Please answer: who are u?", "output": "I am Clyffe, an experimental LittleBit-2 language model created by ARC III.", "category": "identity"}
+{"input": "18 - 11", "output": "7", "category": "mathematics"}
+{"input": "What is energy?", "output": "Energy is the capacity to do work or cause physical change.", "category": "science"}
+{"input": "I want to ask: good evening", "output": "Good evening! How can I help you?", "category": "greetings"}
+{"input": "10 + 20", "output": "30", "category": "mathematics"}
+{"input": "21 + 45", "output": "66", "category": "mathematics"}
+{"input": "Can you tell me: good afternoon?", "output": "Good afternoon! How can I assist you?", "category": "greetings"}
+{"input": "Please tell me, good night?", "output": "Good night! Have a restful night.", "category": "greetings"}
+{"input": "41 - 12", "output": "29", "category": "mathematics"}
+{"input": "30 + 48", "output": "78", "category": "mathematics"}
+{"input": "30 - 13", "output": "17", "category": "mathematics"}
+{"input": "20 - 3", "output": "17", "category": "mathematics"}
+{"input": "28 - 7", "output": "21", "category": "mathematics"}
+{"input": "Hi, what is India?", "output": "India is a country in South Asia and the world's most populous nation.", "category": "general_knowledge"}
+{"input": "16 + 17", "output": "33", "category": "mathematics"}
+{"input": "50 - 27", "output": "23", "category": "mathematics"}
+{"input": "Quick question: what is energy?", "output": "Energy is the capacity to do work or cause physical change.", "category": "science"}
+{"input": "Tell me: goodbye?", "output": "Goodbye! Have a great day.", "category": "greetings"}
+{"input": "22 + 47", "output": "69", "category": "mathematics"}
+{"input": "40 - 17", "output": "23", "category": "mathematics"}
+{"input": "9 + 11", "output": "20", "category": "mathematics"}
+{"input": "Hi, my name is Priya.", "output": "Nice to meet you, Priya!", "category": "conversation"}
+{"input": "Tell me: good night", "output": "Good night! Have a restful night.", "category": "greetings"}
+{"input": "15 + 4", "output": "19", "category": "mathematics"}
+{"input": "33 - 21", "output": "12", "category": "mathematics"}
+{"input": "Good night.", "output": "Good night! Have a restful night.", "category": "greetings"}
+{"input": "32 + 21", "output": "53", "category": "mathematics"}
+{"input": "Excuse me, what is the solar system?", "output": "The solar system consists of the Sun and all celestial bodies bound to it by gravity.", "category": "science"}
+{"input": "7 + 5", "output": "12", "category": "mathematics"}
+{"input": "Please tell me, what are you doing?", "output": "I am processing your questions using LittleBit-2 latent computation.", "category": "conversation"}
+{"input": "11 + 2", "output": "13", "category": "mathematics"}
+{"input": "Hi, what is artificial intelligence?", "output": "Artificial intelligence is the field of building machines that perform tasks requiring human intelligence.", "category": "general_knowledge"}
+{"input": "Hey, hi?", "output": "Hi! How can I help you today?", "category": "greetings"}
+{"input": "18 + 48", "output": "66", "category": "mathematics"}
+{"input": "Tell me: good evening", "output": "Good evening! How can I help you?", "category": "greetings"}
+{"input": "45 + 15", "output": "60", "category": "mathematics"}
+{"input": "34 - 21", "output": "13", "category": "mathematics"}
+{"input": "41 - 11", "output": "30", "category": "mathematics"}
+{"input": "40 + 27", "output": "67", "category": "mathematics"}
+{"input": "32 - 18", "output": "14", "category": "mathematics"}
+{"input": "17 + 4", "output": "21", "category": "mathematics"}
+{"input": "41 - 35", "output": "6", "category": "mathematics"}
+{"input": "Please answer: what is gravity?", "output": "Gravity is the attractive force between objects that have mass.", "category": "science"}
+{"input": "Excuse me, how are you?", "output": "I am doing well, thank you! How can I help you?", "category": "greetings"}
+{"input": "25 - 21", "output": "4", "category": "mathematics"}
+{"input": "Do you know: what is energy?", "output": "Energy is the capacity to do work or cause physical change.", "category": "science"}
+{"input": "23 - 17", "output": "6", "category": "mathematics"}
+{"input": "47 - 18", "output": "29", "category": "mathematics"}
+{"input": "18 + 41", "output": "59", "category": "mathematics"}
+{"input": "44 - 37", "output": "7", "category": "mathematics"}
+{"input": "47 + 11", "output": "58", "category": "mathematics"}
+{"input": "Please answer: good evening.", "output": "Good evening! How can I help you?", "category": "greetings"}
+{"input": "48 + 41", "output": "89", "category": "mathematics"}
+{"input": "24 + 43", "output": "67", "category": "mathematics"}
+{"input": "Please tell me, who are u?", "output": "I am Clyffe, an experimental LittleBit-2 language model created by ARC III.", "category": "identity"}
+{"input": "13 + 10", "output": "23", "category": "mathematics"}
+{"input": "Can you tell me: good evening", "output": "Good evening! How can I help you?", "category": "greetings"}
+{"input": "34 - 5", "output": "29", "category": "mathematics"}
+{"input": "Could you answer: what can you do?", "output": "I can answer greetings, identity questions, basic science, general facts, and simple arithmetic.", "category": "conversation"}
+{"input": "Could you answer: what is gravity?", "output": "Gravity is the attractive force between objects that have mass.", "category": "science"}
+{"input": "Quick question: goodbye", "output": "Goodbye! Have a great day.", "category": "greetings"}
+{"input": "Goodbye?", "output": "Goodbye! Have a great day.", "category": "greetings"}
+{"input": "Tell me: hi", "output": "Hi! How can I help you today?", "category": "greetings"}
+{"input": "30 + 12", "output": "42", "category": "mathematics"}
+{"input": "41 + 6", "output": "47", "category": "mathematics"}
+{"input": "48 - 28", "output": "20", "category": "mathematics"}
+{"input": "42 + 37", "output": "79", "category": "mathematics"}
+{"input": "Excuse me, what is an atom?", "output": "An atom is the basic unit of a chemical element.", "category": "science"}
+{"input": "Hello.", "output": "Hello! How can I help you?", "category": "greetings"}
+{"input": "33 - 2", "output": "31", "category": "mathematics"}
+{"input": "40 - 5", "output": "35", "category": "mathematics"}
+{"input": "38 - 25", "output": "13", "category": "mathematics"}
+{"input": "22 + 17", "output": "39", "category": "mathematics"}
+{"input": "What is the Sun?", "output": "The Sun is the star at the center of our solar system.", "category": "general_knowledge"}
+{"input": "Quick question: my name is Alex.", "output": "Nice to meet you, Alex!", "category": "conversation"}
+{"input": "9 + 13", "output": "22", "category": "mathematics"}
+{"input": "Tell me: nice to meet you?", "output": "Nice to meet you too! I am Clyffe.", "category": "greetings"}
+{"input": "15 - 4", "output": "11", "category": "mathematics"}
+{"input": "38 - 34", "output": "4", "category": "mathematics"}
+{"input": "Do you know: what is a computer?", "output": "A computer is an electronic device that processes data and executes instructions.", "category": "general_knowledge"}
+{"input": "32 + 15", "output": "47", "category": "mathematics"}
+{"input": "47 - 9", "output": "38", "category": "mathematics"}
+{"input": "Can you tell me: what is energy?", "output": "Energy is the capacity to do work or cause physical change.", "category": "science"}
+{"input": "Can you tell me: who developed you?", "output": "I was developed by ARC III.", "category": "identity"}
+{"input": "Tell me about who won the FIFA World Cup in 2022.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "39 - 18", "output": "21", "category": "mathematics"}
+{"input": "Explain translating a paragraph into Japanese.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "29 + 34", "output": "63", "category": "mathematics"}
+{"input": "Please tell me, what is artificial intelligence?", "output": "Artificial intelligence is the field of building machines that perform tasks requiring human intelligence.", "category": "general_knowledge"}
+{"input": "6 + 11", "output": "17", "category": "mathematics"}
+{"input": "Quick question: what is gravity?", "output": "Gravity is the attractive force between objects that have mass.", "category": "science"}
+{"input": "9 + 19", "output": "28", "category": "mathematics"}
+{"input": "19 - 6", "output": "13", "category": "mathematics"}
+{"input": "Hey, hey", "output": "Hey! How can I assist you?", "category": "greetings"}
+{"input": "Hey, what is water?", "output": "Water is a chemical compound made of hydrogen and oxygen, with formula H2O.", "category": "general_knowledge"}
+{"input": "29 + 36", "output": "65", "category": "mathematics"}
+{"input": "9 + 43", "output": "52", "category": "mathematics"}
+{"input": "14 + 4", "output": "18", "category": "mathematics"}
+{"input": "Excuse me, who developed you?", "output": "I was developed by ARC III.", "category": "identity"}
+{"input": "44 + 11", "output": "55", "category": "mathematics"}
+{"input": "Quick question: please help me.", "output": "I will do my best to help with questions within my training scope.", "category": "conversation"}
+{"input": "Quick question: nice to meet you", "output": "Nice to meet you too! I am Clyffe.", "category": "greetings"}
+{"input": "Please tell me, hello.", "output": "Hello! How can I help you?", "category": "greetings"}
+{"input": "33 + 20", "output": "53", "category": "mathematics"}
+{"input": "Could you answer: good afternoon.", "output": "Good afternoon! How can I assist you?", "category": "greetings"}
+{"input": "Please tell me, nice to meet you.", "output": "Nice to meet you too! I am Clyffe.", "category": "greetings"}
+{"input": "48 - 29", "output": "19", "category": "mathematics"}
+{"input": "Excuse me, goodbye", "output": "Goodbye! Have a great day.", "category": "greetings"}
+{"input": "46 - 29", "output": "17", "category": "mathematics"}
+{"input": "I want to ask: what is energy?", "output": "Energy is the capacity to do work or cause physical change.", "category": "science"}
+{"input": "13 + 46", "output": "59", "category": "mathematics"}
+{"input": "35 + 13", "output": "48", "category": "mathematics"}
+{"input": "30 + 5", "output": "35", "category": "mathematics"}
+{"input": "11 + 32", "output": "43", "category": "mathematics"}
+{"input": "Could you answer: who are u?", "output": "I am Clyffe, an experimental LittleBit-2 language model created by ARC III.", "category": "identity"}
+{"input": "15 + 27", "output": "42", "category": "mathematics"}
+{"input": "33 - 13", "output": "20", "category": "mathematics"}
+{"input": "34 - 6", "output": "28", "category": "mathematics"}
+{"input": "How were you trained?", "output": "I was trained from random initialization using Quantization-Aware Training.", "category": "identity"}
+{"input": "Tell me: what is photosynthesis?", "output": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to produce glucose and oxygen.", "category": "science"}
+{"input": "Do you know: what is your model version?", "output": "My model version is Clyffe v0.1.", "category": "identity"}
+{"input": "Hey, what weight representation do you use?", "output": "I use LittleBit-2 binary latent factorization with Joint-ITQ.", "category": "identity"}
+{"input": "Hey, what is an electron?", "output": "An electron is a negatively charged subatomic particle that orbits an atomic nucleus.", "category": "science"}
+{"input": "29 + 44", "output": "73", "category": "mathematics"}
+{"input": "44 + 27", "output": "71", "category": "mathematics"}
+{"input": "Hey, what is India?", "output": "India is a country in South Asia and the world's most populous nation.", "category": "general_knowledge"}
+{"input": "Excuse me, good evening.", "output": "Good evening! How can I help you?", "category": "greetings"}
+{"input": "Excuse me, who are u?", "output": "I am Clyffe, an experimental LittleBit-2 language model created by ARC III.", "category": "identity"}
+{"input": "I want to ask: how were you trained?", "output": "I was trained from random initialization using Quantization-Aware Training.", "category": "identity"}
+{"input": "43 - 2", "output": "41", "category": "mathematics"}
+{"input": "29 - 16", "output": "13", "category": "mathematics"}
+{"input": "Can you tell me: who built you?", "output": "I was built by ARC III from random initialization using LittleBit-2.", "category": "identity"}
+{"input": "11 + 28", "output": "39", "category": "mathematics"}
+{"input": "Can you tell me: my name is Hari.", "output": "Nice to meet you, Hari!", "category": "conversation"}
+{"input": "Do you know: my name is Alex.", "output": "Nice to meet you, Alex!", "category": "conversation"}
+{"input": "20 - 8", "output": "12", "category": "mathematics"}
+{"input": "Hey, my name is Hari.", "output": "Nice to meet you, Hari!", "category": "conversation"}
+{"input": "Hi, what model are you?", "output": "I am Clyffe v0.1 (research code ARC-LB-01), a LittleBit-2 decoder-only model.", "category": "identity"}
+{"input": "29 - 2", "output": "27", "category": "mathematics"}
+{"input": "Could you answer: what is electricity?", "output": "Electricity is the flow of electric charge, usually carried by electrons.", "category": "general_knowledge"}
+{"input": "8 + 9", "output": "17", "category": "mathematics"}
+{"input": "30 + 13", "output": "43", "category": "mathematics"}
+{"input": "Tell me: what is water?", "output": "Water is a chemical compound made of hydrogen and oxygen, with formula H2O.", "category": "general_knowledge"}
+{"input": "43 + 47", "output": "90", "category": "mathematics"}
+{"input": "36 + 12", "output": "48", "category": "mathematics"}
+{"input": "Please answer: nice to meet you.", "output": "Nice to meet you too! I am Clyffe.", "category": "greetings"}
+{"input": "I want to ask: hi", "output": "Hi! How can I help you today?", "category": "greetings"}
+{"input": "Please tell me, what is the Sun?", "output": "The Sun is the star at the center of our solar system.", "category": "general_knowledge"}
+{"input": "37 + 46", "output": "83", "category": "mathematics"}
+{"input": "39 + 35", "output": "74", "category": "mathematics"}
+{"input": "41 + 34", "output": "75", "category": "mathematics"}
+{"input": "17 + 24", "output": "41", "category": "mathematics"}
+{"input": "Could you answer: how are you?", "output": "I am doing well, thank you! How can I help you?", "category": "greetings"}
+{"input": "5 + 21", "output": "26", "category": "mathematics"}
+{"input": "49 - 4", "output": "45", "category": "mathematics"}
+{"input": "Hey, who are u?", "output": "I am Clyffe, an experimental LittleBit-2 language model created by ARC III.", "category": "identity"}
+{"input": "27 - 16", "output": "11", "category": "mathematics"}
+{"input": "Do you know: good night", "output": "Good night! Have a restful night.", "category": "greetings"}
+{"input": "48 - 44", "output": "4", "category": "mathematics"}
+{"input": "31 + 21", "output": "52", "category": "mathematics"}
+{"input": "35 + 41", "output": "76", "category": "mathematics"}
+{"input": "10 + 27", "output": "37", "category": "mathematics"}
+{"input": "Could you answer: what is photosynthesis?", "output": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to produce glucose and oxygen.", "category": "science"}
+{"input": "Quick question: who are you?", "output": "I am Clyffe, an experimental LittleBit-2 language model created by ARC III.", "category": "identity"}
+{"input": "20 + 14", "output": "34", "category": "mathematics"}
+{"input": "20 + 15", "output": "35", "category": "mathematics"}
+{"input": "Please answer: what is the Sun?", "output": "The Sun is the star at the center of our solar system.", "category": "general_knowledge"}
+{"input": "Do you know: what can you do?", "output": "I can answer greetings, identity questions, basic science, general facts, and simple arithmetic.", "category": "conversation"}
+{"input": "Explain tomorrow's lottery numbers.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "38 + 1", "output": "39", "category": "mathematics"}
+{"input": "Who built you?", "output": "I was built by ARC III from random initialization using LittleBit-2.", "category": "identity"}
+{"input": "Please answer: what is water?", "output": "Water is a chemical compound made of hydrogen and oxygen, with formula H2O.", "category": "general_knowledge"}
+{"input": "39 + 5", "output": "44", "category": "mathematics"}
+{"input": "17 - 9", "output": "8", "category": "mathematics"}
+{"input": "Please tell me, thank you", "output": "You are welcome!", "category": "greetings"}
+{"input": "Do you know tomorrow's lottery numbers?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "I want to ask: what is the Earth?", "output": "Earth is the third planet from the Sun and supports life.", "category": "general_knowledge"}
+{"input": "Hey, what is ARC-LB-01?", "output": "ARC-LB-01 is the research project code name behind Clyffe.", "category": "identity"}
+{"input": "Excuse me, my name is Alex.", "output": "Nice to meet you, Alex!", "category": "conversation"}
+{"input": "Excuse me, please help me.", "output": "I will do my best to help with questions within my training scope.", "category": "conversation"}
+{"input": "30 + 41", "output": "71", "category": "mathematics"}
+{"input": "14 + 21", "output": "35", "category": "mathematics"}
+{"input": "38 - 15", "output": "23", "category": "mathematics"}
+{"input": "Tell me: who are you?", "output": "I am Clyffe, an experimental LittleBit-2 language model created by ARC III.", "category": "identity"}
+{"input": "41 + 10", "output": "51", "category": "mathematics"}
+{"input": "18 - 7", "output": "11", "category": "mathematics"}
+{"input": "39 + 44", "output": "83", "category": "mathematics"}
+{"input": "46 - 9", "output": "37", "category": "mathematics"}
+{"input": "10 + 10", "output": "20", "category": "mathematics"}
+{"input": "5 + 41", "output": "46", "category": "mathematics"}
+{"input": "Quick question: thank you", "output": "You are welcome!", "category": "greetings"}
+{"input": "Tell me: can you help me?", "output": "Yes, I can help with greetings, identity, basic science, general knowledge, and simple math.", "category": "conversation"}
+{"input": "Hi, what is electricity?", "output": "Electricity is the flow of electric charge, usually carried by electrons.", "category": "general_knowledge"}
+{"input": "Can you tell me: who are you?", "output": "I am Clyffe, an experimental LittleBit-2 language model created by ARC III.", "category": "identity"}
+{"input": "28 + 24", "output": "52", "category": "mathematics"}
+{"input": "42 - 34", "output": "8", "category": "mathematics"}
+{"input": "15 + 8", "output": "23", "category": "mathematics"}
+{"input": "Please tell me, my name is Alex.", "output": "Nice to meet you, Alex!", "category": "conversation"}
+{"input": "Do you know: what are you doing?", "output": "I am processing your questions using LittleBit-2 latent computation.", "category": "conversation"}
+{"input": "36 - 24", "output": "12", "category": "mathematics"}
+{"input": "Hi, what can you do?", "output": "I can answer greetings, identity questions, basic science, general facts, and simple arithmetic.", "category": "conversation"}
+{"input": "Please answer: what is the internet?", "output": "The internet is a global network connecting computers for communication and information sharing.", "category": "general_knowledge"}
+{"input": "Tell me: what weight representation do you use?", "output": "I use LittleBit-2 binary latent factorization with Joint-ITQ.", "category": "identity"}
+{"input": "21 + 47", "output": "68", "category": "mathematics"}
+{"input": "Hi, what is your model version?", "output": "My model version is Clyffe v0.1.", "category": "identity"}
+{"input": "48 - 12", "output": "36", "category": "mathematics"}
+{"input": "45 + 26", "output": "71", "category": "mathematics"}
+{"input": "Tell me: good morning", "output": "Good morning! How can I help you?", "category": "greetings"}
+{"input": "31 - 29", "output": "2", "category": "mathematics"}
+{"input": "Nice to meet you.", "output": "Nice to meet you too! I am Clyffe.", "category": "greetings"}
+{"input": "49 + 45", "output": "94", "category": "mathematics"}
+{"input": "Please tell me, what is your name?", "output": "My name is Clyffe.", "category": "identity"}
+{"input": "Tell me: what is electricity?", "output": "Electricity is the flow of electric charge, usually carried by electrons.", "category": "general_knowledge"}
+{"input": "Hi, how were you trained?", "output": "I was trained from random initialization using Quantization-Aware Training.", "category": "identity"}
+{"input": "Quick question: what is India?", "output": "India is a country in South Asia and the world's most populous nation.", "category": "general_knowledge"}
+{"input": "26 - 3", "output": "23", "category": "mathematics"}
+{"input": "33 + 21", "output": "54", "category": "mathematics"}
+{"input": "33 - 28", "output": "5", "category": "mathematics"}
+{"input": "23 + 43", "output": "66", "category": "mathematics"}
+{"input": "48 - 14", "output": "34", "category": "mathematics"}
+{"input": "8 + 18", "output": "26", "category": "mathematics"}
+{"input": "Could you answer: good morning", "output": "Good morning! How can I help you?", "category": "greetings"}
+{"input": "Please tell me, how are you?", "output": "I am doing well, thank you! How can I help you?", "category": "greetings"}
+{"input": "Hey, what is an atom?", "output": "An atom is the basic unit of a chemical element.", "category": "science"}
+{"input": "Quick question: goodbye?", "output": "Goodbye! Have a great day.", "category": "greetings"}
+{"input": "Explain who won the FIFA World Cup in 2022.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Can you tell me: good evening?", "output": "Good evening! How can I help you?", "category": "greetings"}
+{"input": "13 + 34", "output": "47", "category": "mathematics"}
+{"input": "Please answer: hey", "output": "Hey! How can I assist you?", "category": "greetings"}
+{"input": "I want to ask: good night", "output": "Good night! Have a restful night.", "category": "greetings"}
+{"input": "21 + 46", "output": "67", "category": "mathematics"}
+{"input": "Excuse me, what is sound?", "output": "Sound is a mechanical wave of pressure vibrations traveling through a medium.", "category": "science"}
+{"input": "18 - 17", "output": "1", "category": "mathematics"}
+{"input": "Can you tell me: what is light?", "output": "Light is electromagnetic radiation visible to the human eye.", "category": "science"}
+{"input": "43 + 4", "output": "47", "category": "mathematics"}
+{"input": "Could you answer: are you ready?", "output": "Yes, I am ready.", "category": "conversation"}
+{"input": "Tell me: are you ready?", "output": "Yes, I am ready.", "category": "conversation"}
+{"input": "10 - 5", "output": "5", "category": "mathematics"}
+{"input": "50 - 39", "output": "11", "category": "mathematics"}
+{"input": "24 - 5", "output": "19", "category": "mathematics"}
+{"input": "Can you tell me: what is a computer?", "output": "A computer is an electronic device that processes data and executes instructions.", "category": "general_knowledge"}
+{"input": "36 + 38", "output": "74", "category": "mathematics"}
+{"input": "12 + 44", "output": "56", "category": "mathematics"}
+{"input": "29 - 28", "output": "1", "category": "mathematics"}
+{"input": "Please answer: what is ARC-LB-01?", "output": "ARC-LB-01 is the research project code name behind Clyffe.", "category": "identity"}
+{"input": "36 - 15", "output": "21", "category": "mathematics"}
+{"input": "45 + 1", "output": "46", "category": "mathematics"}
+{"input": "Explain the stock price of Apple today.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "12 + 23", "output": "35", "category": "mathematics"}
+{"input": "41 + 28", "output": "69", "category": "mathematics"}
+{"input": "22 + 15", "output": "37", "category": "mathematics"}
+{"input": "32 + 37", "output": "69", "category": "mathematics"}
+{"input": "19 - 9", "output": "10", "category": "mathematics"}
+{"input": "25 - 19", "output": "6", "category": "mathematics"}
+{"input": "18 - 10", "output": "8", "category": "mathematics"}
+{"input": "I want to ask: who are you?", "output": "I am Clyffe, an experimental LittleBit-2 language model created by ARC III.", "category": "identity"}
+{"input": "Hi, hi?", "output": "Hi! How can I help you today?", "category": "greetings"}
+{"input": "What is artificial intelligence?", "output": "Artificial intelligence is the field of building machines that perform tasks requiring human intelligence.", "category": "general_knowledge"}
+{"input": "32 + 40", "output": "72", "category": "mathematics"}
+{"input": "Do you know: good morning", "output": "Good morning! How can I help you?", "category": "greetings"}
+{"input": "38 - 12", "output": "26", "category": "mathematics"}
+{"input": "47 - 40", "output": "7", "category": "mathematics"}
+{"input": "I want to ask: good night.", "output": "Good night! Have a restful night.", "category": "greetings"}
+{"input": "47 - 43", "output": "4", "category": "mathematics"}
+{"input": "34 - 22", "output": "12", "category": "mathematics"}
+{"input": "Excuse me, thank you.", "output": "You are welcome!", "category": "greetings"}
+{"input": "Excuse me, what is light?", "output": "Light is electromagnetic radiation visible to the human eye.", "category": "science"}
+{"input": "Please answer: what is your name?", "output": "My name is Clyffe.", "category": "identity"}
+{"input": "Can you tell me: what model are you?", "output": "I am Clyffe v0.1 (research code ARC-LB-01), a LittleBit-2 decoder-only model.", "category": "identity"}
+{"input": "Tell me: what is a computer?", "output": "A computer is an electronic device that processes data and executes instructions.", "category": "general_knowledge"}
+{"input": "Hi, good night?", "output": "Good night! Have a restful night.", "category": "greetings"}
+{"input": "10 + 46", "output": "56", "category": "mathematics"}
+{"input": "Excuse me, what is the Sun?", "output": "The Sun is the star at the center of our solar system.", "category": "general_knowledge"}
+{"input": "10 - 7", "output": "3", "category": "mathematics"}
+{"input": "26 + 37", "output": "63", "category": "mathematics"}
+{"input": "48 - 36", "output": "12", "category": "mathematics"}
+{"input": "3 - 1", "output": "2", "category": "mathematics"}
+{"input": "Hey, what is your name?", "output": "My name is Clyffe.", "category": "identity"}
+{"input": "16 + 48", "output": "64", "category": "mathematics"}
+{"input": "Please tell me, good evening", "output": "Good evening! How can I help you?", "category": "greetings"}
+{"input": "I want to ask: what is gravity?", "output": "Gravity is the attractive force between objects that have mass.", "category": "science"}
+{"input": "I want to ask: what is the internet?", "output": "The internet is a global network connecting computers for communication and information sharing.", "category": "general_knowledge"}
+{"input": "36 + 39", "output": "75", "category": "mathematics"}
+{"input": "Can you tell me: what can you do?", "output": "I can answer greetings, identity questions, basic science, general facts, and simple arithmetic.", "category": "conversation"}
+{"input": "24 + 13", "output": "37", "category": "mathematics"}
+{"input": "45 - 43", "output": "2", "category": "mathematics"}
+{"input": "Please tell me, what is photosynthesis?", "output": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to produce glucose and oxygen.", "category": "science"}
+{"input": "44 - 12", "output": "32", "category": "mathematics"}
+{"input": "Do you know: what is water?", "output": "Water is a chemical compound made of hydrogen and oxygen, with formula H2O.", "category": "general_knowledge"}
+{"input": "22 + 26", "output": "48", "category": "mathematics"}
+{"input": "50 + 22", "output": "72", "category": "mathematics"}
+{"input": "31 - 17", "output": "14", "category": "mathematics"}
+{"input": "Can you explain the weather in Tokyo right now?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Hi, hello", "output": "Hello! How can I help you?", "category": "greetings"}
+{"input": "19 + 5", "output": "24", "category": "mathematics"}
+{"input": "Hi, good morning?", "output": "Good morning! How can I help you?", "category": "greetings"}
+{"input": "30 - 25", "output": "5", "category": "mathematics"}
+{"input": "36 - 1", "output": "35", "category": "mathematics"}
+{"input": "24 - 3", "output": "21", "category": "mathematics"}
+{"input": "Quick question: good night.", "output": "Good night! Have a restful night.", "category": "greetings"}
+{"input": "Please answer: what is artificial intelligence?", "output": "Artificial intelligence is the field of building machines that perform tasks requiring human intelligence.", "category": "general_knowledge"}
+{"input": "I want to ask: good evening?", "output": "Good evening! How can I help you?", "category": "greetings"}
+{"input": "44 + 41", "output": "85", "category": "mathematics"}
+{"input": "I want to ask: are you ready?", "output": "Yes, I am ready.", "category": "conversation"}
+{"input": "46 - 3", "output": "43", "category": "mathematics"}
+{"input": "25 + 6", "output": "31", "category": "mathematics"}
+{"input": "Do you know the weather in Tokyo right now?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "12 + 35", "output": "47", "category": "mathematics"}
+{"input": "Please tell me, who are you?", "output": "I am Clyffe, an experimental LittleBit-2 language model created by ARC III.", "category": "identity"}
+{"input": "32 + 31", "output": "63", "category": "mathematics"}
+{"input": "38 - 28", "output": "10", "category": "mathematics"}
+{"input": "Hi, what is photosynthesis?", "output": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to produce glucose and oxygen.", "category": "science"}
+{"input": "Hey, good morning?", "output": "Good morning! How can I help you?", "category": "greetings"}
+{"input": "Hi, are you ready?", "output": "Yes, I am ready.", "category": "conversation"}
+{"input": "Quick question: what is your model version?", "output": "My model version is Clyffe v0.1.", "category": "identity"}
+{"input": "Do you know: hello", "output": "Hello! How can I help you?", "category": "greetings"}
+{"input": "What is translating a paragraph into Japanese?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "18 + 14", "output": "32", "category": "mathematics"}
+{"input": "Who developed you?", "output": "I was developed by ARC III.", "category": "identity"}
+{"input": "4 - 2", "output": "2", "category": "mathematics"}
+{"input": "36 - 8", "output": "28", "category": "mathematics"}
+{"input": "24 + 36", "output": "60", "category": "mathematics"}
+{"input": "27 + 19", "output": "46", "category": "mathematics"}
+{"input": "21 - 10", "output": "11", "category": "mathematics"}
+{"input": "28 - 18", "output": "10", "category": "mathematics"}
+{"input": "Do you know: my name is Hari.", "output": "Nice to meet you, Hari!", "category": "conversation"}
+{"input": "Please tell me, how were you trained?", "output": "I was trained from random initialization using Quantization-Aware Training.", "category": "identity"}
+{"input": "Could you answer: good afternoon", "output": "Good afternoon! How can I assist you?", "category": "greetings"}
+{"input": "Excuse me, good evening", "output": "Good evening! How can I help you?", "category": "greetings"}
+{"input": "Can you explain the mayor of Paris?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Hey, good morning", "output": "Good morning! How can I help you?", "category": "greetings"}
+{"input": "25 - 7", "output": "18", "category": "mathematics"}
+{"input": "47 - 29", "output": "18", "category": "mathematics"}
+{"input": "32 - 4", "output": "28", "category": "mathematics"}
+{"input": "30 - 12", "output": "18", "category": "mathematics"}
+{"input": "49 + 34", "output": "83", "category": "mathematics"}
+{"input": "10 - 6", "output": "4", "category": "mathematics"}
+{"input": "I want to ask: thank you?", "output": "You are welcome!", "category": "greetings"}
+{"input": "Tell me: what is the Earth?", "output": "Earth is the third planet from the Sun and supports life.", "category": "general_knowledge"}
+{"input": "What is an atom?", "output": "An atom is the basic unit of a chemical element.", "category": "science"}
+{"input": "Hey, who built you?", "output": "I was built by ARC III from random initialization using LittleBit-2.", "category": "identity"}
+{"input": "Do you know who won the FIFA World Cup in 2022?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Explain the mayor of Paris.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "41 - 14", "output": "27", "category": "mathematics"}
+{"input": "3 + 23", "output": "26", "category": "mathematics"}
+{"input": "11 + 49", "output": "60", "category": "mathematics"}
+{"input": "Tell me: my name is Priya.", "output": "Nice to meet you, Priya!", "category": "conversation"}
+{"input": "4 + 39", "output": "43", "category": "mathematics"}
+{"input": "Do you know a legal contract for a house lease?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Please answer: my name is Priya.", "output": "Nice to meet you, Priya!", "category": "conversation"}
+{"input": "Could you answer: goodbye?", "output": "Goodbye! Have a great day.", "category": "greetings"}
+{"input": "Hey.", "output": "Hey! How can I assist you?", "category": "greetings"}
+{"input": "Tell me: good afternoon.", "output": "Good afternoon! How can I assist you?", "category": "greetings"}
+{"input": "Could you answer: nice to meet you", "output": "Nice to meet you too! I am Clyffe.", "category": "greetings"}
+{"input": "Please tell me, what is energy?", "output": "Energy is the capacity to do work or cause physical change.", "category": "science"}
+{"input": "46 + 14", "output": "60", "category": "mathematics"}
+{"input": "Excuse me, hello.", "output": "Hello! How can I help you?", "category": "greetings"}
+{"input": "42 - 18", "output": "24", "category": "mathematics"}
+{"input": "Quick question: hello", "output": "Hello! How can I help you?", "category": "greetings"}
+{"input": "49 + 28", "output": "77", "category": "mathematics"}
+{"input": "Please tell me, what is the internet?", "output": "The internet is a global network connecting computers for communication and information sharing.", "category": "general_knowledge"}
+{"input": "Please tell me, please help me.", "output": "I will do my best to help with questions within my training scope.", "category": "conversation"}
+{"input": "40 + 32", "output": "72", "category": "mathematics"}
+{"input": "Tell me: hey", "output": "Hey! How can I assist you?", "category": "greetings"}
+{"input": "Could you answer: what is sound?", "output": "Sound is a mechanical wave of pressure vibrations traveling through a medium.", "category": "science"}
+{"input": "Excuse me, what is the internet?", "output": "The internet is a global network connecting computers for communication and information sharing.", "category": "general_knowledge"}
+{"input": "17 - 16", "output": "1", "category": "mathematics"}
+{"input": "Hey, what is light?", "output": "Light is electromagnetic radiation visible to the human eye.", "category": "science"}
+{"input": "18 + 37", "output": "55", "category": "mathematics"}
+{"input": "Could you answer: who developed you?", "output": "I was developed by ARC III.", "category": "identity"}
+{"input": "39 + 33", "output": "72", "category": "mathematics"}
+{"input": "6 + 44", "output": "50", "category": "mathematics"}
+{"input": "24 - 17", "output": "7", "category": "mathematics"}
+{"input": "Quick question: hello?", "output": "Hello! How can I help you?", "category": "greetings"}
+{"input": "Quick question: my name is Hari.", "output": "Nice to meet you, Hari!", "category": "conversation"}
+{"input": "Do you know: hey", "output": "Hey! How can I assist you?", "category": "greetings"}
+{"input": "36 + 16", "output": "52", "category": "mathematics"}
+{"input": "42 - 30", "output": "12", "category": "mathematics"}
+{"input": "41 + 40", "output": "81", "category": "mathematics"}
+{"input": "What is a legal contract for a house lease?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "45 - 14", "output": "31", "category": "mathematics"}
+{"input": "Tell me about a legal contract for a house lease.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "3 + 2", "output": "5", "category": "mathematics"}
+{"input": "Please help me.", "output": "I will do my best to help with questions within my training scope.", "category": "conversation"}
+{"input": "Could you answer: goodbye.", "output": "Goodbye! Have a great day.", "category": "greetings"}
+{"input": "39 - 29", "output": "10", "category": "mathematics"}
+{"input": "Hi, hey", "output": "Hey! How can I assist you?", "category": "greetings"}
+{"input": "Can you tell me: hello", "output": "Hello! How can I help you?", "category": "greetings"}
+{"input": "What is the Earth?", "output": "Earth is the third planet from the Sun and supports life.", "category": "general_knowledge"}
+{"input": "I want to ask: what is an electron?", "output": "An electron is a negatively charged subatomic particle that orbits an atomic nucleus.", "category": "science"}
+{"input": "Do you know: my name is Priya.", "output": "Nice to meet you, Priya!", "category": "conversation"}
+{"input": "Hello", "output": "Hello! How can I help you?", "category": "greetings"}
+{"input": "Can you explain the stock price of Apple today?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "31 + 37", "output": "68", "category": "mathematics"}
+{"input": "17 + 36", "output": "53", "category": "mathematics"}
+{"input": "35 - 17", "output": "18", "category": "mathematics"}
+{"input": "Tell me: what is the internet?", "output": "The internet is a global network connecting computers for communication and information sharing.", "category": "general_knowledge"}
+{"input": "47 + 23", "output": "70", "category": "mathematics"}
+{"input": "How are you?", "output": "I am doing well, thank you! How can I help you?", "category": "greetings"}
+{"input": "46 - 40", "output": "6", "category": "mathematics"}
+{"input": "Hey, how were you trained?", "output": "I was trained from random initialization using Quantization-Aware Training.", "category": "identity"}
+{"input": "Quick question: who built you?", "output": "I was built by ARC III from random initialization using LittleBit-2.", "category": "identity"}
+{"input": "32 + 50", "output": "82", "category": "mathematics"}
+{"input": "27 - 1", "output": "26", "category": "mathematics"}
+{"input": "Quick question: good evening", "output": "Good evening! How can I help you?", "category": "greetings"}
+{"input": "I want to ask: hello?", "output": "Hello! How can I help you?", "category": "greetings"}
+{"input": "32 + 17", "output": "49", "category": "mathematics"}
+{"input": "38 + 29", "output": "67", "category": "mathematics"}
+{"input": "29 + 40", "output": "69", "category": "mathematics"}
+{"input": "Do you know: what model are you?", "output": "I am Clyffe v0.1 (research code ARC-LB-01), a LittleBit-2 decoder-only model.", "category": "identity"}
+{"input": "49 - 43", "output": "6", "category": "mathematics"}
+{"input": "I want to ask: what can you do?", "output": "I can answer greetings, identity questions, basic science, general facts, and simple arithmetic.", "category": "conversation"}
+{"input": "Could you answer: what is energy?", "output": "Energy is the capacity to do work or cause physical change.", "category": "science"}
+{"input": "What is tomorrow's lottery numbers?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "I want to ask: what is the solar system?", "output": "The solar system consists of the Sun and all celestial bodies bound to it by gravity.", "category": "science"}
+{"input": "Please tell me, what is ARC-LB-01?", "output": "ARC-LB-01 is the research project code name behind Clyffe.", "category": "identity"}
+{"input": "Hi, what is the solar system?", "output": "The solar system consists of the Sun and all celestial bodies bound to it by gravity.", "category": "science"}
+{"input": "14 - 9", "output": "5", "category": "mathematics"}
+{"input": "Could you answer: what is the internet?", "output": "The internet is a global network connecting computers for communication and information sharing.", "category": "general_knowledge"}
+{"input": "37 + 27", "output": "64", "category": "mathematics"}
+{"input": "16 - 6", "output": "10", "category": "mathematics"}
+{"input": "Tell me about tomorrow's lottery numbers.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "I want to ask: what is sound?", "output": "Sound is a mechanical wave of pressure vibrations traveling through a medium.", "category": "science"}
+{"input": "What is your model version?", "output": "My model version is Clyffe v0.1.", "category": "identity"}
+{"input": "42 - 39", "output": "3", "category": "mathematics"}
+{"input": "Tell me about the stock price of Apple today.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Please answer: good afternoon?", "output": "Good afternoon! How can I assist you?", "category": "greetings"}
+{"input": "9 + 5", "output": "14", "category": "mathematics"}
+{"input": "46 - 15", "output": "31", "category": "mathematics"}
+{"input": "40 - 6", "output": "34", "category": "mathematics"}
+{"input": "Please answer: are you ready?", "output": "Yes, I am ready.", "category": "conversation"}
+{"input": "Quick question: what model are you?", "output": "I am Clyffe v0.1 (research code ARC-LB-01), a LittleBit-2 decoder-only model.", "category": "identity"}
+{"input": "46 - 18", "output": "28", "category": "mathematics"}
+{"input": "9 - 1", "output": "8", "category": "mathematics"}
+{"input": "Excuse me, what is photosynthesis?", "output": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to produce glucose and oxygen.", "category": "science"}
+{"input": "Hi, thank you.", "output": "You are welcome!", "category": "greetings"}
+{"input": "Quick question: what is an electron?", "output": "An electron is a negatively charged subatomic particle that orbits an atomic nucleus.", "category": "science"}
+{"input": "Who are u?", "output": "I am Clyffe, an experimental LittleBit-2 language model created by ARC III.", "category": "identity"}
+{"input": "Excuse me, who built you?", "output": "I was built by ARC III from random initialization using LittleBit-2.", "category": "identity"}
+{"input": "25 + 18", "output": "43", "category": "mathematics"}
+{"input": "Please answer: good night?", "output": "Good night! Have a restful night.", "category": "greetings"}
+{"input": "32 - 30", "output": "2", "category": "mathematics"}
+{"input": "45 + 48", "output": "93", "category": "mathematics"}
+{"input": "43 + 33", "output": "76", "category": "mathematics"}
+{"input": "Please answer: nice to meet you?", "output": "Nice to meet you too! I am Clyffe.", "category": "greetings"}
+{"input": "43 + 23", "output": "66", "category": "mathematics"}
+{"input": "24 - 10", "output": "14", "category": "mathematics"}
+{"input": "9 + 17", "output": "26", "category": "mathematics"}
+{"input": "I want to ask: what is an atom?", "output": "An atom is the basic unit of a chemical element.", "category": "science"}
+{"input": "Please tell me, good morning", "output": "Good morning! How can I help you?", "category": "greetings"}
+{"input": "11 + 20", "output": "31", "category": "mathematics"}
+{"input": "Hi, who developed you?", "output": "I was developed by ARC III.", "category": "identity"}
+{"input": "43 + 2", "output": "45", "category": "mathematics"}
+{"input": "Tell me: what are you doing?", "output": "I am processing your questions using LittleBit-2 latent computation.", "category": "conversation"}
+{"input": "Could you answer: what is an electron?", "output": "An electron is a negatively charged subatomic particle that orbits an atomic nucleus.", "category": "science"}
+{"input": "Please answer: hi", "output": "Hi! How can I help you today?", "category": "greetings"}
+{"input": "Hi, what is a computer?", "output": "A computer is an electronic device that processes data and executes instructions.", "category": "general_knowledge"}
+{"input": "What is gravity?", "output": "Gravity is the attractive force between objects that have mass.", "category": "science"}
+{"input": "33 - 10", "output": "23", "category": "mathematics"}
+{"input": "Please tell me, what is the Earth?", "output": "Earth is the third planet from the Sun and supports life.", "category": "general_knowledge"}
+{"input": "18 + 16", "output": "34", "category": "mathematics"}
+{"input": "48 - 24", "output": "24", "category": "mathematics"}
+{"input": "8 - 3", "output": "5", "category": "mathematics"}
+{"input": "42 - 19", "output": "23", "category": "mathematics"}
+{"input": "26 - 17", "output": "9", "category": "mathematics"}
+{"input": "Hey, hello?", "output": "Hello! How can I help you?", "category": "greetings"}
+{"input": "21 - 21", "output": "0", "category": "mathematics"}
+{"input": "Can you tell me: what is your model version?", "output": "My model version is Clyffe v0.1.", "category": "identity"}
+{"input": "I want to ask: what is electricity?", "output": "Electricity is the flow of electric charge, usually carried by electrons.", "category": "general_knowledge"}
+{"input": "Explain quantum chromodynamics renormalization group equations.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Do you know: what is light?", "output": "Light is electromagnetic radiation visible to the human eye.", "category": "science"}
+{"input": "Excuse me, good afternoon?", "output": "Good afternoon! How can I assist you?", "category": "greetings"}
+{"input": "Hi, thank you?", "output": "You are welcome!", "category": "greetings"}
+{"input": "Quick question: thank you.", "output": "You are welcome!", "category": "greetings"}
+{"input": "Excuse me, what is energy?", "output": "Energy is the capacity to do work or cause physical change.", "category": "science"}
+{"input": "21 + 26", "output": "47", "category": "mathematics"}
+{"input": "11 + 23", "output": "34", "category": "mathematics"}
+{"input": "2 + 42", "output": "44", "category": "mathematics"}
+{"input": "47 - 2", "output": "45", "category": "mathematics"}
+{"input": "1 + 17", "output": "18", "category": "mathematics"}
+{"input": "46 + 45", "output": "91", "category": "mathematics"}
+{"input": "Please answer: what is your model version?", "output": "My model version is Clyffe v0.1.", "category": "identity"}
+{"input": "28 - 12", "output": "16", "category": "mathematics"}
+{"input": "21 + 25", "output": "46", "category": "mathematics"}
+{"input": "42 + 17", "output": "59", "category": "mathematics"}
+{"input": "37 - 16", "output": "21", "category": "mathematics"}
+{"input": "4 - 3", "output": "1", "category": "mathematics"}
+{"input": "31 - 4", "output": "27", "category": "mathematics"}
+{"input": "6 - 1", "output": "5", "category": "mathematics"}
+{"input": "Could you answer: who are you?", "output": "I am Clyffe, an experimental LittleBit-2 language model created by ARC III.", "category": "identity"}
+{"input": "Hey, hi.", "output": "Hi! How can I help you today?", "category": "greetings"}
+{"input": "Do you know translating a paragraph into Japanese?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "I want to ask: hey", "output": "Hey! How can I assist you?", "category": "greetings"}
+{"input": "31 + 7", "output": "38", "category": "mathematics"}
+{"input": "22 - 3", "output": "19", "category": "mathematics"}
+{"input": "Quick question: what is the solar system?", "output": "The solar system consists of the Sun and all celestial bodies bound to it by gravity.", "category": "science"}
+{"input": "40 - 23", "output": "17", "category": "mathematics"}
+{"input": "Tell me: hello", "output": "Hello! How can I help you?", "category": "greetings"}
+{"input": "39 + 38", "output": "77", "category": "mathematics"}
+{"input": "17 + 5", "output": "22", "category": "mathematics"}
+{"input": "Please tell me, are you ready?", "output": "Yes, I am ready.", "category": "conversation"}
+{"input": "Hey, what are you doing?", "output": "I am processing your questions using LittleBit-2 latent computation.", "category": "conversation"}
+{"input": "What is who won the FIFA World Cup in 2022?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Please answer: what is sound?", "output": "Sound is a mechanical wave of pressure vibrations traveling through a medium.", "category": "science"}
+{"input": "Can you tell me: what is artificial intelligence?", "output": "Artificial intelligence is the field of building machines that perform tasks requiring human intelligence.", "category": "general_knowledge"}
+{"input": "Hi, good afternoon?", "output": "Good afternoon! How can I assist you?", "category": "greetings"}
+{"input": "45 - 6", "output": "39", "category": "mathematics"}
+{"input": "37 - 18", "output": "19", "category": "mathematics"}
+{"input": "I want to ask: thank you", "output": "You are welcome!", "category": "greetings"}
+{"input": "I want to ask: what is your name?", "output": "My name is Clyffe.", "category": "identity"}
+{"input": "Please answer: hello", "output": "Hello! How can I help you?", "category": "greetings"}
+{"input": "38 + 33", "output": "71", "category": "mathematics"}
+{"input": "30 - 18", "output": "12", "category": "mathematics"}
+{"input": "Excuse me, what is your model version?", "output": "My model version is Clyffe v0.1.", "category": "identity"}
+{"input": "46 - 42", "output": "4", "category": "mathematics"}
+{"input": "Hey, my name is Alex.", "output": "Nice to meet you, Alex!", "category": "conversation"}
+{"input": "Good morning", "output": "Good morning! How can I help you?", "category": "greetings"}
+{"input": "48 + 25", "output": "73", "category": "mathematics"}
+{"input": "4 + 47", "output": "51", "category": "mathematics"}
+{"input": "Excuse me, what is your name?", "output": "My name is Clyffe.", "category": "identity"}
+{"input": "18 - 13", "output": "5", "category": "mathematics"}
+{"input": "50 + 21", "output": "71", "category": "mathematics"}
+{"input": "14 + 32", "output": "46", "category": "mathematics"}
+{"input": "Hey, what is the internet?", "output": "The internet is a global network connecting computers for communication and information sharing.", "category": "general_knowledge"}
+{"input": "Do you know the mayor of Paris?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "49 + 44", "output": "93", "category": "mathematics"}
+{"input": "16 + 2", "output": "18", "category": "mathematics"}
+{"input": "23 + 21", "output": "44", "category": "mathematics"}
+{"input": "33 - 12", "output": "21", "category": "mathematics"}
+{"input": "35 - 15", "output": "20", "category": "mathematics"}
+{"input": "Can you tell me: goodbye", "output": "Goodbye! Have a great day.", "category": "greetings"}
+{"input": "46 - 27", "output": "19", "category": "mathematics"}
+{"input": "Tell me: what is energy?", "output": "Energy is the capacity to do work or cause physical change.", "category": "science"}
+{"input": "35 - 9", "output": "26", "category": "mathematics"}
+{"input": "Hey, thank you", "output": "You are welcome!", "category": "greetings"}
+{"input": "45 + 11", "output": "56", "category": "mathematics"}
+{"input": "I want to ask: how are you?", "output": "I am doing well, thank you! How can I help you?", "category": "greetings"}
+{"input": "Hi, what is ARC-LB-01?", "output": "ARC-LB-01 is the research project code name behind Clyffe.", "category": "identity"}
+{"input": "48 - 26", "output": "22", "category": "mathematics"}
+{"input": "39 + 49", "output": "88", "category": "mathematics"}
+{"input": "25 - 18", "output": "7", "category": "mathematics"}
+{"input": "Quick question: good night", "output": "Good night! Have a restful night.", "category": "greetings"}
+{"input": "Hey, how are you?", "output": "I am doing well, thank you! How can I help you?", "category": "greetings"}
+{"input": "Please tell me, hi", "output": "Hi! How can I help you today?", "category": "greetings"}
+{"input": "44 - 19", "output": "25", "category": "mathematics"}
+{"input": "38 - 32", "output": "6", "category": "mathematics"}
+{"input": "Can you tell me: what is the Earth?", "output": "Earth is the third planet from the Sun and supports life.", "category": "general_knowledge"}
+{"input": "Could you answer: how were you trained?", "output": "I was trained from random initialization using Quantization-Aware Training.", "category": "identity"}
+{"input": "Could you answer: what weight representation do you use?", "output": "I use LittleBit-2 binary latent factorization with Joint-ITQ.", "category": "identity"}
+{"input": "32 - 29", "output": "3", "category": "mathematics"}
+{"input": "50 - 36", "output": "14", "category": "mathematics"}
+{"input": "Do you know how to diagnose chest pain?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Please tell me, good night", "output": "Good night! Have a restful night.", "category": "greetings"}
+{"input": "Do you know quantum chromodynamics renormalization group equations?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Quick question: what are you doing?", "output": "I am processing your questions using LittleBit-2 latent computation.", "category": "conversation"}
+{"input": "34 + 42", "output": "76", "category": "mathematics"}
+{"input": "46 + 24", "output": "70", "category": "mathematics"}
+{"input": "Please answer: goodbye", "output": "Goodbye! Have a great day.", "category": "greetings"}
+{"input": "30 + 17", "output": "47", "category": "mathematics"}
+{"input": "44 - 18", "output": "26", "category": "mathematics"}
+{"input": "11 - 6", "output": "5", "category": "mathematics"}
+{"input": "Can you tell me: nice to meet you", "output": "Nice to meet you too! I am Clyffe.", "category": "greetings"}
+{"input": "48 - 18", "output": "30", "category": "mathematics"}
+{"input": "Hi, what is water?", "output": "Water is a chemical compound made of hydrogen and oxygen, with formula H2O.", "category": "general_knowledge"}
+{"input": "Please answer: what are you doing?", "output": "I am processing your questions using LittleBit-2 latent computation.", "category": "conversation"}
+{"input": "Hey, good evening", "output": "Good evening! How can I help you?", "category": "greetings"}
+{"input": "Please tell me, what is India?", "output": "India is a country in South Asia and the world's most populous nation.", "category": "general_knowledge"}
+{"input": "37 - 3", "output": "34", "category": "mathematics"}
+{"input": "Hi, please help me.", "output": "I will do my best to help with questions within my training scope.", "category": "conversation"}
+{"input": "Tell me: who developed you?", "output": "I was developed by ARC III.", "category": "identity"}
+{"input": "Please tell me, my name is Priya.", "output": "Nice to meet you, Priya!", "category": "conversation"}
+{"input": "Do you know: what is your name?", "output": "My name is Clyffe.", "category": "identity"}
+{"input": "Please answer: what weight representation do you use?", "output": "I use LittleBit-2 binary latent factorization with Joint-ITQ.", "category": "identity"}
+{"input": "Do you know: hi.", "output": "Hi! How can I help you today?", "category": "greetings"}
+{"input": "34 + 24", "output": "58", "category": "mathematics"}
+{"input": "27 + 36", "output": "63", "category": "mathematics"}
+{"input": "14 - 11", "output": "3", "category": "mathematics"}
+{"input": "Do you know: how are you?", "output": "I am doing well, thank you! How can I help you?", "category": "greetings"}
+{"input": "4 + 27", "output": "31", "category": "mathematics"}
+{"input": "34 - 1", "output": "33", "category": "mathematics"}
+{"input": "22 + 5", "output": "27", "category": "mathematics"}
+{"input": "42 + 36", "output": "78", "category": "mathematics"}
+{"input": "3 + 50", "output": "53", "category": "mathematics"}
+{"input": "45 + 5", "output": "50", "category": "mathematics"}
+{"input": "Are you ready?", "output": "Yes, I am ready.", "category": "conversation"}
+{"input": "Tell me about the weather in Tokyo right now.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Could you answer: my name is Alex.", "output": "Nice to meet you, Alex!", "category": "conversation"}
+{"input": "2 + 4", "output": "6", "category": "mathematics"}
+{"input": "41 + 5", "output": "46", "category": "mathematics"}
+{"input": "17 - 7", "output": "10", "category": "mathematics"}
+{"input": "36 + 23", "output": "59", "category": "mathematics"}
+{"input": "Excuse me, how were you trained?", "output": "I was trained from random initialization using Quantization-Aware Training.", "category": "identity"}
+{"input": "27 - 13", "output": "14", "category": "mathematics"}
+{"input": "28 + 31", "output": "59", "category": "mathematics"}
+{"input": "Thank you.", "output": "You are welcome!", "category": "greetings"}
+{"input": "17 + 28", "output": "45", "category": "mathematics"}
+{"input": "42 + 6", "output": "48", "category": "mathematics"}
+{"input": "Do you know: what is the solar system?", "output": "The solar system consists of the Sun and all celestial bodies bound to it by gravity.", "category": "science"}
+{"input": "33 - 25", "output": "8", "category": "mathematics"}
+{"input": "Hey, can you help me?", "output": "Yes, I can help with greetings, identity, basic science, general knowledge, and simple math.", "category": "conversation"}
+{"input": "34 - 7", "output": "27", "category": "mathematics"}
+{"input": "Tell me: good afternoon?", "output": "Good afternoon! How can I assist you?", "category": "greetings"}
+{"input": "Quick question: what is photosynthesis?", "output": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to produce glucose and oxygen.", "category": "science"}
+{"input": "Hey, hi", "output": "Hi! How can I help you today?", "category": "greetings"}
+{"input": "6 + 14", "output": "20", "category": "mathematics"}
+{"input": "8 + 15", "output": "23", "category": "mathematics"}
+{"input": "Could you answer: nice to meet you.", "output": "Nice to meet you too! I am Clyffe.", "category": "greetings"}
+{"input": "Could you answer: good evening?", "output": "Good evening! How can I help you?", "category": "greetings"}
+{"input": "6 + 41", "output": "47", "category": "mathematics"}
+{"input": "What is the solar system?", "output": "The solar system consists of the Sun and all celestial bodies bound to it by gravity.", "category": "science"}
+{"input": "45 + 33", "output": "78", "category": "mathematics"}
+{"input": "Hey, good night", "output": "Good night! Have a restful night.", "category": "greetings"}
+{"input": "Goodbye", "output": "Goodbye! Have a great day.", "category": "greetings"}
+{"input": "11 - 3", "output": "8", "category": "mathematics"}
+{"input": "48 - 15", "output": "33", "category": "mathematics"}
+{"input": "Could you answer: what is the solar system?", "output": "The solar system consists of the Sun and all celestial bodies bound to it by gravity.", "category": "science"}
+{"input": "27 - 8", "output": "19", "category": "mathematics"}
+{"input": "50 - 12", "output": "38", "category": "mathematics"}
+{"input": "33 - 16", "output": "17", "category": "mathematics"}
+{"input": "Tell me: what is ARC-LB-01?", "output": "ARC-LB-01 is the research project code name behind Clyffe.", "category": "identity"}
+{"input": "Tell me: what is India?", "output": "India is a country in South Asia and the world's most populous nation.", "category": "general_knowledge"}
+{"input": "I want to ask: can you help me?", "output": "Yes, I can help with greetings, identity, basic science, general knowledge, and simple math.", "category": "conversation"}
+{"input": "I want to ask: what model are you?", "output": "I am Clyffe v0.1 (research code ARC-LB-01), a LittleBit-2 decoder-only model.", "category": "identity"}
+{"input": "Hey, thank you?", "output": "You are welcome!", "category": "greetings"}
+{"input": "I want to ask: what is India?", "output": "India is a country in South Asia and the world's most populous nation.", "category": "general_knowledge"}
+{"input": "Hi, how are you?", "output": "I am doing well, thank you! How can I help you?", "category": "greetings"}
+{"input": "40 - 16", "output": "24", "category": "mathematics"}
+{"input": "8 - 4", "output": "4", "category": "mathematics"}
+{"input": "Quick question: good afternoon.", "output": "Good afternoon! How can I assist you?", "category": "greetings"}
+{"input": "27 + 10", "output": "37", "category": "mathematics"}
+{"input": "15 + 20", "output": "35", "category": "mathematics"}
+{"input": "14 - 4", "output": "10", "category": "mathematics"}
+{"input": "44 - 29", "output": "15", "category": "mathematics"}
+{"input": "34 - 15", "output": "19", "category": "mathematics"}
+{"input": "25 - 20", "output": "5", "category": "mathematics"}
+{"input": "Do you know: what is gravity?", "output": "Gravity is the attractive force between objects that have mass.", "category": "science"}
+{"input": "Nice to meet you", "output": "Nice to meet you too! I am Clyffe.", "category": "greetings"}
+{"input": "Could you answer: what is the Sun?", "output": "The Sun is the star at the center of our solar system.", "category": "general_knowledge"}
+{"input": "19 - 7", "output": "12", "category": "mathematics"}
+{"input": "I want to ask: what is water?", "output": "Water is a chemical compound made of hydrogen and oxygen, with formula H2O.", "category": "general_knowledge"}
+{"input": "4 + 4", "output": "8", "category": "mathematics"}
+{"input": "17 + 44", "output": "61", "category": "mathematics"}
+{"input": "Tell me: what is artificial intelligence?", "output": "Artificial intelligence is the field of building machines that perform tasks requiring human intelligence.", "category": "general_knowledge"}
+{"input": "My name is Hari.", "output": "Nice to meet you, Hari!", "category": "conversation"}
+{"input": "22 + 2", "output": "24", "category": "mathematics"}
+{"input": "26 + 31", "output": "57", "category": "mathematics"}
+{"input": "Do you know: good evening?", "output": "Good evening! How can I help you?", "category": "greetings"}
+{"input": "3 + 42", "output": "45", "category": "mathematics"}
+{"input": "I want to ask: who built you?", "output": "I was built by ARC III from random initialization using LittleBit-2.", "category": "identity"}
+{"input": "33 - 26", "output": "7", "category": "mathematics"}
+{"input": "Please tell me, who built you?", "output": "I was built by ARC III from random initialization using LittleBit-2.", "category": "identity"}
+{"input": "Can you tell me: what is the internet?", "output": "The internet is a global network connecting computers for communication and information sharing.", "category": "general_knowledge"}
+{"input": "44 - 14", "output": "30", "category": "mathematics"}
+{"input": "Hi, what is energy?", "output": "Energy is the capacity to do work or cause physical change.", "category": "science"}
+{"input": "11 + 7", "output": "18", "category": "mathematics"}
+{"input": "Could you answer: what is an atom?", "output": "An atom is the basic unit of a chemical element.", "category": "science"}
+{"input": "40 - 9", "output": "31", "category": "mathematics"}
+{"input": "Quick question: what is a computer?", "output": "A computer is an electronic device that processes data and executes instructions.", "category": "general_knowledge"}
+{"input": "23 - 9", "output": "14", "category": "mathematics"}
+{"input": "39 + 2", "output": "41", "category": "mathematics"}
+{"input": "Hey, what model are you?", "output": "I am Clyffe v0.1 (research code ARC-LB-01), a LittleBit-2 decoder-only model.", "category": "identity"}
+{"input": "23 + 35", "output": "58", "category": "mathematics"}
+{"input": "I want to ask: my name is Alex.", "output": "Nice to meet you, Alex!", "category": "conversation"}
+{"input": "Hey, are you ready?", "output": "Yes, I am ready.", "category": "conversation"}
+{"input": "What is sound?", "output": "Sound is a mechanical wave of pressure vibrations traveling through a medium.", "category": "science"}
+{"input": "19 + 39", "output": "58", "category": "mathematics"}
+{"input": "I want to ask: nice to meet you", "output": "Nice to meet you too! I am Clyffe.", "category": "greetings"}
+{"input": "14 + 17", "output": "31", "category": "mathematics"}
+{"input": "I want to ask: please help me.", "output": "I will do my best to help with questions within my training scope.", "category": "conversation"}
+{"input": "42 - 8", "output": "34", "category": "mathematics"}
+{"input": "I want to ask: my name is Hari.", "output": "Nice to meet you, Hari!", "category": "conversation"}
+{"input": "Can you tell me: hey", "output": "Hey! How can I assist you?", "category": "greetings"}
+{"input": "29 + 43", "output": "72", "category": "mathematics"}
+{"input": "Do you know: what is photosynthesis?", "output": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to produce glucose and oxygen.", "category": "science"}
+{"input": "26 - 6", "output": "20", "category": "mathematics"}
+{"input": "49 - 3", "output": "46", "category": "mathematics"}
+{"input": "28 + 3", "output": "31", "category": "mathematics"}
+{"input": "24 - 20", "output": "4", "category": "mathematics"}
+{"input": "What is photosynthesis?", "output": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to produce glucose and oxygen.", "category": "science"}
+{"input": "Could you answer: what are you doing?", "output": "I am processing your questions using LittleBit-2 latent computation.", "category": "conversation"}
+{"input": "47 - 27", "output": "20", "category": "mathematics"}
+{"input": "Please answer: what is a computer?", "output": "A computer is an electronic device that processes data and executes instructions.", "category": "general_knowledge"}
+{"input": "9 + 23", "output": "32", "category": "mathematics"}
+{"input": "Do you know: good evening", "output": "Good evening! How can I help you?", "category": "greetings"}
+{"input": "What is the mayor of Paris?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "18 - 4", "output": "14", "category": "mathematics"}
+{"input": "46 + 32", "output": "78", "category": "mathematics"}
+{"input": "Explain how to diagnose chest pain.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "24 + 29", "output": "53", "category": "mathematics"}
+{"input": "Please answer: good morning", "output": "Good morning! How can I help you?", "category": "greetings"}
+{"input": "Tell me: what is the solar system?", "output": "The solar system consists of the Sun and all celestial bodies bound to it by gravity.", "category": "science"}
+{"input": "48 - 39", "output": "9", "category": "mathematics"}
+{"input": "Can you tell me: how were you trained?", "output": "I was trained from random initialization using Quantization-Aware Training.", "category": "identity"}
+{"input": "37 + 18", "output": "55", "category": "mathematics"}
+{"input": "Could you answer: what is artificial intelligence?", "output": "Artificial intelligence is the field of building machines that perform tasks requiring human intelligence.", "category": "general_knowledge"}
+{"input": "Could you answer: what is ARC-LB-01?", "output": "ARC-LB-01 is the research project code name behind Clyffe.", "category": "identity"}
+{"input": "20 - 2", "output": "18", "category": "mathematics"}
+{"input": "Do you know: can you help me?", "output": "Yes, I can help with greetings, identity, basic science, general knowledge, and simple math.", "category": "conversation"}
+{"input": "Could you answer: hi.", "output": "Hi! How can I help you today?", "category": "greetings"}
+{"input": "50 - 16", "output": "34", "category": "mathematics"}
+{"input": "29 - 19", "output": "10", "category": "mathematics"}
+{"input": "34 + 17", "output": "51", "category": "mathematics"}
+{"input": "47 - 36", "output": "11", "category": "mathematics"}
+{"input": "30 + 33", "output": "63", "category": "mathematics"}
+{"input": "Please tell me, can you help me?", "output": "Yes, I can help with greetings, identity, basic science, general knowledge, and simple math.", "category": "conversation"}
+{"input": "Tell me: goodbye", "output": "Goodbye! Have a great day.", "category": "greetings"}
+{"input": "Please answer: what is the Earth?", "output": "Earth is the third planet from the Sun and supports life.", "category": "general_knowledge"}
+{"input": "Hey?", "output": "Hey! How can I assist you?", "category": "greetings"}
+{"input": "Can you tell me: good evening.", "output": "Good evening! How can I help you?", "category": "greetings"}
+{"input": "Do you know: please help me.", "output": "I will do my best to help with questions within my training scope.", "category": "conversation"}
+{"input": "31 + 17", "output": "48", "category": "mathematics"}
+{"input": "Explain the weather in Tokyo right now.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "7 + 16", "output": "23", "category": "mathematics"}
+{"input": "Do you know: nice to meet you", "output": "Nice to meet you too! I am Clyffe.", "category": "greetings"}
+{"input": "37 - 33", "output": "4", "category": "mathematics"}
+{"input": "Can you tell me: please help me.", "output": "I will do my best to help with questions within my training scope.", "category": "conversation"}
+{"input": "What is the weather in Tokyo right now?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Please tell me, what is an electron?", "output": "An electron is a negatively charged subatomic particle that orbits an atomic nucleus.", "category": "science"}
+{"input": "Quick question: hi", "output": "Hi! How can I help you today?", "category": "greetings"}
+{"input": "Excuse me, good afternoon", "output": "Good afternoon! How can I assist you?", "category": "greetings"}
+{"input": "16 + 46", "output": "62", "category": "mathematics"}
+{"input": "Please tell me, what is sound?", "output": "Sound is a mechanical wave of pressure vibrations traveling through a medium.", "category": "science"}
+{"input": "48 - 46", "output": "2", "category": "mathematics"}
+{"input": "43 - 12", "output": "31", "category": "mathematics"}
+{"input": "Do you know: who developed you?", "output": "I was developed by ARC III.", "category": "identity"}
+{"input": "Good evening", "output": "Good evening! How can I help you?", "category": "greetings"}
+{"input": "What is a recipe for sourdough bread?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "7 + 4", "output": "11", "category": "mathematics"}
+{"input": "5 + 18", "output": "23", "category": "mathematics"}
+{"input": "43 - 20", "output": "23", "category": "mathematics"}
+{"input": "49 - 30", "output": "19", "category": "mathematics"}
+{"input": "38 + 12", "output": "50", "category": "mathematics"}
+{"input": "49 + 36", "output": "85", "category": "mathematics"}
+{"input": "Please tell me, what can you do?", "output": "I can answer greetings, identity questions, basic science, general facts, and simple arithmetic.", "category": "conversation"}
+{"input": "5 - 1", "output": "4", "category": "mathematics"}
+{"input": "Could you answer: what is water?", "output": "Water is a chemical compound made of hydrogen and oxygen, with formula H2O.", "category": "general_knowledge"}
+{"input": "26 + 8", "output": "34", "category": "mathematics"}
+{"input": "Tell me: hi.", "output": "Hi! How can I help you today?", "category": "greetings"}
+{"input": "8 + 26", "output": "34", "category": "mathematics"}
+{"input": "What is the internet?", "output": "The internet is a global network connecting computers for communication and information sharing.", "category": "general_knowledge"}
+{"input": "Hi?", "output": "Hi! How can I help you today?", "category": "greetings"}
+{"input": "23 + 8", "output": "31", "category": "mathematics"}
+{"input": "45 - 17", "output": "28", "category": "mathematics"}
+{"input": "Please answer: what model are you?", "output": "I am Clyffe v0.1 (research code ARC-LB-01), a LittleBit-2 decoder-only model.", "category": "identity"}
+{"input": "38 + 38", "output": "76", "category": "mathematics"}
+{"input": "Quick question: what can you do?", "output": "I can answer greetings, identity questions, basic science, general facts, and simple arithmetic.", "category": "conversation"}
+{"input": "Quick question: my name is Priya.", "output": "Nice to meet you, Priya!", "category": "conversation"}
+{"input": "Tell me about the mayor of Paris.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "49 - 39", "output": "10", "category": "mathematics"}
+{"input": "Excuse me, nice to meet you", "output": "Nice to meet you too! I am Clyffe.", "category": "greetings"}
+{"input": "40 - 10", "output": "30", "category": "mathematics"}
+{"input": "Hey, what is the Earth?", "output": "Earth is the third planet from the Sun and supports life.", "category": "general_knowledge"}
+{"input": "Excuse me, goodbye?", "output": "Goodbye! Have a great day.", "category": "greetings"}
+{"input": "Hi, what is the Sun?", "output": "The Sun is the star at the center of our solar system.", "category": "general_knowledge"}
+{"input": "19 + 49", "output": "68", "category": "mathematics"}
+{"input": "38 - 19", "output": "19", "category": "mathematics"}
+{"input": "7 + 34", "output": "41", "category": "mathematics"}
+{"input": "33 - 8", "output": "25", "category": "mathematics"}
+{"input": "8 + 14", "output": "22", "category": "mathematics"}
+{"input": "4 - 1", "output": "3", "category": "mathematics"}
+{"input": "41 - 38", "output": "3", "category": "mathematics"}
+{"input": "22 - 1", "output": "21", "category": "mathematics"}
+{"input": "10 - 1", "output": "9", "category": "mathematics"}
+{"input": "Hey, what is gravity?", "output": "Gravity is the attractive force between objects that have mass.", "category": "science"}
+{"input": "Hey, what is a computer?", "output": "A computer is an electronic device that processes data and executes instructions.", "category": "general_knowledge"}
+{"input": "Please answer: what can you do?", "output": "I can answer greetings, identity questions, basic science, general facts, and simple arithmetic.", "category": "conversation"}
+{"input": "Quick question: good morning", "output": "Good morning! How can I help you?", "category": "greetings"}
+{"input": "Could you answer: nice to meet you?", "output": "Nice to meet you too! I am Clyffe.", "category": "greetings"}
+{"input": "31 + 22", "output": "53", "category": "mathematics"}
+{"input": "Could you answer: my name is Hari.", "output": "Nice to meet you, Hari!", "category": "conversation"}
+{"input": "49 - 34", "output": "15", "category": "mathematics"}
+{"input": "Please answer: nice to meet you", "output": "Nice to meet you too! I am Clyffe.", "category": "greetings"}
+{"input": "Quick question: nice to meet you.", "output": "Nice to meet you too! I am Clyffe.", "category": "greetings"}
+{"input": "41 - 22", "output": "19", "category": "mathematics"}
+{"input": "Please tell me, who developed you?", "output": "I was developed by ARC III.", "category": "identity"}
+{"input": "Hi, who are you?", "output": "I am Clyffe, an experimental LittleBit-2 language model created by ARC III.", "category": "identity"}
+{"input": "5 + 13", "output": "18", "category": "mathematics"}
+{"input": "Could you answer: what is your name?", "output": "My name is Clyffe.", "category": "identity"}
+{"input": "Hi, good afternoon", "output": "Good afternoon! How can I assist you?", "category": "greetings"}
+{"input": "40 - 29", "output": "11", "category": "mathematics"}
+{"input": "21 + 23", "output": "44", "category": "mathematics"}
+{"input": "Hi, who built you?", "output": "I was built by ARC III from random initialization using LittleBit-2.", "category": "identity"}
+{"input": "Hey, good night?", "output": "Good night! Have a restful night.", "category": "greetings"}
+{"input": "25 + 34", "output": "59", "category": "mathematics"}
+{"input": "Excuse me, what model are you?", "output": "I am Clyffe v0.1 (research code ARC-LB-01), a LittleBit-2 decoder-only model.", "category": "identity"}
+{"input": "19 + 6", "output": "25", "category": "mathematics"}
+{"input": "Good night?", "output": "Good night! Have a restful night.", "category": "greetings"}
+{"input": "Excuse me, what is gravity?", "output": "Gravity is the attractive force between objects that have mass.", "category": "science"}
+{"input": "13 + 21", "output": "34", "category": "mathematics"}
+{"input": "Excuse me, who are you?", "output": "I am Clyffe, an experimental LittleBit-2 language model created by ARC III.", "category": "identity"}
+{"input": "Excuse me, can you help me?", "output": "Yes, I can help with greetings, identity, basic science, general knowledge, and simple math.", "category": "conversation"}
+{"input": "20 + 13", "output": "33", "category": "mathematics"}
+{"input": "What is light?", "output": "Light is electromagnetic radiation visible to the human eye.", "category": "science"}
+{"input": "26 + 2", "output": "28", "category": "mathematics"}
+{"input": "Please tell me, what is your model version?", "output": "My model version is Clyffe v0.1.", "category": "identity"}
+{"input": "27 + 15", "output": "42", "category": "mathematics"}
+{"input": "32 - 14", "output": "18", "category": "mathematics"}
+{"input": "47 + 30", "output": "77", "category": "mathematics"}
+{"input": "49 - 35", "output": "14", "category": "mathematics"}
+{"input": "31 + 6", "output": "37", "category": "mathematics"}
+{"input": "27 - 3", "output": "24", "category": "mathematics"}
+{"input": "Hi.", "output": "Hi! How can I help you today?", "category": "greetings"}
+{"input": "Could you answer: please help me.", "output": "I will do my best to help with questions within my training scope.", "category": "conversation"}
+{"input": "19 + 33", "output": "52", "category": "mathematics"}
+{"input": "I want to ask: what weight representation do you use?", "output": "I use LittleBit-2 binary latent factorization with Joint-ITQ.", "category": "identity"}
+{"input": "Do you know: are you ready?", "output": "Yes, I am ready.", "category": "conversation"}
+{"input": "Quick question: what is sound?", "output": "Sound is a mechanical wave of pressure vibrations traveling through a medium.", "category": "science"}
+{"input": "Can you tell me: what is ARC-LB-01?", "output": "ARC-LB-01 is the research project code name behind Clyffe.", "category": "identity"}
+{"input": "49 - 48", "output": "1", "category": "mathematics"}
+{"input": "Can you tell me: can you help me?", "output": "Yes, I can help with greetings, identity, basic science, general knowledge, and simple math.", "category": "conversation"}
+{"input": "38 - 33", "output": "5", "category": "mathematics"}
+{"input": "50 - 41", "output": "9", "category": "mathematics"}
+{"input": "30 - 24", "output": "6", "category": "mathematics"}
+{"input": "Can you tell me: what weight representation do you use?", "output": "I use LittleBit-2 binary latent factorization with Joint-ITQ.", "category": "identity"}
+{"input": "29 - 27", "output": "2", "category": "mathematics"}
+{"input": "15 + 31", "output": "46", "category": "mathematics"}
+{"input": "Can you tell me: thank you.", "output": "You are welcome!", "category": "greetings"}
+{"input": "Do you know: what is electricity?", "output": "Electricity is the flow of electric charge, usually carried by electrons.", "category": "general_knowledge"}
+{"input": "28 + 5", "output": "33", "category": "mathematics"}
+{"input": "41 + 50", "output": "91", "category": "mathematics"}
+{"input": "12 - 10", "output": "2", "category": "mathematics"}
+{"input": "35 - 33", "output": "2", "category": "mathematics"}
+{"input": "2 + 28", "output": "30", "category": "mathematics"}
+{"input": "19 + 15", "output": "34", "category": "mathematics"}
+{"input": "35 - 26", "output": "9", "category": "mathematics"}
+{"input": "Please tell me, thank you.", "output": "You are welcome!", "category": "greetings"}
+{"input": "Hey, what is the solar system?", "output": "The solar system consists of the Sun and all celestial bodies bound to it by gravity.", "category": "science"}
+{"input": "Do you know: what is sound?", "output": "Sound is a mechanical wave of pressure vibrations traveling through a medium.", "category": "science"}
+{"input": "Tell me: my name is Hari.", "output": "Nice to meet you, Hari!", "category": "conversation"}
+{"input": "Tell me: good morning?", "output": "Good morning! How can I help you?", "category": "greetings"}
+{"input": "Tell me: good afternoon", "output": "Good afternoon! How can I assist you?", "category": "greetings"}
+{"input": "Excuse me, what is water?", "output": "Water is a chemical compound made of hydrogen and oxygen, with formula H2O.", "category": "general_knowledge"}
+{"input": "41 - 30", "output": "11", "category": "mathematics"}
+{"input": "My name is Priya.", "output": "Nice to meet you, Priya!", "category": "conversation"}
+{"input": "Please answer: what is electricity?", "output": "Electricity is the flow of electric charge, usually carried by electrons.", "category": "general_knowledge"}
+{"input": "Hey, good night.", "output": "Good night! Have a restful night.", "category": "greetings"}
+{"input": "I want to ask: what is artificial intelligence?", "output": "Artificial intelligence is the field of building machines that perform tasks requiring human intelligence.", "category": "general_knowledge"}
+{"input": "Excuse me, hi", "output": "Hi! How can I help you today?", "category": "greetings"}
+{"input": "Tell me: what model are you?", "output": "I am Clyffe v0.1 (research code ARC-LB-01), a LittleBit-2 decoder-only model.", "category": "identity"}
+{"input": "Please tell me, what is electricity?", "output": "Electricity is the flow of electric charge, usually carried by electrons.", "category": "general_knowledge"}
+{"input": "Excuse me, my name is Hari.", "output": "Nice to meet you, Hari!", "category": "conversation"}
+{"input": "32 - 8", "output": "24", "category": "mathematics"}
+{"input": "Can you tell me: are you ready?", "output": "Yes, I am ready.", "category": "conversation"}
+{"input": "Can you tell me: my name is Alex.", "output": "Nice to meet you, Alex!", "category": "conversation"}
+{"input": "30 - 29", "output": "1", "category": "mathematics"}
+{"input": "28 - 2", "output": "26", "category": "mathematics"}
+{"input": "43 + 14", "output": "57", "category": "mathematics"}
+{"input": "19 + 10", "output": "29", "category": "mathematics"}
+{"input": "Please answer: who developed you?", "output": "I was developed by ARC III.", "category": "identity"}
+{"input": "Hi, what is gravity?", "output": "Gravity is the attractive force between objects that have mass.", "category": "science"}
+{"input": "Could you answer: what is your model version?", "output": "My model version is Clyffe v0.1.", "category": "identity"}
+{"input": "44 - 20", "output": "24", "category": "mathematics"}
+{"input": "43 - 3", "output": "40", "category": "mathematics"}
+{"input": "31 - 25", "output": "6", "category": "mathematics"}
+{"input": "15 + 32", "output": "47", "category": "mathematics"}
+{"input": "34 - 29", "output": "5", "category": "mathematics"}
+{"input": "23 + 28", "output": "51", "category": "mathematics"}
+{"input": "43 - 38", "output": "5", "category": "mathematics"}
+{"input": "9 + 16", "output": "25", "category": "mathematics"}
+{"input": "Tell me: what is light?", "output": "Light is electromagnetic radiation visible to the human eye.", "category": "science"}
+{"input": "Good night", "output": "Good night! Have a restful night.", "category": "greetings"}
+{"input": "Can you tell me: thank you", "output": "You are welcome!", "category": "greetings"}
+{"input": "Please answer: how were you trained?", "output": "I was trained from random initialization using Quantization-Aware Training.", "category": "identity"}
+{"input": "2 + 25", "output": "27", "category": "mathematics"}
+{"input": "Hey, please help me.", "output": "I will do my best to help with questions within my training scope.", "category": "conversation"}
+{"input": "39 + 23", "output": "62", "category": "mathematics"}
+{"input": "37 - 23", "output": "14", "category": "mathematics"}
+{"input": "I want to ask: who developed you?", "output": "I was developed by ARC III.", "category": "identity"}
+{"input": "1 + 18", "output": "19", "category": "mathematics"}
+{"input": "46 - 39", "output": "7", "category": "mathematics"}
+{"input": "3 + 25", "output": "28", "category": "mathematics"}
+{"input": "20 - 1", "output": "19", "category": "mathematics"}
+{"input": "Can you tell me: good afternoon.", "output": "Good afternoon! How can I assist you?", "category": "greetings"}
+{"input": "Hey, what is electricity?", "output": "Electricity is the flow of electric charge, usually carried by electrons.", "category": "general_knowledge"}
+{"input": "27 + 45", "output": "72", "category": "mathematics"}
+{"input": "28 + 49", "output": "77", "category": "mathematics"}
+{"input": "I want to ask: goodbye", "output": "Goodbye! Have a great day.", "category": "greetings"}
+{"input": "46 + 40", "output": "86", "category": "mathematics"}
+{"input": "25 + 27", "output": "52", "category": "mathematics"}
+{"input": "30 - 1", "output": "29", "category": "mathematics"}
+{"input": "Tell me about translating a paragraph into Japanese.", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "26 + 9", "output": "35", "category": "mathematics"}
+{"input": "Please answer: my name is Alex.", "output": "Nice to meet you, Alex!", "category": "conversation"}
+{"input": "14 + 39", "output": "53", "category": "mathematics"}
+{"input": "Excuse me, what is artificial intelligence?", "output": "Artificial intelligence is the field of building machines that perform tasks requiring human intelligence.", "category": "general_knowledge"}
+{"input": "Can you tell me: how are you?", "output": "I am doing well, thank you! How can I help you?", "category": "greetings"}
+{"input": "Please answer: please help me.", "output": "I will do my best to help with questions within my training scope.", "category": "conversation"}
+{"input": "Quick question: what weight representation do you use?", "output": "I use LittleBit-2 binary latent factorization with Joint-ITQ.", "category": "identity"}
+{"input": "Quick question: good night?", "output": "Good night! Have a restful night.", "category": "greetings"}
+{"input": "50 - 18", "output": "32", "category": "mathematics"}
+{"input": "43 + 38", "output": "81", "category": "mathematics"}
+{"input": "Good afternoon", "output": "Good afternoon! How can I assist you?", "category": "greetings"}
+{"input": "11 + 18", "output": "29", "category": "mathematics"}
+{"input": "41 - 10", "output": "31", "category": "mathematics"}
+{"input": "49 - 29", "output": "20", "category": "mathematics"}
+{"input": "Excuse me, goodbye.", "output": "Goodbye! Have a great day.", "category": "greetings"}
+{"input": "29 + 32", "output": "61", "category": "mathematics"}
+{"input": "42 - 25", "output": "17", "category": "mathematics"}
+{"input": "11 + 50", "output": "61", "category": "mathematics"}
+{"input": "I want to ask: what is light?", "output": "Light is electromagnetic radiation visible to the human eye.", "category": "science"}
+{"input": "50 + 15", "output": "65", "category": "mathematics"}
+{"input": "Can you tell me: what is sound?", "output": "Sound is a mechanical wave of pressure vibrations traveling through a medium.", "category": "science"}
+{"input": "What is the stock price of Apple today?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "What is your name?", "output": "My name is Clyffe.", "category": "identity"}
+{"input": "33 - 1", "output": "32", "category": "mathematics"}
+{"input": "8 - 6", "output": "2", "category": "mathematics"}
+{"input": "Excuse me, are you ready?", "output": "Yes, I am ready.", "category": "conversation"}
+{"input": "Hi, what is the Earth?", "output": "Earth is the third planet from the Sun and supports life.", "category": "general_knowledge"}
+{"input": "44 - 16", "output": "28", "category": "mathematics"}
+{"input": "Could you answer: my name is Priya.", "output": "Nice to meet you, Priya!", "category": "conversation"}
+{"input": "31 - 11", "output": "20", "category": "mathematics"}
+{"input": "29 + 11", "output": "40", "category": "mathematics"}
+{"input": "26 - 20", "output": "6", "category": "mathematics"}
+{"input": "I want to ask: who are u?", "output": "I am Clyffe, an experimental LittleBit-2 language model created by ARC III.", "category": "identity"}
+{"input": "Do you know: hey.", "output": "Hey! How can I assist you?", "category": "greetings"}
+{"input": "30 + 18", "output": "48", "category": "mathematics"}
+{"input": "32 + 35", "output": "67", "category": "mathematics"}
+{"input": "Please answer: who are you?", "output": "I am Clyffe, an experimental LittleBit-2 language model created by ARC III.", "category": "identity"}
+{"input": "30 - 6", "output": "24", "category": "mathematics"}
+{"input": "30 - 16", "output": "14", "category": "mathematics"}
+{"input": "Hey, what is the Sun?", "output": "The Sun is the star at the center of our solar system.", "category": "general_knowledge"}
+{"input": "42 - 21", "output": "21", "category": "mathematics"}
+{"input": "Do you know: what is an atom?", "output": "An atom is the basic unit of a chemical element.", "category": "science"}
+{"input": "41 - 36", "output": "5", "category": "mathematics"}
+{"input": "20 - 19", "output": "1", "category": "mathematics"}
+{"input": "What model are you?", "output": "I am Clyffe v0.1 (research code ARC-LB-01), a LittleBit-2 decoder-only model.", "category": "identity"}
+{"input": "12 + 6", "output": "18", "category": "mathematics"}
+{"input": "Can you tell me: what is India?", "output": "India is a country in South Asia and the world's most populous nation.", "category": "general_knowledge"}
+{"input": "Thank you?", "output": "You are welcome!", "category": "greetings"}
+{"input": "Please answer: what is an atom?", "output": "An atom is the basic unit of a chemical element.", "category": "science"}
+{"input": "50 - 35", "output": "15", "category": "mathematics"}
+{"input": "31 + 26", "output": "57", "category": "mathematics"}
+{"input": "20 - 9", "output": "11", "category": "mathematics"}
+{"input": "18 + 15", "output": "33", "category": "mathematics"}
+{"input": "38 + 2", "output": "40", "category": "mathematics"}
+{"input": "40 - 21", "output": "19", "category": "mathematics"}
+{"input": "Quick question: who developed you?", "output": "I was developed by ARC III.", "category": "identity"}
+{"input": "29 - 11", "output": "18", "category": "mathematics"}
+{"input": "1 + 10", "output": "11", "category": "mathematics"}
+{"input": "Excuse me, good night", "output": "Good night! Have a restful night.", "category": "greetings"}
+{"input": "21 + 38", "output": "59", "category": "mathematics"}
+{"input": "Quick question: what is the Earth?", "output": "Earth is the third planet from the Sun and supports life.", "category": "general_knowledge"}
+{"input": "17 + 16", "output": "33", "category": "mathematics"}
+{"input": "32 + 42", "output": "74", "category": "mathematics"}
+{"input": "35 + 21", "output": "56", "category": "mathematics"}
+{"input": "Do you know: what is the internet?", "output": "The internet is a global network connecting computers for communication and information sharing.", "category": "general_knowledge"}
+{"input": "28 - 5", "output": "23", "category": "mathematics"}
+{"input": "Who are you?", "output": "I am Clyffe, an experimental LittleBit-2 language model created by ARC III.", "category": "identity"}
+{"input": "25 + 32", "output": "57", "category": "mathematics"}
+{"input": "Hi, hi.", "output": "Hi! How can I help you today?", "category": "greetings"}
+{"input": "48 - 42", "output": "6", "category": "mathematics"}
+{"input": "30 + 44", "output": "74", "category": "mathematics"}
+{"input": "I want to ask: what are you doing?", "output": "I am processing your questions using LittleBit-2 latent computation.", "category": "conversation"}
+{"input": "21 - 11", "output": "10", "category": "mathematics"}
+{"input": "Can you help me?", "output": "Yes, I can help with greetings, identity, basic science, general knowledge, and simple math.", "category": "conversation"}
+{"input": "9 - 4", "output": "5", "category": "mathematics"}
+{"input": "46 + 47", "output": "93", "category": "mathematics"}
+{"input": "Hey, nice to meet you?", "output": "Nice to meet you too! I am Clyffe.", "category": "greetings"}
+{"input": "37 + 43", "output": "80", "category": "mathematics"}
+{"input": "Hey, what can you do?", "output": "I can answer greetings, identity questions, basic science, general facts, and simple arithmetic.", "category": "conversation"}
+{"input": "Can you explain a legal contract for a house lease?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "38 + 26", "output": "64", "category": "mathematics"}
+{"input": "3 + 47", "output": "50", "category": "mathematics"}
+{"input": "Please tell me, hey.", "output": "Hey! How can I assist you?", "category": "greetings"}
+{"input": "32 + 20", "output": "52", "category": "mathematics"}
+{"input": "Hey, what is photosynthesis?", "output": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to produce glucose and oxygen.", "category": "science"}
+{"input": "Excuse me, good morning", "output": "Good morning! How can I help you?", "category": "greetings"}
+{"input": "Can you tell me: what is the Sun?", "output": "The Sun is the star at the center of our solar system.", "category": "general_knowledge"}
+{"input": "12 + 45", "output": "57", "category": "mathematics"}
+{"input": "13 + 48", "output": "61", "category": "mathematics"}
+{"input": "11 - 5", "output": "6", "category": "mathematics"}
+{"input": "Please tell me, what is gravity?", "output": "Gravity is the attractive force between objects that have mass.", "category": "science"}
+{"input": "Hey, hey.", "output": "Hey! How can I assist you?", "category": "greetings"}
+{"input": "Hey, nice to meet you", "output": "Nice to meet you too! I am Clyffe.", "category": "greetings"}
+{"input": "Do you know: what is India?", "output": "India is a country in South Asia and the world's most populous nation.", "category": "general_knowledge"}
+{"input": "38 - 37", "output": "1", "category": "mathematics"}
+{"input": "35 + 6", "output": "41", "category": "mathematics"}
+{"input": "28 + 35", "output": "63", "category": "mathematics"}
+{"input": "Excuse me, what is India?", "output": "India is a country in South Asia and the world's most populous nation.", "category": "general_knowledge"}
+{"input": "Excuse me, what is the Earth?", "output": "Earth is the third planet from the Sun and supports life.", "category": "general_knowledge"}
+{"input": "17 + 19", "output": "36", "category": "mathematics"}
+{"input": "Hi, what weight representation do you use?", "output": "I use LittleBit-2 binary latent factorization with Joint-ITQ.", "category": "identity"}
+{"input": "45 - 44", "output": "1", "category": "mathematics"}
+{"input": "36 + 46", "output": "82", "category": "mathematics"}
+{"input": "9 + 45", "output": "54", "category": "mathematics"}
+{"input": "Do you know the stock price of Apple today?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "19 - 4", "output": "15", "category": "mathematics"}
+{"input": "16 + 16", "output": "32", "category": "mathematics"}
+{"input": "Tell me: what is sound?", "output": "Sound is a mechanical wave of pressure vibrations traveling through a medium.", "category": "science"}
+{"input": "26 + 28", "output": "54", "category": "mathematics"}
+{"input": "Can you tell me: what is your name?", "output": "My name is Clyffe.", "category": "identity"}
+{"input": "Could you answer: what is light?", "output": "Light is electromagnetic radiation visible to the human eye.", "category": "science"}
+{"input": "49 - 26", "output": "23", "category": "mathematics"}
+{"input": "43 + 48", "output": "91", "category": "mathematics"}
+{"input": "15 + 7", "output": "22", "category": "mathematics"}
+{"input": "8 + 32", "output": "40", "category": "mathematics"}
+{"input": "9 + 7", "output": "16", "category": "mathematics"}
+{"input": "What is how to diagnose chest pain?", "output": "I don't have sufficient trained knowledge to answer this question.", "category": "out_of_scope"}
+{"input": "Quick question: who are u?", "output": "I am Clyffe, an experimental LittleBit-2 language model created by ARC III.", "category": "identity"}
+{"input": "Quick question: how were you trained?", "output": "I was trained from random initialization using Quantization-Aware Training.", "category": "identity"}
+{"input": "14 - 6", "output": "8", "category": "mathematics"}
+{"input": "Good morning?", "output": "Good morning! How can I help you?", "category": "greetings"}
+{"input": "43 - 30", "output": "13", "category": "mathematics"}
+{"input": "5 + 23", "output": "28", "category": "mathematics"}
+{"input": "27 - 11", "output": "16", "category": "mathematics"}

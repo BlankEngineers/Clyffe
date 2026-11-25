@@ -1,0 +1,26 @@
+{
+  "stage": "stage_0",
+  "seed": 2026,
+  "files": {
+    "train.jsonl": {
+      "count": 1114,
+      "sha256": "4f074ddc6a43c98dd920f53d10eb3e31fabeb8ec456339315d2025f7e8e963ea"
+    },
+    "val.jsonl": {
+      "count": 137,
+      "sha256": "007c74ed4f98c4ab938e02de6f1dbc5eab891633fcb4fa0acd245c9200cdadb1"
+    },
+    "test.jsonl": {
+      "count": 137,
+      "sha256": "b1f7d89b90edf969ae23f997b76f781eb0a402bd629d39f5450145568336edd8"
+    },
+    "unseen_math.jsonl": {
+      "count": 242,
+      "sha256": "3281a4a49ed396bc9ed8e251f00b790a42f445385494f3fe18defc871270a578"
+    },
+    "unseen_ood.jsonl": {
+      "count": 40,
+      "sha256": "13b7eca037206fa569c63895be8794754ffd6ca77f2f69ee8370772c1c08db3b"
+    }
+  }
+}
