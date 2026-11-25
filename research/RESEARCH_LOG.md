@@ -40,3 +40,11 @@
   - `best_val_loss=0.0829` (`Val PPL=1.09`), `In-Scope F1=69.2%`, `False Refusal=0.0%`.
   - Greedy outputs: `'hello' -> 'Hello! How can I help you?'`, `'hi' -> 'Hi! How can I help you?'`, `'who are you' -> 'I am Clyffe, an experimental language model developed under ARC III.'`, `'what is your name' -> 'My name is Clyffe.'`.
 - **Gate 1 Result:** **PASS.** Ready to retrain `B`, `C-smoothsign`, and `C-ste` on the corrected pipeline upon approval.
+
+## Entry 005 — 2026-11-25 — Stage 0 v0.1.1 LittleBit Retraining (B, C1, C2)
+- **Conditions Retrained:** `B_littlebit_svd_v011`, `C1_littlebit2_smoothsign_v011`, `C2_littlebit2_ste_v011` on `clyffe_v0.1.1_tokenizer` (`vocab=600`).
+- **Results:**
+  - `B`: `best_val_loss=0.0802` (`PPL=1.08`), `In-Scope F1=70.2%`, `sign_flip_rate=0.002057`
+  - `C1 (SmoothSign)`: `best_val_loss=0.0782` (`PPL=1.08`), `In-Scope F1=68.4%`, `sign_flip_rate=0.001538`
+  - `C2 (STE)`: `best_val_loss=0.0824` (`PPL=1.09`), `In-Scope F1=68.8%`, `OOD Refusal=75.0%`, `sign_flip_rate=0.002345`
+- **Greedy Verification:** All three (`B`, `C1`, `C2`) answered `hello`, `hi`, `who are you`, `what is your name`, `What is gravity?`, and OOD refusal accurately.

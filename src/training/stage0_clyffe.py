@@ -377,6 +377,7 @@ def main():
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument("--dense-only", action="store_true")
+    parser.add_argument("--littlebit-only", action="store_true")
     parser.add_argument("--version-tag", type=str, default="v0.1.1")
     args = parser.parse_args()
 
@@ -386,9 +387,9 @@ def main():
     train_ds = ARCDataset(os.path.join(STAGE0_DIR, "train.jsonl"), tok, max_seq_len=96)
     val_ds = ARCDataset(os.path.join(STAGE0_DIR, "val.jsonl"), tok, max_seq_len=96)
 
-    runs = [
-        ("A_dense_v011", f"clyffe-{args.version_tag}-A-{DATE_TAG}", dict(use_littlebit=False, use_itq=False)),
-    ]
+    runs = []
+    if not args.littlebit_only:
+        runs.append(("A_dense_v011", f"clyffe-{args.version_tag}-A-{DATE_TAG}", dict(use_littlebit=False, use_itq=False)))
     if not args.dense_only:
         runs += [
             ("B_littlebit_svd_v011", f"clyffe-{args.version_tag}-B-{DATE_TAG}", dict(use_littlebit=True, use_itq=False, quant_func_name="SmoothSign")),

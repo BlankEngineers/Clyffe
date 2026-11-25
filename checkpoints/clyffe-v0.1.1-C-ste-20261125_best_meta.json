@@ -1,0 +1,34 @@
+{
+  "tag": "clyffe-v0.1.1-C-ste-20261125_best",
+  "checkpoint_file": "checkpoints/clyffe-v0.1.1-C-ste-20261125_best.pt",
+  "sha256": "8a6ea88c6f300c30df71f96deb72029dcfcf54ef5e08b36613c88ee03c20333f",
+  "size_bytes": 93499,
+  "packed_littlebit": true,
+  "config": {
+    "vocab_size": 600,
+    "d_model": 64,
+    "n_layers": 4,
+    "n_heads": 4,
+    "d_ff": 192,
+    "max_seq_len": 96,
+    "use_littlebit": true,
+    "littlebit_embeddings": true,
+    "littlebit_lm_head": true,
+    "split_dim": 32,
+    "residual": false,
+    "use_itq": true,
+    "quant_func_name": "STEBinary",
+    "smooth_alpha": 15.0,
+    "tie_weights": false
+  },
+  "metadata": {
+    "epoch": 45,
+    "phase": "littlebit_qat",
+    "train_loss": 0.08854,
+    "val_loss": 0.08237,
+    "val_ppl": 1.0859,
+    "val_acc": 0.9725,
+    "grad_norm": 0.8071,
+    "sign_flip_rate": 0.001965
+  }
+}

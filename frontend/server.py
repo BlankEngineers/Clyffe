@@ -117,7 +117,7 @@ def main():
     parser = argparse.ArgumentParser(description="ARC-LB-01 Offline Web Frontend")
     parser.add_argument("--host", type=str, default="127.0.0.1")
     parser.add_argument("--port", type=int, default=8765)
-    parser.add_argument("--checkpoint", type=str, default="ARC-LB-01-V3_best.pt")
+    parser.add_argument("--checkpoint", type=str, default="clyffe-v0.1.1-C-smoothsign-20261125_best.pt")
     args = parser.parse_args()
 
     state = ServerState("checkpoints", args.checkpoint, "checkpoints/tokenizer")
