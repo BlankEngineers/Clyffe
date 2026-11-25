@@ -29,6 +29,10 @@ class ServerState:
         )
 
     def _tok_for_ckpt(self, ckpt_name: str) -> str:
+        if "clyffe-v0.1.1" in ckpt_name and os.path.exists("checkpoints/clyffe_v0.1.1_tokenizer"):
+            return "checkpoints/clyffe_v0.1.1_tokenizer"
+        if "clyffe-v0.1" in ckpt_name and os.path.exists("checkpoints/clyffe_v0.1_tokenizer"):
+            return "checkpoints/clyffe_v0.1_tokenizer"
         if "V3" in ckpt_name and os.path.exists("checkpoints/tokenizer_v3"):
             return "checkpoints/tokenizer_v3"
         if "V2" in ckpt_name and os.path.exists("checkpoints/tokenizer_v2"):

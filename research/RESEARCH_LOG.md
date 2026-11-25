@@ -22,3 +22,21 @@
   - `littlebit_direct` (`ARC-LB-01-DIRECT`, Experiment B): `best_val_loss=0.12905`, `val_acc=0.9521`
 - **Key Scientific Finding:** Direct LittleBit-2 initialization (`U, V ~ N(0, 0.02)`) outperformed SVD+Joint-ITQ from random dense weights (`0.12905` vs `0.15077` val loss) because random dense matrices have flat Marchenko-Pastur spectra and SVD factors partially saturate SmoothSign gradients, whereas direct small-scale latent init keeps factors inside the active SmoothSign gradient window.
 - **Known Limitations:** While identity, science, and out-of-scope rejection work reliably at 0.6872 BPW, exact multi-digit arithmetic generalization on unseen expressions remains weak at 246K sub-1-bit parameters.
+
+## Entry 004 — 2026-11-25 — Stage 0 Debugging, Diagnosis & Dense Control Gate 1 Recovery
+- **Branch:** `debug/stage0-pipeline-diagnosis` (all `v0.1` checkpoints preserved and frozen in `research/debugging/BASELINE_SNAPSHOT.md`).
+- **Observed Failure:** Frontend output `"ello 6Hey f nqu th:"` across `clyffe-v0.1-A`, `B`, `C-smoothsign`, `C-ste`.
+- **Eight Diagnostic Checks (`research/debugging/01..08`):**
+  1. Loss audit (`ln(600)=6.3969`): `A=0.2064`, `B=0.2244`, `C-smoothsign=0.2319`, `C-ste=0.2361`.
+  2. Weight hashes & reload: All 4 checkpoints had distinct tensor hashes and logits.
+  3. Greedy decoding with `clyffe_v0.1_tokenizer`: Outputs differed across checkpoints, but `A` failed on lowercase `'hello' -> '5'` and `'what is your name' -> 'Myic!'`.
+  4. Teacher-forced train accuracy: `A=98.84%`, `B=95.69%`, `C-smoothsign=95.69%`, `C-ste=95.19%`.
+  5. 20-example dense overfit test: `loss=0.00498`, `100%` teacher-forced acc by step 50.
+  6. Tokenizer round-trip: Exact (`hello -> hello`), no off-by-one deletion; case-sensitive (`Hello=[481]`, `hello=['h','ello']`).
+  7. Template & frontend audit: `frontend/server.py` routed `clyffe-v0.1-*` to the stale 512-token `checkpoints/tokenizer` instead of `checkpoints/clyffe_v0.1_tokenizer`.
+  8. Dataset audit: `train.jsonl` was imbalanced (`~640` math vs `~176` greetings) and lacked lowercase unpunctuated prompts.
+- **Fixes Applied:** Fixed `frontend/server.py` tokenizer routing; added lowercase/unpunctuated greeting & identity paraphrases and balanced arithmetic (`320` rows) in `scripts/build_stage0_clyffe_data.py`.
+- **Dense A Retraining (`clyffe-v0.1.1-A-20261125_best.pt`):**
+  - `best_val_loss=0.0829` (`Val PPL=1.09`), `In-Scope F1=69.2%`, `False Refusal=0.0%`.
+  - Greedy outputs: `'hello' -> 'Hello! How can I help you?'`, `'hi' -> 'Hi! How can I help you?'`, `'who are you' -> 'I am Clyffe, an experimental language model developed under ARC III.'`, `'what is your name' -> 'My name is Clyffe.'`.
+- **Gate 1 Result:** **PASS.** Ready to retrain `B`, `C-smoothsign`, and `C-ste` on the corrected pipeline upon approval.
