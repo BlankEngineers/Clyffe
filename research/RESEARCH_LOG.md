@@ -60,3 +60,26 @@
   - Pretrain QAT (6 ep, LittleBit-2 Joint-ITQ): `val_ppl` `309.9 -> 225.49` (surpassed FP warm-start)
   - SFT QAT (14 ep): `best_sft_val_loss = 4.85306`, `val_acc = 18.93%`, `heldout_80_avg_f1 = 8.20%`, `avg_latency = 162.93 ms`, `peak_ram = 1.88 MB`.
 - **Honest Scientific Assessment:** While LittleBit-2 QAT stably trained a `2.03M` parameter model at `0.5122 BPW` and learned domain syntax (`"10 kilometres is 10000 metres."`, `"110 + 101 = 110."`), `0.32M` pretraining tokens on CPU is ~125× below the `~40M`-token budget needed for general English fluency and instruction following. Scaling to `~40M` tokens requires installing CUDA PyTorch on the RTX 4050 GPU.
+
+## Entry 007 — 2026-11-25 — Phase 1 Full Audit & Protected LittleBit-2 Hashes
+- **Backup Created:** `backups/pre_phase1_20261125/` (excluding `.venv`, `.git`, `backups`).
+- **Protected `src/littlebit/*.py` SHA-256 Hashes:**
+  - `binary_factors.py`: `11b05c9782481f13ebca7da845afdf0aaf18eae79980233156008fe8a63e645c`
+  - `compensation.py`: `befeb1072dd86bc0036c1bba1ca35368d328a0d1d6d9df01429f9aa284f30788`
+  - `factorization.py`: `df657a1244aabfee5f1b27816f9e245aa94d3b509d905e830d82685ebb880645`
+  - `__init__.py`: `fd6efa6a5d85ba1495eb47cc5e4e3a01078731edf454eef9a977759a1f6b39c4`
+  - `joint_itq.py`: `83d09f6ef4caffdd3070db9deb84a3c206a64e7f66b3dfbb8d46f75e09917f27`
+  - `latent_rotation.py`: `c771836fa956a5a0b096e4857d51e40ff973c0b9b2cfeda83e95eca8b437b0cf`
+  - `native_operations.py`: `8710740ffc6648abdd8ff2aa5e08aecfb8dec41d3f3272432d39e6b577abe724`
+  - `qat.py`: `75e0b8f0febb02bdfc7bf480fafbafd9a314fc49d38cbb50cf701069355757e6`
+  - `reconstruction.py`: `0d9f835fc71232dc7c0ccd6a289d344e3367f145f13ec7768c2afeb074a9e374`
+  - `representation.py`: `36b79c18f1df4b5e040be95724209525101730558be0e90ba07084a002687352`
+  - `scaling.py`: `4a97a41dea49b4293e3ecd7d88a5d9f82bd44678c0f396be8b0a0d73c39f451b`
+- **Checkpoint Audit (`clyffe-v0.1.1-C-smoothsign-20261125_best.pt`):**
+  - Confirmed `241,216` dense-equiv params, `240,640` LittleBit-covered (`99.76%`), `1.1727` BPW, `vocab=600`, `ctx=96`, `4L, d=64, h=4, d_ff=192`, `94,817` bytes.
+  - Observed outputs: `'hello' -> 'Hello! How can I help you?'`, `'i am going to eat' -> "I don't have sufficient trained knowledge to answer this question."` (from model weights, not runtime fallback), `'2*2' -> '17'`, `'i am not in a good mood' -> 'Good morning! How can I help you?'`.
+- **Runtime Rule Audit (`src/inference/runtime.py`):**
+  - Lines 44–51: Regex `session_memory["user_name"]` shortcut for `"what is my name"` when `use_history=False`.
+  - Lines 54–65: Regex metadata lookup for `"model specifications"` / `"parameter count"` etc.
+  - No `"I don't have sufficient trained knowledge"` fallback exists in `runtime.py` or `frontend/server.py`.
+- **Note on `task-518` (`v0.1.2` preliminary run):** `Exp B` 20-example LittleBit-2 overfit at `split_dim=32, 0.557 BPW` only reached `loss=4.1705, tf_acc=0.0797` in 100 steps, confirming that rank/LR tuning and passing the 20-example LittleBit-2 overfit test is required before any full training.

@@ -1,0 +1,25 @@
+{
+  "dataset": "clyffe_v012",
+  "files": {
+    "pretrain_train.jsonl": {
+      "count": 1277,
+      "sha256": "cadbe7cc4381e7ea5b34a5b5435f3852b197feea16c1e3030b27319785f182fb"
+    },
+    "pretrain_val.jsonl": {
+      "count": 111,
+      "sha256": "8e51fcf026edce480aa1dfdccd08dc645fab73b535f7a5774fcd82d11aaeee4a"
+    },
+    "sft_train.jsonl": {
+      "count": 2284,
+      "sha256": "6b1af2d199d38eaaa760a00de00d56a16a30f217dd3cfe3ed4e1d3ca96b7e439"
+    },
+    "sft_val.jsonl": {
+      "count": 198,
+      "sha256": "8d8d8fa2d785642e2cbfccb85b1c3e57a46412d0476cf1bb2f50048d6d12c134"
+    },
+    "heldout_eval.jsonl": {
+      "count": 31,
+      "sha256": "8d4bdfbd66329c14e68aef400191c1ccb825e52abbea200f3f098a09be9ef737"
+    }
+  }
+}

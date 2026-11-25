@@ -1,0 +1,31 @@
+{
+  "tag": "clyffe-v0.1.2-C-smoothsign-20261125_best",
+  "checkpoint_file": "checkpoints/clyffe-v0.1.2-C-smoothsign-20261125_best.pt",
+  "sha256": "9a8813a36fd7fd96ed7675532ee4871aae12eae4d93d04080eb36e798a74278d",
+  "size_bytes": 133537,
+  "packed_littlebit": true,
+  "config": {
+    "vocab_size": 2048,
+    "d_model": 128,
+    "n_layers": 4,
+    "n_heads": 4,
+    "d_ff": 256,
+    "max_seq_len": 192,
+    "use_littlebit": true,
+    "littlebit_embeddings": true,
+    "littlebit_lm_head": true,
+    "split_dim": 32,
+    "residual": false,
+    "use_itq": true,
+    "quant_func_name": "SmoothSign",
+    "smooth_alpha": 15.0,
+    "tie_weights": false
+  },
+  "metadata": {
+    "epoch": 16,
+    "train_loss": 3.9698,
+    "val_loss": 4.22636,
+    "val_ppl": 68.468,
+    "val_acc": 0.2181
+  }
+}
