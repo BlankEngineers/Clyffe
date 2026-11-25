@@ -1,0 +1,27 @@
+Copyright (c) 2026 Blank Engineers (ARC III Ecosystem). All Rights Reserved.
+
+Authors:
+- Vishnupriyan Sivanesan, Head of Blank Engineers
+- Chittari Hari Dhanush, Vice Head of Blank Engineers
+
+PROPRIETARY — VIEWING AND SHOWCASE ONLY
+
+This repository, including all source code, model architecture, custom
+tokenizer, datasets, training scripts, trained checkpoints, frontend, and
+research documentation for Tesla 1.1, is the exclusive property of Blank
+Engineers under the ARC III ecosystem.
+
+Strictly Prohibited:
+- Copying, cloning for reuse, modifying, merging, publishing, distributing,
+  sublicensing, selling, or creating derivative works from this project or
+  any of its components without prior explicit written permission from
+  Blank Engineers.
+
+Permitted Use:
+- Public viewing and showcase inspection only.
+
+Third-Party Research Attribution:
+The underlying LittleBit and LittleBit-2 mathematical methods implemented
+independently in this project are attributed to Banseok Lee, Dongkyu Kim,
+Youngcheon You, and Youngmin Kim (Samsung Research, NeurIPS 2025 & ICML 2026,
+SamsungLabs/LittleBit, CC BY-NC 4.0).

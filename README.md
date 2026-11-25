@@ -1,9 +1,16 @@
-# ARC-LB-01 — Native LittleBit-2 Tiny Language Model
+# Tesla 1.1 — Native LittleBit-2 Tiny Language Model
 
-**Organization:** ARC III
-**Research Title:** Native LittleBit-Based Tiny Language Model
+**Organization:** Blank Engineers (ARC III Ecosystem)  
+**Model Name:** Tesla 1.1 (Experimental Identifier: `ARC-LB-01`)  
+**Research Title:** Native LittleBit-Based Tiny Language Model  
 
-ARC-LB-01 is an independently initialized, independently trained tiny decoder-only language model (~240K dense-equivalent parameters) built from scratch using **LittleBit-2** binary latent factorization, Internal Latent Rotation, Joint Iterative Quantization (Joint-ITQ), Dual-SVID multi-scale compensation, and Quantization-Aware Training (QAT) — **without** pretrained LLM weights or knowledge distillation.
+**Project Leads:**  
+This project is done by **Vishnupriyan Sivanesan**, Head of Blank Engineers, and **Chittari Hari Dhanush**, Vice Head of Blank Engineers.  
+*This project is part of the **ARC III** ecosystem and is the property of **Blank Engineers**.*
+
+---
+
+Tesla 1.1 is an independently initialized, independently trained tiny decoder-only language model (~246K dense-equivalent parameters) built from scratch using **LittleBit-2** binary latent factorization, Internal Latent Rotation, Joint Iterative Quantization (Joint-ITQ), Dual-SVID multi-scale compensation, and Quantization-Aware Training (QAT) — **without** pretrained LLM weights or knowledge distillation.
 
 ## Project Structure
 - `research/` — Research foundation, mathematical method, originality analysis, research log
@@ -12,6 +19,7 @@ ARC-LB-01 is an independently initialized, independently trained tiny decoder-on
 - `src/architecture/` — Tiny decoder-only Transformer (`model.py`, `embeddings.py`, `attention.py`, `feedforward.py`, `initialization.py`)
 - `src/training/` — Reproducible training & QAT pipeline
 - `src/inference/` — Native offline packed inference runtime
+- `frontend/` — Offline local web interface (`index.html`, `server.py`)
 - `evaluation/` — Automated capability, boundary, compression, and latency evaluation
 - `scripts/` — Dataset builder and synthetic math validation
 
@@ -21,20 +29,21 @@ ARC-LB-01 is an independently initialized, independently trained tiny decoder-on
 .venv/bin/python scripts/build_dataset.py
 
 # 2. Run unit tests & synthetic LittleBit-2 math validation
-.venv/bin/pytest -v
-.venv/bin/python scripts/validate_littlebit_math.py
+PYTHONPATH=. .venv/bin/pytest -v
+PYTHONPATH=. .venv/bin/python scripts/validate_littlebit_math.py
 
 # 3. Train experiments
-.venv/bin/python -m src.training.train --mode dense --release_tag ARC-LB-01-INITIAL
-.venv/bin/python -m src.training.train --mode littlebit_svd --release_tag ARC-LB-01-LITTLEBIT
-.venv/bin/python -m src.training.train --mode littlebit_joint_itq --release_tag ARC-LB-01-FINAL
-.venv/bin/python -m src.training.train --mode littlebit_direct --release_tag ARC-LB-01-DIRECT
+PYTHONPATH=. .venv/bin/python -m src.training.train --mode dense --release_tag ARC-LB-01-INITIAL
+PYTHONPATH=. .venv/bin/python -m src.training.train --mode littlebit_svd --release_tag ARC-LB-01-LITTLEBIT
+PYTHONPATH=. .venv/bin/python -m src.training.train --mode littlebit_joint_itq --release_tag ARC-LB-01-FINAL
+PYTHONPATH=. .venv/bin/python -m src.training.train --mode littlebit_direct --release_tag ARC-LB-01-DIRECT
 
-# 4. Run offline inference & full evaluation
-.venv/bin/python run_model.py
-.venv/bin/python -m evaluation.final_report checkpoints/ARC-LB-01-FINAL_best.pt
+# 4. Run offline inference, frontend & full evaluation
+PYTHONPATH=. .venv/bin/python run_model.py
+PYTHONPATH=. .venv/bin/python frontend/server.py
+PYTHONPATH=. .venv/bin/python -m evaluation.final_report checkpoints/ARC-LB-01-FINAL_best.pt
 ```
 
-## Attribution
-LittleBit and LittleBit-2 methods are attributed to Banseok Lee, Dongkyu Kim, Youngcheon You, and Youngmin Kim (Samsung Research, NeurIPS 2025 & ICML 2026, CC BY-NC 4.0).
-
+## Attribution & License
+- **License:** All Rights Reserved — Blank Engineers (ARC III Ecosystem). Viewing and showcase only; copying, modification, or redistribution is strictly prohibited. See [LICENSE](LICENSE).
+- **Method Attribution:** LittleBit and LittleBit-2 methods are attributed to Banseok Lee, Dongkyu Kim, Youngcheon You, and Youngmin Kim (Samsung Research, NeurIPS 2025 & ICML 2026, CC BY-NC 4.0).
