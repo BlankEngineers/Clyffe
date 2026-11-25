@@ -1,0 +1,34 @@
+{
+  "tag": "clyffe-v0.1.1-B-20261125_best",
+  "checkpoint_file": "checkpoints/clyffe-v0.1.1-B-20261125_best.pt",
+  "sha256": "9c786ec8360103a332e396d1db10c2ac2ec37971818f57c8a6a8d28168ec7e41",
+  "size_bytes": 92819,
+  "packed_littlebit": true,
+  "config": {
+    "vocab_size": 600,
+    "d_model": 64,
+    "n_layers": 4,
+    "n_heads": 4,
+    "d_ff": 192,
+    "max_seq_len": 96,
+    "use_littlebit": true,
+    "littlebit_embeddings": true,
+    "littlebit_lm_head": true,
+    "split_dim": 32,
+    "residual": false,
+    "use_itq": false,
+    "quant_func_name": "SmoothSign",
+    "smooth_alpha": 15.0,
+    "tie_weights": false
+  },
+  "metadata": {
+    "epoch": 49,
+    "phase": "littlebit_qat",
+    "train_loss": 0.08576,
+    "val_loss": 0.08024,
+    "val_ppl": 1.0835,
+    "val_acc": 0.97002,
+    "grad_norm": 0.8674,
+    "sign_flip_rate": 0.00178
+  }
+}

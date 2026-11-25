@@ -71,36 +71,46 @@ def build_stage0_splits(seed: int = 2026):
     greetings = _expand_paraphrases(
         [
             ("Hello", "Hello! How can I help you?"),
-            ("Hi", "Hi! How can I help you today?"),
+            ("hello", "Hello! How can I help you?"),
+            ("hello!", "Hello! How can I help you?"),
+            ("hello there", "Hello! How can I help you?"),
+            ("Hi", "Hi! How can I help you?"),
+            ("hi", "Hi! How can I help you?"),
+            ("hi!", "Hi! How can I help you?"),
             ("Hey", "Hey! How can I assist you?"),
+            ("hey", "Hey! How can I assist you?"),
             ("Good morning", "Good morning! How can I help you?"),
+            ("good morning", "Good morning! How can I help you?"),
             ("Good afternoon", "Good afternoon! How can I assist you?"),
             ("Good evening", "Good evening! How can I help you?"),
             ("Good night", "Good night! Have a restful night."),
             ("How are you?", "I am doing well, thank you! How can I help you?"),
+            ("how are you", "I am doing well, thank you! How can I help you?"),
             ("Nice to meet you", "Nice to meet you too! I am Clyffe."),
             ("Thank you", "You are welcome!"),
             ("Goodbye", "Goodbye! Have a great day."),
         ],
-        220,
+        260,
         "greetings",
         rng,
     )
 
     identity = _expand_paraphrases(
         [
-            ("Who are you?", "I am Clyffe, an experimental LittleBit-2 language model created by ARC III."),
-            ("Who are u?", "I am Clyffe, an experimental LittleBit-2 language model created by ARC III."),
+            ("Who are you?", "I am Clyffe, an experimental language model developed under ARC III."),
+            ("who are you", "I am Clyffe, an experimental language model developed under ARC III."),
+            ("Who are u?", "I am Clyffe, an experimental language model developed under ARC III."),
             ("What is your name?", "My name is Clyffe."),
-            ("What model are you?", "I am Clyffe v0.1 (research code ARC-LB-01), a LittleBit-2 decoder-only model."),
+            ("what is your name", "My name is Clyffe."),
+            ("What model are you?", "I am Clyffe (research code ARC-LB-01), a LittleBit-2 decoder-only model."),
             ("What is ARC-LB-01?", "ARC-LB-01 is the research project code name behind Clyffe."),
             ("Who built you?", "I was built by ARC III from random initialization using LittleBit-2."),
-            ("Who developed you?", "I was developed by ARC III."),
-            ("What is your model version?", "My model version is Clyffe v0.1."),
+            ("Who developed you?", "I was developed under ARC III."),
+            ("What is your model version?", "My model version is Clyffe v0.1.1."),
             ("What weight representation do you use?", "I use LittleBit-2 binary latent factorization with Joint-ITQ."),
             ("How were you trained?", "I was trained from random initialization using Quantization-Aware Training."),
         ],
-        200,
+        240,
         "identity",
         rng,
     )
@@ -157,7 +167,7 @@ def build_stage0_splits(seed: int = 2026):
     train_math: List[Dict[str, str]] = []
     unseen_math: List[Dict[str, str]] = []
     seen_math_inps: Set[str] = set()
-    for _ in range(800):
+    for _ in range(320):
         a, b = rng.randint(1, 50), rng.randint(1, 50)
         if rng.random() < 0.5:
             inp, out = f"{a} + {b}", str(a + b)
@@ -218,20 +228,26 @@ def build_stage0_splits(seed: int = 2026):
     all_train, all_val, all_test = [], [], []
     seen_global: Set[str] = set()
 
+    # Pin canonical lowercase & capitalized prompts into train so Gate 1 prompts are never split out
+    pinned_inputs = {"hello", "hi", "who are you", "what is your name"}
     for pool in (greetings, identity, conversation, general_knowledge, science, train_math, oos_in):
         deduped = []
+        pinned = []
         for r in pool:
             k = r["input"].strip().lower()
             if k not in seen_global:
                 seen_global.add(k)
-                deduped.append(r)
+                if k in pinned_inputs:
+                    pinned.append(r)
+                else:
+                    deduped.append(r)
         rng.shuffle(deduped)
         n = len(deduped)
         nv = max(5, int(0.1 * n))
         nt = max(5, int(0.1 * n))
         all_val.extend(deduped[:nv])
         all_test.extend(deduped[nv : nv + nt])
-        all_train.extend(deduped[nv + nt :])
+        all_train.extend(deduped[nv + nt :] + pinned)
 
     rng.shuffle(all_train)
     rng.shuffle(all_val)

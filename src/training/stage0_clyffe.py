@@ -41,7 +41,7 @@ from src.training.optimizer import build_optimizer_and_scheduler
 
 DATE_TAG = "20261125"
 STAGE0_DIR = "datasets/processed/stage_0"
-TOK_DIR = "checkpoints/clyffe_v0.1_tokenizer"
+TOK_DIR = "checkpoints/clyffe_v0.1.1_tokenizer"
 
 
 def set_seed(seed: int = 42):
@@ -374,18 +374,28 @@ def evaluate_condition(ckpt_path: str) -> Dict[str, object]:
 
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--dense-only", action="store_true")
+    parser.add_argument("--littlebit-only", action="store_true")
+    parser.add_argument("--version-tag", type=str, default="v0.1.1")
+    args = parser.parse_args()
+
     tok, tok_stats = train_stage0_tokenizer()
     print("Tokenizer stats:", json.dumps(tok_stats))
 
     train_ds = ARCDataset(os.path.join(STAGE0_DIR, "train.jsonl"), tok, max_seq_len=96)
     val_ds = ARCDataset(os.path.join(STAGE0_DIR, "val.jsonl"), tok, max_seq_len=96)
 
-    runs = [
-        ("A_dense", f"clyffe-v0.1-A-{DATE_TAG}", dict(use_littlebit=False, use_itq=False)),
-        ("B_littlebit_svd", f"clyffe-v0.1-B-{DATE_TAG}", dict(use_littlebit=True, use_itq=False, quant_func_name="SmoothSign")),
-        ("C1_littlebit2_smoothsign", f"clyffe-v0.1-C-smoothsign-{DATE_TAG}", dict(use_littlebit=True, use_itq=True, quant_func_name="SmoothSign")),
-        ("C2_littlebit2_ste", f"clyffe-v0.1-C-ste-{DATE_TAG}", dict(use_littlebit=True, use_itq=True, quant_func_name="STEBinary")),
-    ]
+    runs = []
+    if not args.littlebit_only:
+        runs.append(("A_dense_v011", f"clyffe-{args.version_tag}-A-{DATE_TAG}", dict(use_littlebit=False, use_itq=False)))
+    if not args.dense_only:
+        runs += [
+            ("B_littlebit_svd_v011", f"clyffe-{args.version_tag}-B-{DATE_TAG}", dict(use_littlebit=True, use_itq=False, quant_func_name="SmoothSign")),
+            ("C1_littlebit2_smoothsign_v011", f"clyffe-{args.version_tag}-C-smoothsign-{DATE_TAG}", dict(use_littlebit=True, use_itq=True, quant_func_name="SmoothSign")),
+            ("C2_littlebit2_ste_v011", f"clyffe-{args.version_tag}-C-ste-{DATE_TAG}", dict(use_littlebit=True, use_itq=True, quant_func_name="STEBinary")),
+        ]
 
     results = []
     for cond_id, rel_id, kwargs in runs:
